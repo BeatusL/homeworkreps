@@ -34,4 +34,4 @@ for x in range(10, 31, 2):
     result, errest, nofun, posn, flag = quanc8_wrapper(
         ctypes.CFUNCTYPE(ctypes.c_double, ctypes.c_double)(my_func), 0.0, b, 1e-6, 1e-6
     )
-    print(result, end = ", ")
+    print(b, " ", result, end="\n")
