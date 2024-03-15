@@ -58,7 +58,7 @@ def f(t, X):
 
 for h in 0.1, 0.05, 0.025, 0.0125:
     print(f"{h = }:")
-    rng = np.arange(1, 2 + h - 1e-9, h)
+    rng = np.arange(intervalStart, intervalEnd + h - 1e-9, h)
     n_steps = len(rng)
     X0 = [1, 3]
     res_rk45 = [i[0] for i in rk45(f, rng, X0)]
