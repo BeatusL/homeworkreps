@@ -1,3 +1,6 @@
 ﻿  l4.cpp
-C:\Users\Wagner\source\repos\l4\l4\l4.cpp(127,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  l4.vcxproj -> C:\Users\Wagner\source\repos\l4\x64\Debug\l4.exe
+D:\repos\l4\l4\l4.cpp(6,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\repos\l4\l4\l4.cpp(19,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  l4.vcxproj -> D:\repos\l4\x64\Debug\l4.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
