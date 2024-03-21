@@ -1,6 +1,6 @@
 from random import randint
 
-tr = 10000000 # количество тестов
+tr = 50000000 # количество тестов
 pos = 0 # счётчик положительных результатов
 
 def occupied(x, y):
@@ -8,7 +8,7 @@ def occupied(x, y):
         return True
     if (y == qPosY) and (x != qPosX): # под ударом Ф
         return True
-    if (y != qPosY) and (abs(x - qPosX) <= 1): # на одной диагонали с Ф
+    if (y != qPosY) and (abs(x - qPosX) < 2): # на одной диагонали с Ф
         return True
     return False
 

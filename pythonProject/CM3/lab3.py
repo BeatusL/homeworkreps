@@ -64,11 +64,16 @@ for h in 0.1, 0.05, 0.025, 0.0125:
     res_precise = [preciseY(rng[i]) for i in range(steps)]
 
     if h == 0.1:
-        print("t\t rk45\t\t\t\t euler\t\t\t\t precise")
+        print("t\t\t rk45\t\t\t\t euler\t\t\t\t precise")
         for i in range(steps):
-            print(f"{rng[i]:.1f}\t {res_rk45[i]:.16f}\t {res_be[i]:.16f}\t {res_precise[i]:.6f}")
+            print(f"{rng[i]:.4f}\t {res_rk45[i]:.16f}\t {res_be[i]:.16f}\t {res_precise[i]:.6f}")
+    else:
+        print(f"{rng[1]:.4f}\t {res_rk45[1]:.16f}\t {res_be[1]:.16f}\t {res_precise[1]:.6f}")
+        print(f"{rng[-1]:.4f}\t {res_rk45[-1]:.16f}\t {res_be[-1]:.16f}\t {res_precise[-1]:.6f}")
 
     rk45Error = sum([abs(res_rk45[i] - res_precise[i]) for i in range(steps)]) / steps
     eulerError = sum([abs(res_be[i] - res_precise[i]) for i in range(steps)]) / steps
 
-    print(f"Avg. {rk45Error:.16f}\t {eulerError:.16f}")
+    print(f"Local    {abs(res_rk45[1] - res_precise[1]):.16f}\t {abs(res_be[1] - res_precise[1]):.16f}")
+    print(f"Average  {rk45Error:.16f}\t {eulerError:.16f}")
+    print("\n")
