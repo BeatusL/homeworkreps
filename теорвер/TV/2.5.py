@@ -14,8 +14,8 @@ def occupied(x, y):
 
 def check(x):
     for i in range (-1, 2):
-        for j in range (1, 3): # клетки первой и второй диагонали
-            curX = x + i # клетки слева, над, справа от ЧК
+        for j in range (1, 3):
+            curX = x + i
             if 0 < curX < 9:
                 if not occupied(curX, j): return False
     return True
