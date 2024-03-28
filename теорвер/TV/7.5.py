@@ -32,4 +32,4 @@ for i in range(tr):
 
 print("--------------")
 print(pos/count)
-print(count)
+
