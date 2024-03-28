@@ -22,7 +22,7 @@ def check(x):
 
 
 for i in range(tr):
-    if i / tr * 100 % 1 == 0: print(i / tr * 100)
+    #if i / tr * 100 % 1 == 0: print(i / tr * 100)
     fl = False
     wPos = randint(1, 8)
     bPos = randint(1, 8)
@@ -32,7 +32,12 @@ for i in range(tr):
         qPosY = randint(1, 2)
         qPosX = randint(1, 8)
 
-    if check(bPos): pos += 1
+    if check(bPos):
+        pos += 1
+        print("bk", bPos)
+        print("wk", wPos)
+        print("q", qPosX,";", qPosY)
+        print("----------------------")
 
 
 print("---------------------------")

@@ -14,10 +14,13 @@ for i in range(tr):
             p1 += 1
         elif res >= 9:
             p2 += 1
+        else:
+            p1 += 0.5
+            p2 += 0.5
 
-        if p1 == 12 and p2 == 8:
+        if (p1 == 12 and p2 == 8) or (p2 == 12 and p1 == 8):
             pos += 1
-        elif p1 > 12 or p2 > 8:
+        elif p1 > 12 or p2 > 12:
             break
 
 
