@@ -1,6 +1,6 @@
-from random import randint
+44from random import randint
 
-tr = 10000000 # количество тестов
+tr = 50000000 # количество тестов
 pos = 0 # счётчик положительных результатов
 
 def occupied(x, y):
@@ -8,14 +8,14 @@ def occupied(x, y):
         return True
     if (y == qPosY) and (x != qPosX): # под ударом Ф
         return True
-    if (y != qPosY) and (abs(x - qPosX) <= 1): # на одной диагонали с Ф
+    if (y != qPosY) and (abs(x - qPosX) < 2): # на одной диагонали с Ф
         return True
     return False
 
 def check(x):
     for i in range (-1, 2):
-        for j in range (1, 3): # клетки первой и второй диагонали
-            curX = x + i # клетки слева, над, справа от ЧК
+        for j in range (1, 3):
+            curX = x + i
             if 0 < curX < 9:
                 if not occupied(curX, j): return False
     return True

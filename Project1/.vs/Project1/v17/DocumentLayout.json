@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Wagner\\source\\repos\\Project1\\",
+  "WorkspaceRootPath": "D:\\repos\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7201D8A-AC11-423F-9F94-7A72722CF911}|Project1\\Project1.vcxproj|C:\\Users\\Wagner\\source\\repos\\Project1\\Project1\\L1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E7201D8A-AC11-423F-9F94-7A72722CF911}|Project1\\Project1.vcxproj|D:\\repos\\Project1\\Project1\\L1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E7201D8A-AC11-423F-9F94-7A72722CF911}|Project1\\Project1.vcxproj|solutionrelative:Project1\\L1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "L1.c",
-              "DocumentMoniker": "C:\\Users\\Wagner\\source\\repos\\Project1\\Project1\\L1.c",
+              "DocumentMoniker": "D:\\repos\\Project1\\Project1\\L1.c",
               "RelativeDocumentMoniker": "Project1\\L1.c",
-              "ToolTip": "C:\\Users\\Wagner\\source\\repos\\Project1\\Project1\\L1.c",
+              "ToolTip": "D:\\repos\\Project1\\Project1\\L1.c",
               "RelativeToolTip": "Project1\\L1.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-02-19T11:52:16.591Z",
               "EditorCaption": ""

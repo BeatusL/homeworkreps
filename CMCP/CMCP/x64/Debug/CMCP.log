@@ -1,0 +1,49 @@
+﻿  CMCP.cpp
+D:\repos\CMCP\CMCP.cpp(52,12): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(52,5): error C3861: 'MATRIX': identifier not found
+D:\repos\CMCP\CMCP.cpp(54,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(55,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(56,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(57,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(58,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(59,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(60,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(61,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(62,5): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(64,12): error C2065: 'B': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(64,5): error C3861: 'VECTOR': identifier not found
+D:\repos\CMCP\CMCP.cpp(65,5): error C2065: 'B': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(66,5): error C2065: 'B': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(67,5): error C2065: 'B': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(68,15): error C2065: 'IPTV': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(68,21): error C2065: 'ndim': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(68,5): error C3861: 'INTVECTOR': identifier not found
+D:\repos\CMCP\CMCP.cpp(69,12): error C2065: 'WORK': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(69,18): error C2065: 'ndim': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(69,5): error C3861: 'VECTOR': identifier not found
+D:\repos\CMCP\CMCP.cpp(71,12): error C2065: 'ndim': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(71,18): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(71,28): error C2065: 'IPTV': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(71,34): error C2065: 'WORK': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(71,5): error C3861: 'decomp': identifier not found
+D:\repos\CMCP\CMCP.cpp(72,11): error C2065: 'ndim': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(72,17): error C2065: 'Q': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(72,20): error C2065: 'B': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(72,23): error C2065: 'IPTV': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(72,5): error C3861: 'solve': identifier not found
+D:\repos\CMCP\CMCP.cpp(73,9): error C2065: 'B': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(74,10): error C2065: 'B': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(75,10): error C2065: 'B': undeclared identifier
+D:\repos\CMCP\CMCP.cpp(81,5): error C3861: 'quanc8': identifier not found
+D:\repos\CMCP\CMCP.cpp(87,10): error C3861: 'Zeroin': identifier not found
+D:\repos\CMCP\CMCP.cpp(118,9): error C3861: 'RKF45': identifier not found
+D:\repos\CMCP\CMCP.cpp(129,17): error C2661: 'fmin': no overloaded function takes 6 arguments
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cmath(698,1):
+  could be 'conditional<std::is_same_v<_Ty1,long double>||std::is_same_v<_Ty2,long double>,long double,conditional<std::is_same_v<_Ty1,float>&&std::is_same_v<_Ty2,float>,float,double>::type>::type fmin(_Ty1,_Ty2) noexcept'
+  	D:\repos\CMCP\CMCP.cpp(129,17):
+  	'conditional<std::is_same_v<_Ty1,long double>||std::is_same_v<_Ty2,long double>,long double,conditional<std::is_same_v<_Ty1,float>&&std::is_same_v<_Ty2,float>,float,double>::type>::type fmin(_Ty1,_Ty2) noexcept': expects 2 arguments - 6 provided
+  D:\repos\CMCP\CMCP.cpp(129,17):
+  while trying to match the argument list '(double, double, overloaded-function, double, double, int)'
+  
+D:\repos\CMCP\CMCP.cpp(143,9): error C3861: 'RKF45': identifier not found
+D:\repos\CMCP\CMCP.cpp(163,9): error C3861: 'RKF45': identifier not found
