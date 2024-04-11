@@ -1,0 +1,8 @@
+﻿  l2.cpp
+D:\repos\алгосы\l2\l2\l2.cpp(14,13): warning C4477: 'scanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 2 has type 'size_t'
+  D:\repos\алгосы\l2\l2\l2.cpp(14,13):
+  this argument is used as a buffer size
+  
+  l2.vcxproj -> D:\repos\алгосы\l2\x64\Debug\l2.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.

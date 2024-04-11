@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "25edd42339235084",
+    "type": "split",
+    "children": [
+      {
+        "id": "7000aeeac28e8e8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e683d23f4c113ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disign_Document/Страницы/Системы/00. Фаза Создание и Модификация.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d659f7d7e4399eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ac9f9cc68b3c2a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2af934ce907c6375",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "90f8b5f2c50f88c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "979a147cd95d7220",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "3087705d68303084",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d16fba1ab2269c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49de22005f949d6e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Disign_Document/Страницы/Системы/00. Фаза Создание и Модификация.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b19be2afbeac4d00",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Disign_Document/Страницы/Системы/00. Фаза Создание и Модификация.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7bc2dfd8bbe4a0de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4d9d8545881fffcd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Disign_Document/Страницы/Системы/00. Фаза Создание и Модификация.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3e683d23f4c113ce",
+  "lastOpenFiles": [
+    "Disign_Document/Страницы/Системы/00. Ход.md",
+    "Disign_Document/Страницы/Системы/00. Фаза Создание и Модификация.md",
+    "Disign_Document/Страницы/Системы/00. Раунды.md",
+    "Disign_Document/Страницы/Системы и механики.md",
+    "Disign_Document/Страницы/Стиль игры.md",
+    "Disign_Document/Страницы/Системы/00. Старт игры.md",
+    "Disign_Document/Страницы/00. Главная страница.md",
+    "Disign_Document/Страницы/Карты/00. О картах.md",
+    "Disign_Document/Страницы/Карты/Свойства/r-Стратегия.md",
+    "Disign_Document/Файлы/Другое/CR_Deck.jpg",
+    "Disign_Document/Страницы/Карты/Свойства/Неоплазмия.md",
+    "Disign_Document/Страницы/Карты/Свойства/Камуфляж.md",
+    "Disign_Document/Страницы/Карты/Свойства/Быстрое.md",
+    "Disign_Document/Страницы/Карты/Свойства/Большое.md",
+    "Disign_Document/Страницы/Карты/Существа/Хамелеон.md",
+    "Disign_Document/Файлы/Другое/Pasted image 20240405195009.png",
+    "Disign_Document/Файлы/Другое/Pasted image 20240405201143.png",
+    "Disign_Document/Файлы/Другое/Pasted image 20240405200624.png",
+    "Disign_Document/Файлы/Другое/Pasted image 20240405195335.png",
+    "Pasted image 20240405195052.png",
+    "Pasted image 20240405194314.png",
+    "Disign_Document/Страницы/Карты/Существа/Древолаз.md",
+    "Disign_Document/Страницы/Карты/Существа/Бобёр.md",
+    "Disign_Document/Страницы/Карты/Существа/Электрический Угорь.md",
+    "Disign_Document/Страницы/Карты/Существа/Бурый Медведь.md",
+    "Disign_Document/Страницы/Карты/Существа/Морская Звезда.md",
+    "Disign_Document/Страницы/Карты/Существа/Броненосец.md",
+    "Disign_Document/Страницы/Карты/Свойства/Регенерация.md",
+    "Disign_Document/Страницы/Карты/Существа/Ястреб.md",
+    "Disign_Document/Страницы/Карты/Существа/Чайка.md",
+    "Disign_Document/Страницы/Карты/Существа/Геккон.md",
+    "Disign_Document/Страницы/Карты/Существа/Гиена.md",
+    "Disign_Document/Страницы/Карты/Существа/Заяц.md",
+    "Disign_Document/Файлы/Другое/Pasted image 20240405193352.png",
+    "Disign_Document/Файлы/Референсы/walkin-boi.gif",
+    "Disign_Document/Файлы/Референсы/walkin-boi.gif.opdownload",
+    "Disign_Document/Файлы/Другое/Pasted image 20240405194153.png",
+    "Disign_Document/Страницы/Карты/Свойства",
+    "Disign_Document/Страницы/Карты/Существа",
+    "Disign_Document/Страницы/Карты",
+    "Disign_Document/Файлы/Референсы/Icon_food.png.opdownload",
+    "Disign_Document/Страницы/НЕПРОПИСАНО/Без названия",
+    "Disign_Document/Страницы/НЕПРОПИСАНО",
+    "Disign_Document/Страницы/Системы",
+    "Disign_Document/Страницы/Механики",
+    "Disign_Document/Страницы/Системы"
+  ]
+}
