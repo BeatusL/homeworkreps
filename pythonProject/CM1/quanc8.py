@@ -1,5 +1,5 @@
 import ctypes
-from math import sin
+from math import cos
 
 # Load the shared library
 lib = ctypes.CDLL('./quanc8.dll')
@@ -26,12 +26,10 @@ def quanc8_wrapper(fun, a, b, abserr, relerr):
 
 
 def my_func(t):
-    return abs(t) ** 0.5 * sin(t)
+    return 1 / (t + cos(t))
 
 
-for x in range(10, 31, 2):
-    b = x / 10
-    result, errest, nofun, posn, flag = quanc8_wrapper(
-        ctypes.CFUNCTYPE(ctypes.c_double, ctypes.c_double)(my_func), 0.0, b, 1e-6, 1e-6
-    )
-    print(b, " ", result, end="\n")
+
+result, errest, nofun, posn, flag = quanc8_wrapper(
+    ctypes.CFUNCTYPE(ctypes.c_double, ctypes.c_double)(my_func), 0.0, 3.14159265, 1e-8, 1e-8)
+print(result)

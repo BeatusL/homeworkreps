@@ -1,0 +1,17 @@
+|TT
+Q[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+X[0] => inst7.IN1
+X[0] => inst11.IN1
+X[1] => inst8.IN1
+X[1] => inst16.IN1
+X[1] => inst36.IN1
+X[1] => inst27.IN0
+clk => inst1.CLK
+clk => inst10.CLK
+clk => inst33.CLK
+clk => inst23.CLK
+
+

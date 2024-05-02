@@ -6,7 +6,8 @@
 #include <chrono>
 #include <math.h>
 
-void bubble(int** x, int& comparisons, int& permutations, int& n, int& m) {
+
+void bubble(int** x, long long &comparisons, long long &permutations, int& n, int& m) {
 	std::cout << std::endl << "Bubble sort" << std::endl;
 
 	for (size_t i = 1; i < n; i += 2) {
@@ -22,15 +23,15 @@ void bubble(int** x, int& comparisons, int& permutations, int& n, int& m) {
 			}
 	}
 
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < n; i++) {
+	//	for (size_t j = 0; j < m; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
-	std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
-	reset(comparisons, permutations);
-	std::cout << std::endl;
+	//std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
+	//reset(comparisons, permutations);
+	//std::cout << std::endl;
 
 	for (size_t i = 0; i < n; i += 2) {
 		for (size_t j = 0; j < m - 1; j++)
@@ -45,17 +46,17 @@ void bubble(int** x, int& comparisons, int& permutations, int& n, int& m) {
 			}
 	}
 
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < n; i++) {
+	//	for (size_t j = 0; j < m; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
 	std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
 	reset(comparisons, permutations);
 }
 
-void selection(int** x, int& comparisons, int& permutations, int& n, int& m) {
+void selection(int** x, long long &comparisons, long long &permutations, int& n, int& m) {
 	std::cout << std::endl << "Selection sort" << std::endl;
 
 	for (size_t i = 1; i < n; i += 2) {
@@ -73,15 +74,15 @@ void selection(int** x, int& comparisons, int& permutations, int& n, int& m) {
 	}
 
 
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < n; i++) {
+	//	for (size_t j = 0; j < m; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
-	std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
-	reset(comparisons, permutations);
-	std::cout << std::endl;
+	//std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
+	//reset(comparisons, permutations);
+	//std::cout << std::endl;
 
 	for (size_t i = 0; i < n; i += 2) {
 		for (size_t j = 0; j < m - 1; j++) {
@@ -97,17 +98,17 @@ void selection(int** x, int& comparisons, int& permutations, int& n, int& m) {
 		}
 	}
 
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < n; i++) {
+	//	for (size_t j = 0; j < m; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
 	std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
 	reset(comparisons, permutations);
 }
 
-void insertion(int** x, int& comparisons, int& permutations, int& n, int& m) {
+void insertion(int** x, long long &comparisons, long long &permutations, int& n, int& m) {
 	std::cout << std::endl << "Insertion sort" << std::endl;
 
 	for (size_t i = 1; i < n; i += 2) {
@@ -125,15 +126,15 @@ void insertion(int** x, int& comparisons, int& permutations, int& n, int& m) {
 		}
 	}
 
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < n; i++) {
+	//	for (size_t j = 0; j < m; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
-	std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
-	reset(comparisons, permutations);
-	std::cout << std::endl;
+	//std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
+	//reset(comparisons, permutations);
+	//std::cout << std::endl;
 
 	for (size_t i = 0; i < n; i += 2) {
 		for (size_t j = 1; j < m; j++) {
@@ -150,17 +151,17 @@ void insertion(int** x, int& comparisons, int& permutations, int& n, int& m) {
 		}
 	}
 
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < n; i++) {
+	//	for (size_t j = 0; j < m; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
 	std::cout << std::endl << "Comparisons: " << comparisons << "\n" << "Permutations: " << permutations << std::endl;
 	reset(comparisons, permutations);
 }
 
-void matrixQuickSort(int** x, int lines, int columns, int &comparison, int &permutation) {
+void matrixQuickSort(int** x, int lines, int columns, long long &comparison, long long &permutation) {
 	
 	std::cout << std::endl << "Quick sort" << std::endl;
 
@@ -169,33 +170,33 @@ void matrixQuickSort(int** x, int lines, int columns, int &comparison, int &perm
 		linesQuickSort(x, 0, lines - 1, i, comparison, permutation);
 	}
 
-	for (size_t i = 0; i < lines; i++) {
-		for (size_t j = 0; j < columns; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < lines; i++) {
+	//	for (size_t j = 0; j < columns; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
-	std::cout << std::endl << "Comparisons: " << comparison << "\n" << "Permutations: " << permutation << std::endl;
-	reset(comparison, permutation);
-	std::cout << std::endl;
+	//std::cout << std::endl << "Comparisons: " << comparison << "\n" << "Permutations: " << permutation << std::endl;
+	//reset(comparison, permutation);
+	//std::cout << std::endl;
 
 	for (size_t i = 0; i < columns; i+=2)
 	{
 		columnsQuickSort(x, 0, lines - 1, i, comparison, permutation);
 	}
 
-	for (size_t i = 0; i < lines; i++) {
-		for (size_t j = 0; j < columns; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < lines; i++) {
+	//	for (size_t j = 0; j < columns; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
 	std::cout << std::endl << "Comparisons: " << comparison << "\n" << "Permutations: " << permutation << std::endl;
 	reset(comparison, permutation);
 
 }
 
-void linesQuickSort(int** x, int l, int r, int line, int &comparison, int &permutation) {
+void linesQuickSort(int** x, int l, int r, int line, long long &comparison, long long &permutation) {
 	int leftI, rightI, centerValue;
 	leftI = l;
 	rightI = r;
@@ -226,7 +227,7 @@ void linesQuickSort(int** x, int l, int r, int line, int &comparison, int &permu
 	linesQuickSort(x, leftI, r, line, comparison, permutation);
 }
 
-void columnsQuickSort(int** x, int l, int r, int column, int &comparison, int &permutation) {
+void columnsQuickSort(int** x, int l, int r, int column, long long &comparison, long long &permutation) {
 	int leftI, rightI, centerValue;
 	leftI = l;
 	rightI = r;
@@ -256,7 +257,7 @@ void columnsQuickSort(int** x, int l, int r, int column, int &comparison, int &p
 	columnsQuickSort(x, leftI, r, column, comparison, permutation);
 }
 
-void shellSort(int** x, int& comparisons, int& permutations, int& n, int& m) {
+void shellSort(int** x, long long &comparisons, long long &permutations, int& n, int& m) {
 
 	std::cout << std::endl << "Shell sort" << std::endl;
 
@@ -271,21 +272,22 @@ void shellSort(int** x, int& comparisons, int& permutations, int& n, int& m) {
 					comparisons++;
 					permutations++;
 				}
+				comparisons++;
 
 				x[p][j] = temp;
 			}
 		}
 	}
 
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < n; i++) {
+	//	for (size_t j = 0; j < m; j++)
+	//		std::cout << x[i][j] << "\t";
+	//	std::cout << std::endl;
+	//}
 
-	std::cout << std::endl << "Number of comparisons: " << comparisons << "\n" << "Number of permutations: " << permutations << std::endl;
-	reset(comparisons, permutations);
-	std::cout << std::endl;
+	//std::cout << std::endl << "Number of comparisons: " << comparisons << "\n" << "Number of permutations: " << permutations << std::endl;
+	//reset(comparisons, permutations);
+	//std::cout << std::endl;
 
 	for (size_t p = 0; p < n; p += 2) {
 		for (int gap = n / 2; gap > 0; gap /= 2) {
@@ -298,17 +300,18 @@ void shellSort(int** x, int& comparisons, int& permutations, int& n, int& m) {
 					comparisons++;
 					permutations++;
 				}
+				comparisons++;
 
 				x[j][p] = temp;
 			}
 		}
 	}
 
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//for (size_t i = 0; i < n; i++) {
+		//for (size_t j = 0; j < m; j++)
+			// std::cout << x[i][j] << "\t";
+		//std::cout << std::endl;
+	//}
 
 	std::cout << std::endl << "Number of comparisons: " << comparisons << "\n" << "Number of permutations: " << permutations << std::endl;
 }
@@ -338,7 +341,7 @@ void clearMatrix(int** x, int** duplicate_x, int lines, int columns)
 	}
 }
 
-void reset(int &comparison, int &permutation)
+void reset(long long &comparison, long long &permutation)
 {
 	comparison = 0;
 	permutation = 0;
@@ -346,12 +349,13 @@ void reset(int &comparison, int &permutation)
 
 int main()
 {
-	int n, m, ** x, ** dublicate_x, comparisons, permutations; // n - строки, m - столбцы;
-
+	int n, m, ** x, ** dublicate_x; // n - строки, m - столбцы;
+	long long comparisons, permutations;
 	std::cout << "Matrix height: ";
 	std::cin >> n;
-	std::cout << "Matrix width: ";
-	std::cin >> m;
+	m = n;
+	//std::cout << "Matrix width: ";
+	//std::cin >> m;
 	std::cout << "\n";
 	comparisons = 0;
 	permutations = 0;
@@ -364,12 +368,12 @@ int main()
 	initMatrix(x, n, m);
 	clearMatrix(x, dublicate_x, n, m);
 	
-	std::cout << "Original matrix:" << "\n";
-	for (size_t i = 0; i < n; i++) {
-		for (size_t j = 0; j < m; j++)
-			std::cout << x[i][j] << "\t";
-		std::cout << std::endl;
-	}
+	//std::cout << "Original matrix:" << "\n";
+	//for (size_t i = 0; i < n; i++) {
+		//for (size_t j = 0; j < m; j++)
+			//std::cout << x[i][j] << "\t";
+		//std::cout << std::endl;
+	//}
 
 	bubble(x, comparisons, permutations, n, m);
 
@@ -383,11 +387,11 @@ int main()
 
 	clearMatrix(dublicate_x, x, n, m);
 
-	matrixQuickSort(x, n, m, comparisons, permutations);
+	shellSort(x, comparisons, permutations, n, m);
 
 	clearMatrix(dublicate_x, x, n, m);
 
-	shellSort(x, comparisons, permutations, n, m);
+	matrixQuickSort(x, n, m, comparisons, permutations);
 
 	for (size_t i = 0; i < n; i++)
 		delete[] x[i];
