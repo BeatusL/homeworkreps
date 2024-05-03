@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\",
+  "WorkspaceRootPath": "C:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{263CA81F-BF28-4961-BCCA-3B19553124D8}|l7.vcxproj|D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{263CA81F-BF28-4961-BCCA-3B19553124D8}|l7.vcxproj|C:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{263CA81F-BF28-4961-BCCA-3B19553124D8}|l7.vcxproj|solutionrelative:l7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "l7.cpp",
-              "DocumentMoniker": "D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp",
+              "DocumentMoniker": "C:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp",
               "RelativeDocumentMoniker": "l7.cpp",
-              "ToolTip": "D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp",
+              "ToolTip": "C:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp",
               "RelativeToolTip": "l7.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowBEAAAAVAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwBUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-19T17:58:36.378Z",
               "EditorCaption": ""
