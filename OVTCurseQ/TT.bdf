@@ -1578,12 +1578,6 @@ refer to the applicable agreement for further details.
 	(pt 712 520)
 )
 (connector
-	(text "Q[3],Q[2],Q[1],Q[0]" (rect 146 272 238 289)(font "Intel Clear" ))
-	(pt 136 288)
-	(pt 232 288)
-	(bus)
-)
-(connector
 	(text "vcc" (rect 194 336 209 353)(font "Intel Clear" ))
 	(pt 184 352)
 	(pt 208 352)
@@ -2134,6 +2128,12 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 832 384)
 	(pt 912 384)
+)
+(connector
+	(text "Q[3..0]" (rect 146 272 177 289)(font "Intel Clear" ))
+	(pt 136 288)
+	(pt 232 288)
+	(bus)
 )
 (junction (pt 752 144))
 (junction (pt 816 272))
