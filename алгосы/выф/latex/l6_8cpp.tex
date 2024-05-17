@@ -1,0 +1,722 @@
+\doxysection{l6.\+cpp File Reference}
+\hypertarget{l6_8cpp}{}\label{l6_8cpp}\index{l6.cpp@{l6.cpp}}
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include "{}Fun.\+h"{}}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{l6_8cpp_a9b3ed0bf73e42cf5958e07569b41c48d}{bubble}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int \&comparisons, int \&permutations, int \&n, int \&m)
+\begin{DoxyCompactList}\small\item\em Функция сортировки методом пузырька. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_aade90bc453ad44e2df8401e3d90653a6}{selection}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int \&comparisons, int \&permutations, int \&n, int \&m)
+\begin{DoxyCompactList}\small\item\em Функция сортировки методом отбора. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_a9833a6cd5ca9a8fbf9714319a1f82eea}{insertion}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int \&comparisons, int \&permutations, int \&n, int \&m)
+\begin{DoxyCompactList}\small\item\em Функция сортировки методом вставки. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_addd31381423697927c31ec393b3fc991}{matrix\+Quick\+Sort}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int lines, int columns, int \&comparison, int \&permutation)
+\begin{DoxyCompactList}\small\item\em Функция быстрой сортировки. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_aca2532c44e4d7c29f15af30e4d57f9ed}{lines\+Quick\+Sort}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int l, int r, int line, int \&comparison, int \&permutation)
+\begin{DoxyCompactList}\small\item\em Функция сортировки части строки методом быстрой сортировки. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_adc1c5a6f4e3ddef6ca4f728e9368ec32}{columns\+Quick\+Sort}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int l, int r, int column, int \&comparison, int \&permutation)
+\begin{DoxyCompactList}\small\item\em Функция сортировки части столбца методом быстрой сортировки. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_af72662caa54842a50c4cf1497f028d20}{shell\+Sort}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int \&comparisons, int \&permutations, int \&n, int \&m)
+\begin{DoxyCompactList}\small\item\em Функция сортировки методом Шелла. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_ae18cf4823e9e5278f3432f169b277acd}{init\+Matrix}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int lines, int columns)
+\begin{DoxyCompactList}\small\item\em Функция наполнения массива случайными элементами. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_aa31e7ac911061b1e283952727bbbae66}{delete\+Matrix}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int lines)
+\begin{DoxyCompactList}\small\item\em Функция удаления массива. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_a092e417b32e100913356e72db5da0145}{rollb\+Matrix}} (int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}x, int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}duplicate\+\_\+x, int lines, int columns)
+\begin{DoxyCompactList}\small\item\em Функция заполнения обработанной матрицы начальными значениями. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}} (int \&comparison, int \&permutation)
+\begin{DoxyCompactList}\small\item\em Функция обнуления счётчиков сравнений и замен. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{l6_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{l6_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main()} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{l6_8cpp_a9b3ed0bf73e42cf5958e07569b41c48d}\label{l6_8cpp_a9b3ed0bf73e42cf5958e07569b41c48d} 
+\index{l6.cpp@{l6.cpp}!bubble@{bubble}}
+\index{bubble@{bubble}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{bubble()}{bubble()}}
+{\footnotesize\ttfamily void bubble (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int \&}]{comparisons,  }\item[{int \&}]{permutations,  }\item[{int \&}]{n,  }\item[{int \&}]{m }\end{DoxyParamCaption})}
+
+
+
+Функция сортировки методом пузырька. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для сортировки \\
+\hline
+{\em comparisons} & -\/ Число сравнений \\
+\hline
+{\em permutations} & -\/ Число замен \\
+\hline
+{\em n} & -\/ Ширина массива \\
+\hline
+{\em m} & -\/ Длина массива\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_a9b3ed0bf73e42cf5958e07569b41c48d}{bubble}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\&\ comparisons,\ \textcolor{keywordtype}{int}\&\ permutations,\ \textcolor{keywordtype}{int}\&\ n,\ \textcolor{keywordtype}{int}\&\ m)\ \{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Bubble\ sort"{}}\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 1;\ i\ <\ n;\ i\ +=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m\ -\/\ 1;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ k\ =\ 1;\ k\ <\ m;\ k++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (abs(x[i][k])\ <\ abs(x[i][k\ -\/\ 1]))\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[i][k];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[i][k]\ =\ x[i][k\ -\/\ 1];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[i][k\ -\/\ 1]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ permutations++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Comparisons:\ "{}}\ <<\ comparisons\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Permutations:\ "{}}\ <<\ permutations\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparisons,\ permutations);}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i\ +=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m\ -\/\ 1;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ k\ =\ 1;\ k\ <\ m;\ k++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (x[k][i]\ <\ x[k\ -\/\ 1][i])\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[k][i];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[k][i]\ =\ x[k\ -\/\ 1][i];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[k\ -\/\ 1][i]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ permutations++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Comparisons:\ "{}}\ <<\ comparisons\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Permutations:\ "{}}\ <<\ permutations\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparisons,\ permutations);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_adc1c5a6f4e3ddef6ca4f728e9368ec32}\label{l6_8cpp_adc1c5a6f4e3ddef6ca4f728e9368ec32} 
+\index{l6.cpp@{l6.cpp}!columnsQuickSort@{columnsQuickSort}}
+\index{columnsQuickSort@{columnsQuickSort}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{columnsQuickSort()}{columnsQuickSort()}}
+{\footnotesize\ttfamily void columns\+Quick\+Sort (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int}]{l,  }\item[{int}]{r,  }\item[{int}]{column,  }\item[{int \&}]{comparison,  }\item[{int \&}]{permutation }\end{DoxyParamCaption})}
+
+
+
+Функция сортировки части столбца методом быстрой сортировки. 
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{l6_8cpp_addd31381423697927c31ec393b3fc991}{matrix\+Quick\+Sort} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для сортировки \\
+\hline
+{\em l} & -\/ Индекс левой границы \\
+\hline
+{\em r} & -\/ Индекс правой границы \\
+\hline
+{\em column} & -\/ Индекс строки для сортировки \\
+\hline
+{\em comparisons} & -\/ Число сравнений \\
+\hline
+{\em permutations} & -\/ Число замен\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_adc1c5a6f4e3ddef6ca4f728e9368ec32}{columnsQuickSort}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\ l,\ \textcolor{keywordtype}{int}\ r,\ \textcolor{keywordtype}{int}\ column,\ \textcolor{keywordtype}{int}\ \&comparison,\ \textcolor{keywordtype}{int}\ \&permutation)\ \{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{int}\ leftI,\ rightI,\ centerValue;}
+\DoxyCodeLine{\ \ \ \ leftI\ =\ l;}
+\DoxyCodeLine{\ \ \ \ rightI\ =\ r;}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (l\ >\ r)\ \textcolor{keywordflow}{return};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ centerValue\ =\ x[(rightI\ +\ leftI)\ /\ 2][column];}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{while}\ (leftI\ <=\ rightI)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (centerValue\ >\ x[leftI][column])\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ comparison++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ leftI++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (x[rightI][column]\ >\ centerValue)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ comparison++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ rightI-\/-\/;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (leftI\ <=\ rightI)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[rightI][column];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[rightI][column]\ =\ x[leftI][column];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[leftI][column]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ leftI++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ rightI-\/-\/;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ permutation++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_adc1c5a6f4e3ddef6ca4f728e9368ec32}{columnsQuickSort}}(x,\ l,\ rightI,\ column,\ comparison,\ permutation);}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_adc1c5a6f4e3ddef6ca4f728e9368ec32}{columnsQuickSort}}(x,\ leftI,\ r,\ column,\ comparison,\ permutation);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_aa31e7ac911061b1e283952727bbbae66}\label{l6_8cpp_aa31e7ac911061b1e283952727bbbae66} 
+\index{l6.cpp@{l6.cpp}!deleteMatrix@{deleteMatrix}}
+\index{deleteMatrix@{deleteMatrix}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{deleteMatrix()}{deleteMatrix()}}
+{\footnotesize\ttfamily void delete\+Matrix (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int}]{lines }\end{DoxyParamCaption})}
+
+
+
+Функция удаления массива. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для наполнения \\
+\hline
+{\em lines} & -\/ Длина массива\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_aa31e7ac911061b1e283952727bbbae66}{deleteMatrix}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\ lines)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ lines;\ i++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{delete}[]\ x[i];}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{delete}[]\ x;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_ae18cf4823e9e5278f3432f169b277acd}\label{l6_8cpp_ae18cf4823e9e5278f3432f169b277acd} 
+\index{l6.cpp@{l6.cpp}!initMatrix@{initMatrix}}
+\index{initMatrix@{initMatrix}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{initMatrix()}{initMatrix()}}
+{\footnotesize\ttfamily void init\+Matrix (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int}]{lines,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Функция наполнения массива случайными элементами. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для наполнения \\
+\hline
+{\em lines} & -\/ Длина массива \\
+\hline
+{\em columns} & -\/ Ширина массива\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_ae18cf4823e9e5278f3432f169b277acd}{initMatrix}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\ lines,\ \textcolor{keywordtype}{int}\ columns)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ lines;\ i++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ columns;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[i][j]\ =\ rand()\ -\/\ RAND\_MAX\ /\ 2;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_a9833a6cd5ca9a8fbf9714319a1f82eea}\label{l6_8cpp_a9833a6cd5ca9a8fbf9714319a1f82eea} 
+\index{l6.cpp@{l6.cpp}!insertion@{insertion}}
+\index{insertion@{insertion}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{insertion()}{insertion()}}
+{\footnotesize\ttfamily void insertion (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int \&}]{comparisons,  }\item[{int \&}]{permutations,  }\item[{int \&}]{n,  }\item[{int \&}]{m }\end{DoxyParamCaption})}
+
+
+
+Функция сортировки методом вставки. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для сортировки \\
+\hline
+{\em comparisons} & -\/ Число сравнений \\
+\hline
+{\em permutations} & -\/ Число замен \\
+\hline
+{\em n} & -\/ Ширина массива \\
+\hline
+{\em m} & -\/ Длина массива\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_a9833a6cd5ca9a8fbf9714319a1f82eea}{insertion}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\&\ comparisons,\ \textcolor{keywordtype}{int}\&\ permutations,\ \textcolor{keywordtype}{int}\&\ n,\ \textcolor{keywordtype}{int}\&\ m)\ \{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Insertion\ sort"{}}\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 1;\ i\ <\ n;\ i\ +=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 1;\ j\ <\ m;\ j++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[i][j];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ k\ =\ j\ -\/\ 1;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (k\ >=\ 0\ \&\&\ abs(x[i][k])\ >\ abs(temp))\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[i][k\ +\ 1]\ =\ x[i][k];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ k-\/-\/;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ permutations++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[i][k\ +\ 1]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Comparisons:\ "{}}\ <<\ comparisons\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Permutations:\ "{}}\ <<\ permutations\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparisons,\ permutations);}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i\ +=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 1;\ j\ <\ m;\ j++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[j][i];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ k\ =\ j\ -\/\ 1;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (k\ >=\ 0\ \&\&\ x[k][i]\ >\ temp)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[k\ +\ 1][i]\ =\ x[k][i];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ k-\/-\/;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ permutations++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[k\ +\ 1][i]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Comparisons:\ "{}}\ <<\ comparisons\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Permutations:\ "{}}\ <<\ permutations\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparisons,\ permutations);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_aca2532c44e4d7c29f15af30e4d57f9ed}\label{l6_8cpp_aca2532c44e4d7c29f15af30e4d57f9ed} 
+\index{l6.cpp@{l6.cpp}!linesQuickSort@{linesQuickSort}}
+\index{linesQuickSort@{linesQuickSort}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{linesQuickSort()}{linesQuickSort()}}
+{\footnotesize\ttfamily void lines\+Quick\+Sort (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int}]{l,  }\item[{int}]{r,  }\item[{int}]{line,  }\item[{int \&}]{comparison,  }\item[{int \&}]{permutation }\end{DoxyParamCaption})}
+
+
+
+Функция сортировки части строки методом быстрой сортировки. 
+
+\begin{DoxySeeAlso}{See also}
+\doxylink{l6_8cpp_addd31381423697927c31ec393b3fc991}{matrix\+Quick\+Sort} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для сортировки \\
+\hline
+{\em l} & -\/ Индекс левой границы \\
+\hline
+{\em r} & -\/ Индекс правой границы \\
+\hline
+{\em line} & -\/ Индекс строки для сортировки \\
+\hline
+{\em comparisons} & -\/ Число сравнений \\
+\hline
+{\em permutations} & -\/ Число замен\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_aca2532c44e4d7c29f15af30e4d57f9ed}{linesQuickSort}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\ l,\ \textcolor{keywordtype}{int}\ r,\ \textcolor{keywordtype}{int}\ line,\ \textcolor{keywordtype}{int}\ \&comparison,\ \textcolor{keywordtype}{int}\ \&permutation)\ \{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{int}\ leftI,\ rightI,\ centerValue;}
+\DoxyCodeLine{\ \ \ \ leftI\ =\ l;}
+\DoxyCodeLine{\ \ \ \ rightI\ =\ r;}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{if}\ (l\ >\ r)\ \textcolor{keywordflow}{return};}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ centerValue\ =\ x[line][(rightI\ +\ leftI)\ /\ 2];}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{while}\ (leftI\ <=\ rightI)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (abs(centerValue)\ >\ abs(x[line][leftI]))\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ comparison++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ leftI++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{while}\ (abs(x[line][rightI])\ >\ abs(centerValue))\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ comparison++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ rightI-\/-\/;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (leftI\ <=\ rightI)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[line][rightI];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[line][rightI]\ =\ x[line][leftI];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[line][leftI]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ leftI++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ rightI-\/-\/;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ permutation++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_aca2532c44e4d7c29f15af30e4d57f9ed}{linesQuickSort}}(x,\ l,\ rightI,\ line,\ comparison,\ permutation);}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_aca2532c44e4d7c29f15af30e4d57f9ed}{linesQuickSort}}(x,\ leftI,\ r,\ line,\ comparison,\ permutation);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{l6_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{l6.cpp@{l6.cpp}!main@{main}}
+\index{main@{main}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxylink{l6_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main()} 
+
+{\bfseries{Код\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ \mbox{\hyperlink{l6_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}}()}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{int}\ n,\ m,\ **\ x,\ **\ dublicate\_x,\ comparisons,\ permutations;\ \textcolor{comment}{//\ n\ -\/\ строки,\ m\ -\/\ столбцы;}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Matrix\ height:\ "{}};}
+\DoxyCodeLine{\ \ \ \ std::cin\ >>\ n;}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Matrix\ width:\ "{}};}
+\DoxyCodeLine{\ \ \ \ std::cin\ >>\ m;}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\ \ \ \ comparisons\ =\ 0;}
+\DoxyCodeLine{\ \ \ \ permutations\ =\ 0;}
+\DoxyCodeLine{\ \ \ \ x\ =\ \textcolor{keyword}{new}\ \textcolor{keywordtype}{int}*\ [n];}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ x[i]\ =\ \textcolor{keyword}{new}\ \textcolor{keywordtype}{int}[m];}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ dublicate\_x\ =\ \textcolor{keyword}{new}\ \textcolor{keywordtype}{int}*\ [n];}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ dublicate\_x[i]\ =\ \textcolor{keyword}{new}\ \textcolor{keywordtype}{int}[m];}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ae18cf4823e9e5278f3432f169b277acd}{initMatrix}}(x,\ n,\ m);}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_a092e417b32e100913356e72db5da0145}{rollbMatrix}}(x,\ dublicate\_x,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Original\ matrix:"{}}\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}};}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_a9b3ed0bf73e42cf5958e07569b41c48d}{bubble}}(x,\ comparisons,\ permutations,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_a092e417b32e100913356e72db5da0145}{rollbMatrix}}(dublicate\_x,\ x,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_aade90bc453ad44e2df8401e3d90653a6}{selection}}(x,\ comparisons,\ permutations,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_a092e417b32e100913356e72db5da0145}{rollbMatrix}}(dublicate\_x,\ x,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_a9833a6cd5ca9a8fbf9714319a1f82eea}{insertion}}(x,\ comparisons,\ permutations,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_a092e417b32e100913356e72db5da0145}{rollbMatrix}}(dublicate\_x,\ x,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_addd31381423697927c31ec393b3fc991}{matrixQuickSort}}(x,\ n,\ m,\ comparisons,\ permutations);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_a092e417b32e100913356e72db5da0145}{rollbMatrix}}(dublicate\_x,\ x,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_af72662caa54842a50c4cf1497f028d20}{shellSort}}(x,\ comparisons,\ permutations,\ n,\ m);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{delete}[]\ x[i];}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{delete}[]\ x;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{delete}\ dublicate\_x[i];}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{delete}[]\ dublicate\_x;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_addd31381423697927c31ec393b3fc991}\label{l6_8cpp_addd31381423697927c31ec393b3fc991} 
+\index{l6.cpp@{l6.cpp}!matrixQuickSort@{matrixQuickSort}}
+\index{matrixQuickSort@{matrixQuickSort}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{matrixQuickSort()}{matrixQuickSort()}}
+{\footnotesize\ttfamily void matrix\+Quick\+Sort (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int}]{lines,  }\item[{int}]{columns,  }\item[{int \&}]{comparison,  }\item[{int \&}]{permutation }\end{DoxyParamCaption})}
+
+
+
+Функция быстрой сортировки. 
+
+Вызывает функции lines\+Quick\+Sort и columns\+Quick\+Sort. \begin{DoxySeeAlso}{See also}
+\doxylink{l6_8cpp_aca2532c44e4d7c29f15af30e4d57f9ed}{lines\+Quick\+Sort} \doxylink{l6_8cpp_adc1c5a6f4e3ddef6ca4f728e9368ec32}{columns\+Quick\+Sort} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для сортировки \\
+\hline
+{\em lines} & -\/ Число строк в массиве \\
+\hline
+{\em columns} & -\/ Число столбцов в массиве \\
+\hline
+{\em comparisons} & -\/ Число сравнений \\
+\hline
+{\em permutations} & -\/ Число замен\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_addd31381423697927c31ec393b3fc991}{matrixQuickSort}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\ lines,\ \textcolor{keywordtype}{int}\ columns,\ \textcolor{keywordtype}{int}\ \&comparison,\ \textcolor{keywordtype}{int}\ \&permutation)\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Quick\ sort"{}}\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 1;\ i\ <\ lines;\ i+=2)}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \mbox{\hyperlink{l6_8cpp_aca2532c44e4d7c29f15af30e4d57f9ed}{linesQuickSort}}(x,\ 0,\ lines\ -\/\ 1,\ i,\ comparison,\ permutation);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ lines;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ columns;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Comparisons:\ "{}}\ <<\ comparison\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Permutations:\ "{}}\ <<\ permutation\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparison,\ permutation);}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ columns;\ i+=2)}
+\DoxyCodeLine{\ \ \ \ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \mbox{\hyperlink{l6_8cpp_adc1c5a6f4e3ddef6ca4f728e9368ec32}{columnsQuickSort}}(x,\ 0,\ lines\ -\/\ 1,\ i,\ comparison,\ permutation);}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ lines;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ columns;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Comparisons:\ "{}}\ <<\ comparison\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Permutations:\ "{}}\ <<\ permutation\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparison,\ permutation);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}\label{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb} 
+\index{l6.cpp@{l6.cpp}!reset@{reset}}
+\index{reset@{reset}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void reset (\begin{DoxyParamCaption}\item[{int \&}]{comparison,  }\item[{int \&}]{permutation }\end{DoxyParamCaption})}
+
+
+
+Функция обнуления счётчиков сравнений и замен. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \&comparison} & -\/ Ссылка на счётчик сравнений \\
+\hline
+{\em \&permutation} & -\/ Ссылка на счётчик замен {\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(\textcolor{keywordtype}{int}\ \&comparison,\ \textcolor{keywordtype}{int}\ \&permutation)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ comparison\ =\ 0;}
+\DoxyCodeLine{\ \ \ \ permutation\ =\ 0;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyParams}
+\Hypertarget{l6_8cpp_a092e417b32e100913356e72db5da0145}\label{l6_8cpp_a092e417b32e100913356e72db5da0145} 
+\index{l6.cpp@{l6.cpp}!rollbMatrix@{rollbMatrix}}
+\index{rollbMatrix@{rollbMatrix}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{rollbMatrix()}{rollbMatrix()}}
+{\footnotesize\ttfamily void rollb\+Matrix (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{duplicate\+\_\+x,  }\item[{int}]{lines,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Функция заполнения обработанной матрицы начальными значениями. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для наполнения \\
+\hline
+{\em duplicate\+\_\+x} & -\/ Массив с исходными значениями \\
+\hline
+{\em lines} & -\/ Длина массива \\
+\hline
+{\em columns} & -\/ Ширина массива\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_aa31e7ac911061b1e283952727bbbae66}{deleteMatrix}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\ lines)}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ lines;\ i++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{delete}[]\ x[i];}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{delete}[]\ x;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_aade90bc453ad44e2df8401e3d90653a6}\label{l6_8cpp_aade90bc453ad44e2df8401e3d90653a6} 
+\index{l6.cpp@{l6.cpp}!selection@{selection}}
+\index{selection@{selection}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{selection()}{selection()}}
+{\footnotesize\ttfamily void selection (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int \&}]{comparisons,  }\item[{int \&}]{permutations,  }\item[{int \&}]{n,  }\item[{int \&}]{m }\end{DoxyParamCaption})}
+
+
+
+Функция сортировки методом отбора. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для сортировки \\
+\hline
+{\em comparisons} & -\/ Число сравнений \\
+\hline
+{\em permutations} & -\/ Число замен \\
+\hline
+{\em n} & -\/ Ширина массива \\
+\hline
+{\em m} & -\/ Длина массива\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_aade90bc453ad44e2df8401e3d90653a6}{selection}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\&\ comparisons,\ \textcolor{keywordtype}{int}\&\ permutations,\ \textcolor{keywordtype}{int}\&\ n,\ \textcolor{keywordtype}{int}\&\ m)\ \{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Selection\ sort"{}}\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 1;\ i\ <\ n;\ i\ +=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m\ -\/\ 1;\ j++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ jmin\ =\ j;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ k\ =\ j\ +\ 1;\ k\ <\ m;\ k++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (abs(x[i][k])\ <\ abs(x[i][jmin]))\ jmin\ =\ k;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[i][j];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[i][j]\ =\ x[i][jmin];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[i][jmin]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ permutations++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Comparisons:\ "{}}\ <<\ comparisons\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Permutations:\ "{}}\ <<\ permutations\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparisons,\ permutations);}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i\ +=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m\ -\/\ 1;\ j++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ jmin\ =\ j;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ k\ =\ j\ +\ 1;\ k\ <\ m;\ k++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (x[k][i]\ <\ x[jmin][i])\ jmin\ =\ k;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[j][i];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[j][i]\ =\ x[jmin][i];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ x[jmin][i]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ permutations++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Comparisons:\ "{}}\ <<\ comparisons\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Permutations:\ "{}}\ <<\ permutations\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparisons,\ permutations);}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ \Hypertarget{l6_8cpp_af72662caa54842a50c4cf1497f028d20}\label{l6_8cpp_af72662caa54842a50c4cf1497f028d20} 
+\index{l6.cpp@{l6.cpp}!shellSort@{shellSort}}
+\index{shellSort@{shellSort}!l6.cpp@{l6.cpp}}
+\doxysubsubsection{\texorpdfstring{shellSort()}{shellSort()}}
+{\footnotesize\ttfamily void shell\+Sort (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}\texorpdfstring{$\ast$}{*}}]{x,  }\item[{int \&}]{comparisons,  }\item[{int \&}]{permutations,  }\item[{int \&}]{n,  }\item[{int \&}]{m }\end{DoxyParamCaption})}
+
+
+
+Функция сортировки методом Шелла. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Массив для сортировки \\
+\hline
+{\em comparisons} & -\/ Число сравнений \\
+\hline
+{\em permutations} & -\/ Число замен \\
+\hline
+{\em n} & -\/ Ширина массива \\
+\hline
+{\em m} & -\/ Длина массива\\
+\hline
+\end{DoxyParams}
+{\bfseries{Код функции\+:}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordtype}{void}\ \mbox{\hyperlink{l6_8cpp_af72662caa54842a50c4cf1497f028d20}{shellSort}}(\textcolor{keywordtype}{int}**\ x,\ \textcolor{keywordtype}{int}\&\ comparisons,\ \textcolor{keywordtype}{int}\&\ permutations,\ \textcolor{keywordtype}{int}\&\ n,\ \textcolor{keywordtype}{int}\&\ m)\ \{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Shell\ sort"{}}\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ p\ =\ 1;\ p\ <\ n;\ p\ +=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ gap\ =\ n\ /\ 2;\ gap\ >\ 0;\ gap\ /=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ gap;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[p][i];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ j;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (j\ =\ i;\ j\ >=\ gap\ \&\&\ abs(x[p][j\ -\/\ gap])\ >\ abs(temp);\ j\ -\/=\ gap)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[p][j]\ =\ x[p][j\ -\/\ gap];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ permutations++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[p][j]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Number\ of\ comparisons:\ "{}}\ <<\ comparisons\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Number\ of\ permutations:\ "{}}\ <<\ permutations\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \mbox{\hyperlink{l6_8cpp_ac0d7c20cf4ce64a8d699933fc12425bb}{reset}}(comparisons,\ permutations);}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ p\ =\ 0;\ p\ <\ n;\ p\ +=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ gap\ =\ n\ /\ 2;\ gap\ >\ 0;\ gap\ /=\ 2)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{int}\ i\ =\ gap;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ temp\ =\ x[i][p];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ j;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (j\ =\ i;\ j\ >=\ gap\ \&\&\ x[j\ -\/\ gap][p]\ >\ temp;\ j\ -\/=\ gap)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[j][p]\ =\ x[j\ -\/\ gap][p];}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ comparisons++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ permutations++;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x[j][p]\ =\ temp;}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ i\ =\ 0;\ i\ <\ n;\ i++)\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{size\_t}\ j\ =\ 0;\ j\ <\ m;\ j++)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ std::cout\ <<\ x[i][j]\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)t"{}};}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ std::cout\ <<\ std::endl;}
+\DoxyCodeLine{\ \ \ \ \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ std::cout\ <<\ std::endl\ <<\ \textcolor{stringliteral}{"{}Number\ of\ comparisons:\ "{}}\ <<\ comparisons\ <<\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}\ <<\ \textcolor{stringliteral}{"{}Number\ of\ permutations:\ "{}}\ <<\ permutations\ <<\ std::endl;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ 
