@@ -1,9 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\",
+  "WorkspaceRootPath": "D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{263CA81F-BF28-4961-BCCA-3B19553124D8}|l7.vcxproj|C:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l6c\\l6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{263CA81F-BF28-4961-BCCA-3B19553124D8}|l7.vcxproj|D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{263CA81F-BF28-4961-BCCA-3B19553124D8}|l7.vcxproj|solutionrelative:l7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,12 +22,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "l6.cpp",
+              "DocumentMoniker": "D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l6c\\l6.cpp",
+              "RelativeDocumentMoniker": "..\\l6c\\l6.cpp",
+              "ToolTip": "D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l6c\\l6.cpp",
+              "RelativeToolTip": "..\\l6c\\l6.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-22T17:52:49.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "l7.cpp",
-              "DocumentMoniker": "C:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp",
+              "DocumentMoniker": "D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp",
               "RelativeDocumentMoniker": "l7.cpp",
-              "ToolTip": "C:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp",
+              "ToolTip": "D:\\repos\\\u0430\u043B\u0433\u043E\u0441\u044B\\l7\\l7.cpp",
               "RelativeToolTip": "l7.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwBUAAAAHAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowDIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-19T17:58:36.378Z",
               "EditorCaption": ""

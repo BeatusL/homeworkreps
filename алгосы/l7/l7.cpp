@@ -44,7 +44,7 @@ bool search(Node* root, std::string lastName) {
 }
 
 int main() {
-    std::cout << "Hello World!";
+    std::cout << "Hello World!\n";
     Node* root = nullptr;
 
     // Пример заполнения дерева
