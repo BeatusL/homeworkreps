@@ -400,23 +400,26 @@ print("w ", a, b, c)
 
 
 fig_11, chart = plt.subplots(1, 1)
-chart.set_title("Рис. 16 Функция гамма распределения")
+chart.set_title("Рис. 18 Функции распределения Вейбулла")
 chart.bar(columns_values, step_function / N, values_step)
-chart.plot(x, stats.weibull_min.cdf(x, a, b, c), 'r-', lw=2, alpha=0.6)
+chart.plot(x, stats.weibull_min.cdf(x, a, b, c), 'r-', lw=2, alpha=0.6, label='ММП')
+chart.plot(x, stats.weibull_min.cdf(x, 5.00, b, 2.00), 'y-', lw=2, alpha=0.6, label='ММ')
+fig_11.legend()
 
 fig_12, chart = plt.subplots(1, 1)
-chart.set_title("Рис. 17 Функция плотности гамма распределения")
+chart.set_title("Рис. 19 Функции плотности распределения Вейбулла")
 hist_prob(values, chart)
 x = np.linspace(values.min(), values.max(), 13000)
-chart.plot(x, stats.weibull_min.pdf(x, a, b, c), 'r-', lw=2, alpha=0.6)
-
+chart.plot(x, stats.weibull_min.pdf(x, a, b, c), 'r-', lw=2, alpha=0.6, label='ММП')
+chart.plot(x, stats.weibull_min.pdf(x, 5.00, b, 2.00), 'y-', lw=2, alpha=0.6, label='ММ')
+fig_12.legend()
 
 ks_stat_t, ks_p_value_t = stats.kstest(values, 'weibull_min', args=(a, b, c))
-print('Колмогоров-Смирнов г', ks_stat_t, ks_p_value_t)
+print('Колмогоров-Смирнов в', ks_stat_t)
 cvm_stat_gamma = stats.cramervonmises(values, 'weibull_min', args=(a, b, c))
-print('Мизес г :', cvm_stat_gamma)
+print('Мизес в:', cvm_stat_gamma)
 ks_stat_t, ks_p_value_t = chi_square_test(values, stats.weibull_min, (a, b, c))
-print('Хи-квадрат г', ks_stat_t, ks_p_value_t)
+print('Хи-квадрат в', ks_stat_t)
 
 
 
@@ -478,6 +481,7 @@ if best_distribution:
     print("Параметры:", best_params)
 else:
     print("Не удалось определить наилучшее распределение")
+
 
 
 plt.show()
