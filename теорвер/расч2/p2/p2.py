@@ -395,27 +395,27 @@ print('Критическое значение хи-квадрат:', chi_critic
 print('Критическое значение Cramér-von Mises:', 0.4614)
 
 
-a, b, c = stats.gamma.fit(values)
-print("g ", a, b, c)
+a, b, c = stats.weibull_min.fit(values)
+print("w ", a, b, c)
 
 
 fig_11, chart = plt.subplots(1, 1)
 chart.set_title("Рис. 16 Функция гамма распределения")
 chart.bar(columns_values, step_function / N, values_step)
-chart.plot(x, stats.gamma.cdf(x, 359.2836728552438, -6.204869331992612, 0.0223779807198273), 'r-', lw=2, alpha=0.6)
+chart.plot(x, stats.weibull_min.cdf(x, a, b, c), 'r-', lw=2, alpha=0.6)
 
 fig_12, chart = plt.subplots(1, 1)
 chart.set_title("Рис. 17 Функция плотности гамма распределения")
 hist_prob(values, chart)
 x = np.linspace(values.min(), values.max(), 13000)
-chart.plot(x, stats.gamma.pdf(x, 359.2836728552438, -6.204869331992612, 0.0223779807198273), 'r-', lw=2, alpha=0.6)
+chart.plot(x, stats.weibull_min.pdf(x, a, b, c), 'r-', lw=2, alpha=0.6)
 
 
-ks_stat_t, ks_p_value_t = stats.kstest(values, 'gamma', args=(359.2836728552438, -6.204869331992612, 0.0223779807198273))
+ks_stat_t, ks_p_value_t = stats.kstest(values, 'weibull_min', args=(a, b, c))
 print('Колмогоров-Смирнов г', ks_stat_t, ks_p_value_t)
-cvm_stat_gamma = stats.cramervonmises(values, 'gamma', args=(359.2836728552438, -6.204869331992612, 0.0223779807198273))
+cvm_stat_gamma = stats.cramervonmises(values, 'weibull_min', args=(a, b, c))
 print('Мизес г :', cvm_stat_gamma)
-ks_stat_t, ks_p_value_t = chi_square_test(values, stats.gamma, (359.2836728552438, -6.204869331992612, 0.0223779807198273))
+ks_stat_t, ks_p_value_t = chi_square_test(values, stats.weibull_min, (a, b, c))
 print('Хи-квадрат г', ks_stat_t, ks_p_value_t)
 
 
