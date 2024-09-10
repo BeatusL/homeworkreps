@@ -16,7 +16,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
-// DATE "05/07/2024 00:27:28"
+// DATE "09/02/2024 12:03:13"
 
 // 
 // Device: Altera EP4CE6E22A7 Package TQFP144
@@ -57,6 +57,10 @@ assign unknown = 1'bx;
 tri1 devclrn;
 tri1 devpor;
 tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("CP_v.sdo");
+// synopsys translate_on
+
 wire \Q[3]~output_o ;
 wire \Q[2]~output_o ;
 wire \Q[1]~output_o ;
