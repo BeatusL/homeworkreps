@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a4604a9-d59c-4c9b-a836-06f01ef520f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/101.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/CP.qws" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/CP.qws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.asm.qmsg" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.asm.qmsg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.asm.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.asm.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cmp.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cmp.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cmp.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cmp.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cmp.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cmp.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cycloneive_io_sim_cache.45um_ii_1200mv_125c_slow.hsd" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cycloneive_io_sim_cache.45um_ii_1200mv_125c_slow.hsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cycloneive_io_sim_cache.45um_ii_1200mv_85c_slow.hsd" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.cycloneive_io_sim_cache.45um_ii_1200mv_85c_slow.hsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.db_info" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.db_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.eda.qmsg" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.eda.qmsg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.fit.qmsg" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.fit.qmsg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.kpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.kpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.qmsg" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.qmsg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map_bb.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map_bb.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map_bb.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.map_bb.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.pre_map.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.pre_map.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.rtlv.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.rtlv.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.rtlv_sg.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.rtlv_sg.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.sta.qmsg" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.sta.qmsg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.tiscmp.fast_1200mv_n40c.ddb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.tiscmp.fast_1200mv_n40c.ddb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.tiscmp.slow_1200mv_125c.ddb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.tiscmp.slow_1200mv_125c.ddb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.tmw_info" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/db/CP.tmw_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.cmp.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.cmp.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.cmp.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.cmp.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.hbdb.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.hbdb.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.hbdb.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.hbdb.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.kpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.root_partition.map.kpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.rrp.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/incremental_db/compiled_partitions/CP.rrp.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.asm.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.asm.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.done" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.done" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.eda.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.eda.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.fit.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.fit.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.fit.summary" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.fit.summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.flow.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.flow.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.map.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.map.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.map.summary" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.map.summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.sta.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/output_files/CP.sta.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP.msim.vcd" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP.msim.vcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP.sft" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP.sft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP.vo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP.vo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_7_1200mv_-40c_slow.vo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_7_1200mv_-40c_slow.vo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_7_1200mv_-40c_v_slow.sdo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_7_1200mv_-40c_v_slow.sdo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_7_1200mv_125c_slow.vo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_7_1200mv_125c_slow.vo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_7_1200mv_125c_v_slow.sdo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_7_1200mv_125c_v_slow.sdo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_min_1200mv_-40c_fast.vo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_min_1200mv_-40c_fast.vo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_min_1200mv_-40c_v_fast.sdo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_min_1200mv_-40c_v_fast.sdo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_v.sdo" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_v.sdo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_v.sdo_typ.csd" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/CP_v.sdo_typ.csd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/WaveformSR.vwf.vt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/WaveformSR.vwf.vt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/WaveformT.vwf.vt" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/WaveformT.vwf.vt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/transcript" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/transcript" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/vwf_sim_transcript" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/vwf_sim_transcript" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/work/_info" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/work/_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/work/_lib.qdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/work/_lib.qdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/work/_lib1_7.qdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/work/_lib1_7.qpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OVTCurseQ/simulation/qsim/work/_lib1_7.qtl" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2lqOuWruwp6MtZvFcCGhiBKXq1F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.101.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-eebebe6c2be4-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15325.20" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a4604a9-d59c-4c9b-a836-06f01ef520f5" name="Changes" comment="" />
+      <created>1725904362387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725904362387</updated>
+    </task>
+    <servers />
+  </component>
+</project>
