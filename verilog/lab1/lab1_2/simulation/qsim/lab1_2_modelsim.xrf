@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/repos/verilog/lab1/lab1_2/lab1_2.sv
+source_file = 1, D:/repos/verilog/lab1/lab1_2/db/lab1_2.cbx.xml
+design_name = lab1_2
+instance = comp, \led[0]~output , led[0]~output, lab1_2, 1
+instance = comp, \led[1]~output , led[1]~output, lab1_2, 1
+instance = comp, \sw0[0]~input , sw0[0]~input, lab1_2, 1
+instance = comp, \pba~input , pba~input, lab1_2, 1
+instance = comp, \sw1[0]~input , sw1[0]~input, lab1_2, 1
+instance = comp, \led~0 , led~0, lab1_2, 1
+instance = comp, \sw1[1]~input , sw1[1]~input, lab1_2, 1
+instance = comp, \sw0[1]~input , sw0[1]~input, lab1_2, 1
+instance = comp, \led~1 , led~1, lab1_2, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1
