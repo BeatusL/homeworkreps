@@ -1,45 +1,57 @@
 |lab2_2
 top_a[0] => top_a[0].IN2
 top_a[1] => top_a[1].IN2
-top_a[2] => top_a[2].IN2
 top_b[0] => top_b[0].IN2
 top_b[1] => top_b[1].IN2
-top_b[2] => top_b[2].IN2
 top_c[0] => top_c[0].IN2
 top_c[1] => top_c[1].IN2
-top_c[2] => top_c[2].IN2
 top_d[0] => top_d[0].IN2
 top_d[1] => top_d[1].IN2
-top_d[2] => top_d[2].IN2
 minres[0] <= lab2_1:comb_3.out
 minres[1] <= lab2_1:comb_3.out
-minres[2] <= lab2_1:comb_3.out
 maxres[0] <= lab2_1:comb_4.out
 maxres[1] <= lab2_1:comb_4.out
-maxres[2] <= lab2_1:comb_4.out
 
 
 |lab2_2|lab2_1:comb_3
-a[0] => LessThan1.IN1
 a[0] => out.DATAB
-b[0] => LessThan1.IN2
+a[0] => LessThan1.IN2
+a[-1] => LessThan1.IN1
+a[-1] => out.DATAB
 b[0] => out.DATAA
-c[0] => LessThan2.IN1
+b[0] => LessThan1.IN4
+b[-1] => LessThan1.IN3
+b[-1] => out.DATAA
 c[0] => out.DATAB
-d[0] => LessThan2.IN2
+c[0] => LessThan2.IN2
+c[-1] => LessThan2.IN1
+c[-1] => out.DATAB
 d[0] => out.DATAA
+d[0] => LessThan2.IN4
+d[-1] => LessThan2.IN3
+d[-1] => out.DATAA
 out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[-1] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |lab2_2|lab2_1:comb_4
-a[0] => LessThan1.IN1
 a[0] => out.DATAB
-b[0] => LessThan1.IN2
+a[0] => LessThan1.IN2
+a[-1] => LessThan1.IN1
+a[-1] => out.DATAB
 b[0] => out.DATAA
-c[0] => LessThan2.IN1
+b[0] => LessThan1.IN4
+b[-1] => LessThan1.IN3
+b[-1] => out.DATAA
 c[0] => out.DATAB
-d[0] => LessThan2.IN2
+c[0] => LessThan2.IN2
+c[-1] => LessThan2.IN1
+c[-1] => out.DATAB
 d[0] => out.DATAA
+d[0] => LessThan2.IN4
+d[-1] => LessThan2.IN3
+d[-1] => out.DATAA
 out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[-1] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 

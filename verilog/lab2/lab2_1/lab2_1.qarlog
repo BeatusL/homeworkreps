@@ -1,6 +1,16 @@
+Quartus Prime Archive log --	D:/repos/verilog/lab2/lab2_1/lab2_1.qarlog
 
+Archive:	D:/repos/verilog/lab2/lab2_1/lab2_1.qar
+Date:		Fri Sep 20 23:31:31 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
-******* Archived project restoration attempt on Wed Sep 18 01:42:09 2024
-Source archive file:	D:/repos/verilog/lab2/lab2_1/lab2_1.qar
-Archive was extracted into	D:/repos/verilog/lab2/lab2_1/
-		 - successfully.
+	=========== Files Selected: ===========
+D:/repos/verilog/lab2/lab2_1/assignment_defaults.qdf
+D:/repos/verilog/lab2/lab2_1/lab2_1.qpf
+D:/repos/verilog/lab2/lab2_1/lab2_1.qsf
+D:/repos/verilog/lab2/lab2_1/lab2_1.sv
+D:/repos/verilog/lab2/lab2_1/lab2_1.vwf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

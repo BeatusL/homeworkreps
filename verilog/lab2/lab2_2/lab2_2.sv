@@ -1,5 +1,5 @@
 module lab2_2
- #( parameter topW = 3)
+ #( parameter topW = 2)
  (
 	input [topW-1 : 0] top_a, top_b, top_c, top_d,
 	output [topW-1 : 0] minres, maxres);
@@ -11,6 +11,7 @@ lab2_1 #(.WIDTH(topW-2), .TYPE("aaaaaa")) (.a(top_a), .b(top_b), .c(top_c), .d(t
 	.out(maxres));
 
 endmodule
+
 
 module lab2_1
 #(parameter WIDTH=2, TYPE="minsel")

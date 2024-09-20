@@ -1,5 +1,5 @@
 module lab2_1
-#(parameter WIDTH=2, TYPE="minsel")
+#(parameter WIDTH=2, TYPE="maxsel")
 (
 	input [WIDTH-1:0] a, b, c, d,
 	output [WIDTH-1:0] out);

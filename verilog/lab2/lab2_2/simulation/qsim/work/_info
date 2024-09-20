@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/repos/verilog/lab2/lab2_2/simulation/qsim
 vlab2_2
-Z1 !s110 1726615001
+Z1 !s110 1726861551
 !i10b 1
 !s100 b0hoACfj_[lhn4EkX>W9W2
 IUC_@TX2j1V7^LT4@GjW?N3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1726615000
+w1726861550
 8lab2_2.vo
 Flab2_2.vo
 L0 31
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1726615001.000000
+Z4 !s108 1726861551.000000
 !s107 lab2_2.vo|
 !s90 -work|work|lab2_2.vo|
 !i113 1
@@ -32,11 +32,11 @@ Z6 tCvgOpt 0
 vlab2_2_vlg_vec_tst
 R1
 !i10b 1
-!s100 @54>k^VMa59o^;P7GAHL11
-I?Cinmam1:7>W;k9K?izYC2
+!s100 Pc=<c]n<YX=QkV1c9dXgl2
+IhneCRWYEeNoY1lSj::62Z3
 R2
 R0
-w1726614999
+w1726861549
 8lab2_2.vwf.vt
 Flab2_2.vwf.vt
 L0 29
