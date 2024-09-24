@@ -1,0 +1,72 @@
+module lab3_4
+(
+	input [3:0] a, b,
+	input sel,
+	output
+
+
+
+
+module lab3_1
+#(parameter w=4)
+(
+	input [w-1:0] a, b,
+	output reg [w-1:0] dmin, dmax);
+
+
+always @* begin
+	if (a > b) begin
+		dmin = b;
+		dmax = a; end
+	else begin
+		dmin = a;
+		dmax = b; end
+end
+
+endmodule
+
+
+
+
+module lab3_2
+(
+	input [3:0] a,
+	output reg [6:0] d7seg);
+	reg [6:0] arr[9:0];
+
+initial begin
+	arr[0] = 7'h3f;
+	arr[1] = 7'h06; 
+	arr[2] = 7'h5b; 
+	arr[3] = 7'h4f; 
+	arr[4] = 7'h66; 
+	arr[5] = 7'h6d; 
+	arr[6] = 7'h7d; 
+	arr[7] = 7'h07; 
+	arr[8] = 7'h7f; 
+	arr[9] = 7'h6f; end
+	
+
+always @*
+	d7seg = (a <= 4'h9) ? arr[a] : 7'h0e;
+
+endmodule
+
+
+
+module lab3_3
+#(parameter w = 4)
+(
+	input [w-1:0] a, b,
+	input sel,
+	output reg [w-1:0] res);
+
+
+always @* begin
+	if(sel)
+		res = a;
+	else
+		res = b;
+end
+
+endmodule

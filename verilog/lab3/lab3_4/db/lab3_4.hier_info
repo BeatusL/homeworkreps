@@ -1,0 +1,119 @@
+|lab3_4
+a[0] => lab3_1:lab3_1_inst.a[0]
+a[1] => lab3_1:lab3_1_inst.a[1]
+a[2] => lab3_1:lab3_1_inst.a[2]
+a[3] => lab3_1:lab3_1_inst.a[3]
+b[0] => lab3_1:lab3_1_inst.b[0]
+b[1] => lab3_1:lab3_1_inst.b[1]
+b[2] => lab3_1:lab3_1_inst.b[2]
+b[3] => lab3_1:lab3_1_inst.b[3]
+sel => lab3_3:lab3_3_inst.sel
+sel => dig1.DATAIN
+sel => dig2.DATAIN
+d7seg[0] <= lab3_3:lab3_3_inst.res[0]
+d7seg[1] <= lab3_3:lab3_3_inst.res[1]
+d7seg[2] <= lab3_3:lab3_3_inst.res[2]
+d7seg[3] <= lab3_3:lab3_3_inst.res[3]
+d7seg[4] <= lab3_3:lab3_3_inst.res[4]
+d7seg[5] <= lab3_3:lab3_3_inst.res[5]
+d7seg[6] <= lab3_3:lab3_3_inst.res[6]
+dig4 <= <GND>
+dig3 <= <GND>
+dig2 <= sel.DB_MAX_OUTPUT_PORT_TYPE
+dig1 <= sel.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_4|lab3_1:lab3_1_inst
+a[0] => LessThan0.IN4
+a[0] => dmin.DATAA
+a[0] => dmax.DATAB
+a[1] => LessThan0.IN3
+a[1] => dmin.DATAA
+a[1] => dmax.DATAB
+a[2] => LessThan0.IN2
+a[2] => dmin.DATAA
+a[2] => dmax.DATAB
+a[3] => LessThan0.IN1
+a[3] => dmin.DATAA
+a[3] => dmax.DATAB
+b[0] => LessThan0.IN8
+b[0] => dmin.DATAB
+b[0] => dmax.DATAA
+b[1] => LessThan0.IN7
+b[1] => dmin.DATAB
+b[1] => dmax.DATAA
+b[2] => LessThan0.IN6
+b[2] => dmin.DATAB
+b[2] => dmax.DATAA
+b[3] => LessThan0.IN5
+b[3] => dmin.DATAB
+b[3] => dmax.DATAA
+dmin[0] <= dmin.DB_MAX_OUTPUT_PORT_TYPE
+dmin[1] <= dmin.DB_MAX_OUTPUT_PORT_TYPE
+dmin[2] <= dmin.DB_MAX_OUTPUT_PORT_TYPE
+dmin[3] <= dmin.DB_MAX_OUTPUT_PORT_TYPE
+dmax[0] <= dmax.DB_MAX_OUTPUT_PORT_TYPE
+dmax[1] <= dmax.DB_MAX_OUTPUT_PORT_TYPE
+dmax[2] <= dmax.DB_MAX_OUTPUT_PORT_TYPE
+dmax[3] <= dmax.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_4|lab3_2:lab3_2_inst1
+a[0] => arr.RADDR
+a[1] => arr.RADDR1
+a[2] => arr.RADDR2
+a[3] => arr.RADDR3
+d7seg[0] <= arr.DATAOUT
+d7seg[1] <= arr.DATAOUT1
+d7seg[2] <= arr.DATAOUT2
+d7seg[3] <= arr.DATAOUT3
+d7seg[4] <= arr.DATAOUT4
+d7seg[5] <= arr.DATAOUT5
+d7seg[6] <= arr.DATAOUT6
+
+
+|lab3_4|lab3_2:lab3_2_inst2
+a[0] => arr.RADDR
+a[1] => arr.RADDR1
+a[2] => arr.RADDR2
+a[3] => arr.RADDR3
+d7seg[0] <= arr.DATAOUT
+d7seg[1] <= arr.DATAOUT1
+d7seg[2] <= arr.DATAOUT2
+d7seg[3] <= arr.DATAOUT3
+d7seg[4] <= arr.DATAOUT4
+d7seg[5] <= arr.DATAOUT5
+d7seg[6] <= arr.DATAOUT6
+
+
+|lab3_4|lab3_3:lab3_3_inst
+a[0] => res.DATAB
+a[1] => res.DATAB
+a[2] => res.DATAB
+a[3] => res.DATAB
+a[4] => res.DATAB
+a[5] => res.DATAB
+a[6] => res.DATAB
+b[0] => res.DATAA
+b[1] => res.DATAA
+b[2] => res.DATAA
+b[3] => res.DATAA
+b[4] => res.DATAA
+b[5] => res.DATAA
+b[6] => res.DATAA
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+res[0] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[1] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[2] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[3] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[4] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[5] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[6] <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+

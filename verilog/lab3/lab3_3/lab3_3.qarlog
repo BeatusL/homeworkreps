@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	D:/repos/verilog/lab3/lab3_3/lab3_3.qarlog
+
+Archive:	D:/repos/verilog/lab3/lab3_3/lab3_3.qar
+Date:		Tue Sep 24 21:56:35 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog/lab3/lab3_3/lab3_3.qpf
+D:/repos/verilog/lab3/lab3_3/lab3_3.qsf
+D:/repos/verilog/lab3/lab3_3/lab3_3.sv
+D:/repos/verilog/lab3/lab3_3/lab3_3.vwf
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

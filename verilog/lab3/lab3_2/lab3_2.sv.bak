@@ -1,0 +1,24 @@
+module lab3_2
+(
+	input [3:0] a,
+	output reg [6:0] d7seg);
+	reg [6:0] arr[9:0];
+
+initial begin
+	arr[0] = 7'h40
+	arr[1] = 7'h79; 
+	arr[2] = 7'h24; 
+	arr[3] = 7'h30; 
+	arr[4] = 7'h19; 
+	arr[5] = 7'h12; 
+	arr[6] = 7'h02; 
+	arr[7] = 7'h78; 
+	arr[8] = 7'h00; 
+	arr[9] = 7'h10; end
+	
+
+always @* begin
+	d7seg = (a <= 4'1001) ? arr[a] : 7'h0e;
+end
+
+endmodule
