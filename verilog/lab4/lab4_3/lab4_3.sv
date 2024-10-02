@@ -60,7 +60,7 @@ module lab4_3 (
 		.cm(cmd_par)
 	) counter (
 		.clk(clk),   
-		.ena(1), 
+		.ena(cmd_cout), 
 		.load(load_int),
 		.din(din_int),   
 		.dir(dir_int),   
