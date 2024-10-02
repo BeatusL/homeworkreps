@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/repos/verilog/lab4/lab4_1/simulation/qsim
+vhard_block
+Z1 !s110 1727861353
+!i10b 1
+!s100 Nihz1AFHba7fl=91@BhiM0
+Ifo89`j8<hhHWmRQ`h:=U02
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1727861352
+Z4 8lab4_1.vo
+Z5 Flab4_1.vo
+L0 1650
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1727861353.000000
+Z8 !s107 lab4_1.vo|
+Z9 !s90 -work|work|lab4_1.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vlab4_1
+R1
+!i10b 1
+!s100 UI?Qm1:K0hm_j26o;Rj6O2
+IM3T`fI_B;fO]3]XW6]zM_2
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vlab4_1_vlg_vec_tst
+R1
+!i10b 1
+!s100 ?Vd3<@aDl:c;M9TO:SeR]3
+Ij7:j5b2QglKzl@b=abaGi3
+R2
+R0
+w1727861351
+8lab4_1.vwf.vt
+Flab4_1.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 lab4_1.vwf.vt|
+!s90 -work|work|lab4_1.vwf.vt|
+!i113 1
+R10
+R11

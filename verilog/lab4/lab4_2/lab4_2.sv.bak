@@ -1,0 +1,41 @@
+module counter_divider #(
+	parameter cmd = 10  
+) (
+	input wire clk,     
+	input wire arst,   
+	input wire ena,
+	input wire load,
+	input [6:0] din,
+	input wire dir,
+
+	output reg cout   
+);
+
+reg [6:0] count;      
+
+always @(posedge clk or posedge arst) begin
+	if (count == cmd - 1) begin
+		count <= 0;
+		cout <= 1;
+	end
+	if (~arst) begin
+		count <= 0;
+		cout <= 0;
+	end else if (ena) begin
+		if (ena) begin
+			if (~load) count <= din
+			else if (dir) begin
+				count <= count + 1;
+            cout <= 0;
+			end else begin
+				count <= count - 1;
+            cout <= 0;
+			end
+		 else begin
+            count <= count + 1;
+            cout <= 0;
+        end
+    end
+end
+
+endmodule
