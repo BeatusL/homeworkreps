@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/02/2024 12:29:11"
+// Generated on "10/05/2024 16:19:10"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          lab4_1
 // 
@@ -60,16 +60,16 @@ end
 initial
 begin
 	ena = 1'b0;
-	ena = #70000 1'b1;
-	ena = #360000 1'b0;
+	ena = #20000 1'b1;
+	ena = #600000 1'b0;
 end 
 
 // srst
 initial
 begin
-	srst = 1'b0;
-	srst = #170000 1'b1;
-	srst = #10000 1'b0;
+	srst = 1'b1;
+	srst = #360000 1'b0;
+	srst = #20000 1'b1;
 end 
 endmodule
 

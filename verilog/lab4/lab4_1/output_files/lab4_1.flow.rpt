@@ -1,5 +1,5 @@
 Flow report for lab4_1
-Wed Oct 02 13:03:15 2024
+Sat Oct 05 16:19:12 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Oct 02 13:03:12 2024       ;
+; Flow Status                        ; Successful - Sat Oct 05 16:19:12 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab4_1                                      ;
 ; Top-level Entity Name              ; lab4_1                                      ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE6E22C8                                 ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 47 / 6,272 ( < 1 % )                        ;
-;     Total combinational functions  ; 46 / 6,272 ( < 1 % )                        ;
+; Total logic elements               ; 48 / 6,272 ( < 1 % )                        ;
+;     Total combinational functions  ; 45 / 6,272 ( < 1 % )                        ;
 ;     Dedicated logic registers      ; 33 / 6,272 ( < 1 % )                        ;
 ; Total registers                    ; 33                                          ;
 ; Total pins                         ; 4 / 92 ( 4 % )                              ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/02/2024 13:02:54 ;
+; Start date & time ; 10/05/2024 16:12:47 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab4_1              ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 2543371530776.172786337330844          ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 2543371530776.172813396605408          ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -91,11 +91,19 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4819 MB             ; 00:00:06                           ;
-; Fitter               ; 00:00:05     ; 1.0                     ; 6090 MB             ; 00:00:02                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4819 MB             ; 00:00:08                           ;
+; Fitter               ; 00:00:08     ; 1.0                     ; 6092 MB             ; 00:00:02                           ;
 ; Assembler            ; 00:00:01     ; 1.0                     ; 4671 MB             ; 00:00:00                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4842 MB             ; 00:00:01                           ;
-; Total                ; 00:00:19     ; --                      ; --                  ; 00:00:09                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 4845 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4630 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:00                           ;
+; Total                ; 00:00:34     ; --                      ; --                  ; 00:00:10                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -108,6 +116,14 @@ refer to the applicable agreement for further details.
 ; Fitter               ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -118,6 +134,14 @@ quartus_map --read_settings_files=on --write_settings_files=off lab4_1 -c lab4_1
 quartus_fit --read_settings_files=off --write_settings_files=off lab4_1 -c lab4_1
 quartus_asm --read_settings_files=off --write_settings_files=off lab4_1 -c lab4_1
 quartus_sta lab4_1 -c lab4_1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab4_1 -c lab4_1 --vector_source=D:/repos/verilog/lab4/lab4_1/lab4_1.vwf --testbench_file=D:/repos/verilog/lab4/lab4_1/simulation/qsim/lab4_1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab4/lab4_1/simulation/qsim/ lab4_1 -c lab4_1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab4_1 -c lab4_1 --vector_source=D:/repos/verilog/lab4/lab4_1/lab4_1.vwf --testbench_file=D:/repos/verilog/lab4/lab4_1/simulation/qsim/lab4_1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab4/lab4_1/simulation/qsim/ lab4_1 -c lab4_1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab4_1 -c lab4_1 --vector_source=D:/repos/verilog/lab4/lab4_1/lab4_1.vwf --testbench_file=D:/repos/verilog/lab4/lab4_1/simulation/qsim/lab4_1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab4/lab4_1/simulation/qsim/ lab4_1 -c lab4_1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab4_1 -c lab4_1 --vector_source=D:/repos/verilog/lab4/lab4_1/lab4_1.vwf --testbench_file=D:/repos/verilog/lab4/lab4_1/simulation/qsim/lab4_1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab4/lab4_1/simulation/qsim/ lab4_1 -c lab4_1
 
 
 

@@ -1,5 +1,5 @@
 Fitter report for lab4_1
-Wed Oct 02 13:03:10 2024
+Sat Oct 05 16:13:07 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -65,15 +65,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Wed Oct 02 13:03:10 2024       ;
+; Fitter Status                      ; Successful - Sat Oct 05 16:13:07 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab4_1                                      ;
 ; Top-level Entity Name              ; lab4_1                                      ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE6E22C8                                 ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 47 / 6,272 ( < 1 % )                        ;
-;     Total combinational functions  ; 46 / 6,272 ( < 1 % )                        ;
+; Total logic elements               ; 48 / 6,272 ( < 1 % )                        ;
+;     Total combinational functions  ; 45 / 6,272 ( < 1 % )                        ;
 ;     Dedicated logic registers      ; 33 / 6,272 ( < 1 % )                        ;
 ; Total registers                    ; 33                                          ;
 ; Total pins                         ; 4 / 92 ( 4 % )                              ;
@@ -152,7 +152,7 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.05        ;
+; Average used               ; 1.04        ;
 ; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
@@ -167,8 +167,8 @@ refer to the applicable agreement for further details.
 ; Type                ; Total [A + B]     ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+-------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                   ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 99 ) ; 0.00 % ( 0 / 99 )          ; 0.00 % ( 0 / 99 )        ;
-;     -- Achieved     ; 0.00 % ( 0 / 99 ) ; 0.00 % ( 0 / 99 )          ; 0.00 % ( 0 / 99 )        ;
+;     -- Requested    ; 0.00 % ( 0 / 98 ) ; 0.00 % ( 0 / 98 )          ; 0.00 % ( 0 / 98 )        ;
+;     -- Achieved     ; 0.00 % ( 0 / 98 ) ; 0.00 % ( 0 / 98 )          ; 0.00 % ( 0 / 98 )        ;
 ;                     ;                   ;                            ;                          ;
 ; Routing (by net)    ;                   ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )  ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -191,7 +191,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 89 )     ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 88 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 10 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -207,19 +207,19 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 +---------------------------------------------+----------------------+
 ; Resource                                    ; Usage                ;
 +---------------------------------------------+----------------------+
-; Total logic elements                        ; 47 / 6,272 ( < 1 % ) ;
-;     -- Combinational with no register       ; 14                   ;
-;     -- Register only                        ; 1                    ;
-;     -- Combinational with a register        ; 32                   ;
+; Total logic elements                        ; 48 / 6,272 ( < 1 % ) ;
+;     -- Combinational with no register       ; 15                   ;
+;     -- Register only                        ; 3                    ;
+;     -- Combinational with a register        ; 30                   ;
 ;                                             ;                      ;
 ; Logic element usage by number of LUT inputs ;                      ;
-;     -- 4 input functions                    ; 11                   ;
+;     -- 4 input functions                    ; 10                   ;
 ;     -- 3 input functions                    ; 0                    ;
 ;     -- <=2 input functions                  ; 35                   ;
-;     -- Register only                        ; 1                    ;
+;     -- Register only                        ; 3                    ;
 ;                                             ;                      ;
 ; Logic elements by mode                      ;                      ;
-;     -- normal mode                          ; 15                   ;
+;     -- normal mode                          ; 14                   ;
 ;     -- arithmetic mode                      ; 31                   ;
 ;                                             ;                      ;
 ; Total registers*                            ; 33 / 6,684 ( < 1 % ) ;
@@ -244,11 +244,11 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )        ;
 ; Oscillator blocks                           ; 0 / 1 ( 0 % )        ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )        ;
-; Average interconnect usage (total/H/V)      ; 0.1% / 0.0% / 0.1%   ;
-; Peak interconnect usage (total/H/V)         ; 0.3% / 0.3% / 0.5%   ;
+; Average interconnect usage (total/H/V)      ; 0.1% / 0.1% / 0.1%   ;
+; Peak interconnect usage (total/H/V)         ; 0.4% / 0.3% / 0.6%   ;
 ; Maximum fan-out                             ; 33                   ;
-; Highest non-global fan-out                  ; 32                   ;
-; Total fan-out                               ; 254                  ;
+; Highest non-global fan-out                  ; 33                   ;
+; Total fan-out                               ; 251                  ;
 ; Average fan-out                             ; 2.59                 ;
 +---------------------------------------------+----------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
@@ -262,19 +262,19 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 +---------------------------------------------+---------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                 ; Low                            ;
 ;                                             ;                     ;                                ;
-; Total logic elements                        ; 47 / 6272 ( < 1 % ) ; 0 / 6272 ( 0 % )               ;
-;     -- Combinational with no register       ; 14                  ; 0                              ;
-;     -- Register only                        ; 1                   ; 0                              ;
-;     -- Combinational with a register        ; 32                  ; 0                              ;
+; Total logic elements                        ; 48 / 6272 ( < 1 % ) ; 0 / 6272 ( 0 % )               ;
+;     -- Combinational with no register       ; 15                  ; 0                              ;
+;     -- Register only                        ; 3                   ; 0                              ;
+;     -- Combinational with a register        ; 30                  ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic element usage by number of LUT inputs ;                     ;                                ;
-;     -- 4 input functions                    ; 11                  ; 0                              ;
+;     -- 4 input functions                    ; 10                  ; 0                              ;
 ;     -- 3 input functions                    ; 0                   ; 0                              ;
 ;     -- <=2 input functions                  ; 35                  ; 0                              ;
-;     -- Register only                        ; 1                   ; 0                              ;
+;     -- Register only                        ; 3                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic elements by mode                      ;                     ;                                ;
-;     -- normal mode                          ; 15                  ; 0                              ;
+;     -- normal mode                          ; 14                  ; 0                              ;
 ;     -- arithmetic mode                      ; 31                  ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Total registers                             ; 33                  ; 0                              ;
@@ -297,8 +297,8 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 ;     -- Registered Output Connections        ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Internal Connections                        ;                     ;                                ;
-;     -- Total Connections                    ; 249                 ; 5                              ;
-;     -- Registered Connections               ; 66                  ; 0                              ;
+;     -- Total Connections                    ; 246                 ; 5                              ;
+;     -- Registered Connections               ; 65                  ; 0                              ;
 ;                                             ;                     ;                                ;
 ; External Connections                        ;                     ;                                ;
 ;     -- Top                                  ; 0                   ; 0                              ;
@@ -331,8 +331,8 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 ; clk  ; 23    ; 1        ; 0            ; 11           ; 7            ; 33                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; no        ;
-; ena  ; 105   ; 6        ; 34           ; 19           ; 14           ; 3                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; no        ;
-; srst ; 104   ; 6        ; 34           ; 18           ; 0            ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; no        ;
+; ena  ; 119   ; 7        ; 23           ; 24           ; 0            ; 33                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; no        ;
+; srst ; 121   ; 7        ; 23           ; 24           ; 14           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ; no        ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+-----------+
 
 
@@ -341,7 +341,7 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 +------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
 +------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; cout ; 106   ; 6        ; 34           ; 20           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; cout ; 120   ; 7        ; 23           ; 24           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 +------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -376,8 +376,8 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 ; 3        ; 0 / 11 ( 0 % )  ; 2.5V          ; --           ;
 ; 4        ; 0 / 14 ( 0 % )  ; 2.5V          ; --           ;
 ; 5        ; 0 / 13 ( 0 % )  ; 2.5V          ; --           ;
-; 6        ; 4 / 10 ( 40 % ) ; 2.5V          ; --           ;
-; 7        ; 0 / 13 ( 0 % )  ; 2.5V          ; --           ;
+; 6        ; 1 / 10 ( 10 % ) ; 2.5V          ; --           ;
+; 7        ; 3 / 13 ( 23 % ) ; 2.5V          ; --           ;
 ; 8        ; 0 / 12 ( 0 % )  ; 2.5V          ; --           ;
 +----------+-----------------+---------------+--------------+
 
@@ -491,9 +491,9 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 ; 101      ; 139        ; 6        ; ~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN                ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; 102      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; 103      ; 140        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; 104      ; 141        ; 6        ; srst                                                      ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 105      ; 142        ; 6        ; ena                                                       ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
-; 106      ; 146        ; 6        ; cout                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; 104      ; 141        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; 105      ; 142        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; 106      ; 146        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; 107      ;            ; --       ; VCCA2                                                     ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; 108      ;            ;          ; GNDA2                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 109      ;            ;          ; VCCD_PLL2                                                 ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -506,9 +506,9 @@ The pin-out file can be found in D:/repos/verilog/lab4/lab4_1/output_files/lab4_
 ; 116      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; 117      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; 118      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; 119      ; 163        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; 120      ; 164        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; 121      ; 165        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; 119      ; 163        ; 7        ; ena                                                       ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; 120      ; 164        ; 7        ; cout                                                      ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; 121      ; 165        ; 7        ; srst                                                      ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; 122      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; 123      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 124      ; 173        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -544,12 +544,12 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------+-------------------------------+
 ; cout     ; Incomplete set of assignments ;
 ; srst     ; Incomplete set of assignments ;
-; ena      ; Incomplete set of assignments ;
 ; clk      ; Incomplete set of assignments ;
+; ena      ; Incomplete set of assignments ;
 ; cout     ; Missing location assignment   ;
 ; srst     ; Missing location assignment   ;
-; ena      ; Missing location assignment   ;
 ; clk      ; Missing location assignment   ;
+; ena      ; Missing location assignment   ;
 +----------+-------------------------------+
 
 
@@ -558,7 +558,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+-------------+--------------+
-; |lab4_1                    ; 47 (47)     ; 33 (33)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 4    ; 0            ; 14 (14)      ; 1 (1)             ; 32 (32)          ; |lab4_1             ; lab4_1      ; work         ;
+; |lab4_1                    ; 48 (48)     ; 33 (33)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 4    ; 0            ; 15 (15)      ; 3 (3)             ; 30 (30)          ; |lab4_1             ; lab4_1      ; work         ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -569,9 +569,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ; TCOE ;
 +------+----------+---------------+---------------+-----------------------+-----+------+
 ; cout ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; srst ; Input    ; (6) 1314 ps   ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; ena  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; srst ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; clk  ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
+; ena  ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 +------+----------+---------------+---------------+-----------------------+-----+------+
 
 
@@ -581,13 +581,43 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout ; Pad To Core Index ; Setting ;
 +---------------------+-------------------+---------+
 ; srst                ;                   ;         ;
-;      - cout~0       ; 0                 ; 6       ;
-;      - count[0]~37  ; 1                 ; 6       ;
-; ena                 ;                   ;         ;
-;      - cout~0       ; 0                 ; 6       ;
-;      - count[0]~36  ; 0                 ; 6       ;
-;      - count[0]~37  ; 0                 ; 6       ;
+;      - cout~0       ; 1                 ; 6       ;
+;      - count[0]~36  ; 1                 ; 6       ;
 ; clk                 ;                   ;         ;
+; ena                 ;                   ;         ;
+;      - cout~reg0    ; 0                 ; 6       ;
+;      - count[0]     ; 0                 ; 6       ;
+;      - count[1]     ; 0                 ; 6       ;
+;      - count[2]     ; 0                 ; 6       ;
+;      - count[3]     ; 0                 ; 6       ;
+;      - count[4]     ; 0                 ; 6       ;
+;      - count[5]     ; 0                 ; 6       ;
+;      - count[6]     ; 0                 ; 6       ;
+;      - count[7]     ; 0                 ; 6       ;
+;      - count[8]     ; 0                 ; 6       ;
+;      - count[9]     ; 0                 ; 6       ;
+;      - count[10]    ; 0                 ; 6       ;
+;      - count[11]    ; 0                 ; 6       ;
+;      - count[12]    ; 0                 ; 6       ;
+;      - count[13]    ; 0                 ; 6       ;
+;      - count[14]    ; 0                 ; 6       ;
+;      - count[15]    ; 0                 ; 6       ;
+;      - count[16]    ; 0                 ; 6       ;
+;      - count[17]    ; 0                 ; 6       ;
+;      - count[18]    ; 0                 ; 6       ;
+;      - count[19]    ; 0                 ; 6       ;
+;      - count[20]    ; 0                 ; 6       ;
+;      - count[21]    ; 0                 ; 6       ;
+;      - count[22]    ; 0                 ; 6       ;
+;      - count[23]    ; 0                 ; 6       ;
+;      - count[24]    ; 0                 ; 6       ;
+;      - count[25]    ; 0                 ; 6       ;
+;      - count[26]    ; 0                 ; 6       ;
+;      - count[27]    ; 0                 ; 6       ;
+;      - count[28]    ; 0                 ; 6       ;
+;      - count[29]    ; 0                 ; 6       ;
+;      - count[30]    ; 0                 ; 6       ;
+;      - count[31]    ; 0                 ; 6       ;
 +---------------------+-------------------+---------+
 
 
@@ -597,8 +627,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name        ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +-------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; clk         ; PIN_23             ; 33      ; Clock        ; yes    ; Global Clock         ; GCLK2            ; --                        ;
-; count[0]~36 ; LCCOMB_X33_Y23_N4  ; 32      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
-; count[0]~37 ; LCCOMB_X33_Y23_N24 ; 32      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; count[0]~36 ; LCCOMB_X24_Y19_N30 ; 32      ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; ena         ; PIN_119            ; 33      ; Clock enable ; no     ; --                   ; --               ; --                        ;
 +-------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -607,7 +637,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 ; Name ; Location ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; clk  ; PIN_23   ; 33      ; 8                                    ; Global Clock         ; GCLK2            ; --                        ;
+; clk  ; PIN_23   ; 33      ; 1                                    ; Global Clock         ; GCLK2            ; --                        ;
 +------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
@@ -616,21 +646,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------+
 ; Routing Resource Type ; Usage                 ;
 +-----------------------+-----------------------+
-; Block interconnects   ; 47 / 32,401 ( < 1 % ) ;
-; C16 interconnects     ; 0 / 1,326 ( 0 % )     ;
-; C4 interconnects      ; 27 / 21,816 ( < 1 % ) ;
-; Direct links          ; 11 / 32,401 ( < 1 % ) ;
+; Block interconnects   ; 44 / 32,401 ( < 1 % ) ;
+; C16 interconnects     ; 2 / 1,326 ( < 1 % )   ;
+; C4 interconnects      ; 26 / 21,816 ( < 1 % ) ;
+; Direct links          ; 10 / 32,401 ( < 1 % ) ;
 ; Global clocks         ; 1 / 10 ( 10 % )       ;
 ; Local interconnects   ; 44 / 10,320 ( < 1 % ) ;
 ; R24 interconnects     ; 0 / 1,289 ( 0 % )     ;
-; R4 interconnects      ; 20 / 28,186 ( < 1 % ) ;
+; R4 interconnects      ; 17 / 28,186 ( < 1 % ) ;
 +-----------------------+-----------------------+
 
 
 +---------------------------------------------------------------------------+
 ; LAB Logic Elements                                                        ;
 +---------------------------------------------+-----------------------------+
-; Number of Logic Elements  (Average = 15.67) ; Number of LABs  (Total = 3) ;
+; Number of Logic Elements  (Average = 16.00) ; Number of LABs  (Total = 3) ;
 +---------------------------------------------+-----------------------------+
 ; 1                                           ; 0                           ;
 ; 2                                           ; 0                           ;
@@ -646,18 +676,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 12                                          ; 0                           ;
 ; 13                                          ; 0                           ;
 ; 14                                          ; 0                           ;
-; 15                                          ; 1                           ;
-; 16                                          ; 2                           ;
+; 15                                          ; 0                           ;
+; 16                                          ; 3                           ;
 +---------------------------------------------+-----------------------------+
 
 
 +------------------------------------------------------------------+
 ; LAB-wide Signals                                                 ;
 +------------------------------------+-----------------------------+
-; LAB-wide Signals  (Average = 2.33) ; Number of LABs  (Total = 3) ;
+; LAB-wide Signals  (Average = 2.67) ; Number of LABs  (Total = 3) ;
 +------------------------------------+-----------------------------+
 ; 1 Clock                            ; 3                           ;
-; 1 Clock enable                     ; 2                           ;
+; 1 Clock enable                     ; 3                           ;
 ; 1 Sync. clear                      ; 2                           ;
 +------------------------------------+-----------------------------+
 
@@ -665,7 +695,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                        ;
 +----------------------------------------------+-----------------------------+
-; Number of Signals Sourced  (Average = 26.33) ; Number of LABs  (Total = 3) ;
+; Number of Signals Sourced  (Average = 26.00) ; Number of LABs  (Total = 3) ;
 +----------------------------------------------+-----------------------------+
 ; 0                                            ; 0                           ;
 ; 1                                            ; 0                           ;
@@ -696,8 +726,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 26                                           ; 0                           ;
 ; 27                                           ; 0                           ;
 ; 28                                           ; 0                           ;
-; 29                                           ; 0                           ;
-; 30                                           ; 1                           ;
+; 29                                           ; 1                           ;
+; 30                                           ; 0                           ;
 ; 31                                           ; 0                           ;
 ; 32                                           ; 1                           ;
 +----------------------------------------------+-----------------------------+
@@ -731,7 +761,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +----------------------------------------------+-----------------------------+
-; Number of Distinct Inputs  (Average = 14.67) ; Number of LABs  (Total = 3) ;
+; Number of Distinct Inputs  (Average = 15.00) ; Number of LABs  (Total = 3) ;
 +----------------------------------------------+-----------------------------+
 ; 0                                            ; 0                           ;
 ; 1                                            ; 0                           ;
@@ -739,8 +769,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 3                                            ; 1                           ;
 ; 4                                            ; 0                           ;
 ; 5                                            ; 0                           ;
-; 6                                            ; 1                           ;
-; 7                                            ; 0                           ;
+; 6                                            ; 0                           ;
+; 7                                            ; 1                           ;
 ; 8                                            ; 0                           ;
 ; 9                                            ; 0                           ;
 ; 10                                           ; 0                           ;
@@ -835,8 +865,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Total Fail         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
 ; cout               ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; srst               ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; ena                ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; clk                ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; ena                ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -921,13 +951,13 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  9 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  13 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  12 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X23_Y12 to location X34_Y24
@@ -942,9 +972,9 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file D:/repos/verilog/lab4/lab4_1/output_files/lab4_1.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6090 megabytes
-    Info: Processing ended: Wed Oct 02 13:03:10 2024
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 6092 megabytes
+    Info: Processing ended: Sat Oct 05 16:13:07 2024
+    Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:02
 
 

@@ -1,5 +1,5 @@
 module lab4_2 #(
-	parameter cm = 100
+	parameter cm = 14
 ) (
 	input wire clk,
 	input wire arst,

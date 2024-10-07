@@ -1,5 +1,5 @@
 Fitter report for lab4_3
-Fri Oct 04 12:39:59 2024
+Sat Oct 05 16:41:12 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Oct 04 12:39:59 2024       ;
+; Fitter Status                      ; Successful - Sat Oct 05 16:41:12 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab4_3                                      ;
 ; Top-level Entity Name              ; lab4_3                                      ;
@@ -158,8 +158,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.5%      ;
-;     Processors 3-12        ;   0.5%      ;
+;     Processors 2-12        ;   0.6%      ;
 +----------------------------+-------------+
 
 
@@ -985,7 +984,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.14 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.15 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1004,9 +1003,9 @@ Warning (169177): 9 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2
     Info (169178): Pin din[6] uses I/O standard 3.3-V LVCMOS at 89 File: D:/repos/verilog/lab4/lab4_3/lab4_3.sv Line: 5
 Info (144001): Generated suppressed messages file D:/repos/verilog/lab4/lab4_3/output_files/lab4_3.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 6102 megabytes
-    Info: Processing ended: Fri Oct 04 12:39:59 2024
-    Info: Elapsed time: 00:00:07
+    Info: Peak virtual memory: 6097 megabytes
+    Info: Processing ended: Sat Oct 05 16:41:12 2024
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:02
 
 

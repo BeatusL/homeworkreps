@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab4_2
-Tue Oct 01 16:29:29 2024
+Sat Oct 05 16:30:25 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -44,13 +44,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 01 16:29:29 2024       ;
+; Analysis & Synthesis Status        ; Successful - Sat Oct 05 16:30:25 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab4_2                                      ;
 ; Top-level Entity Name              ; lab4_2                                      ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 39                                          ;
-;     Total combinational functions  ; 39                                          ;
+; Total logic elements               ; 34                                          ;
+;     Total combinational functions  ; 34                                          ;
 ;     Dedicated logic registers      ; 7                                           ;
 ; Total registers                    ; 7                                           ;
 ; Total pins                         ; 19                                          ;
@@ -178,16 +178,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 39        ;
+; Estimated Total logic elements              ; 34        ;
 ;                                             ;           ;
-; Total combinational functions               ; 39        ;
+; Total combinational functions               ; 34        ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 19        ;
-;     -- 3 input functions                    ; 5         ;
-;     -- <=2 input functions                  ; 15        ;
+;     -- 4 input functions                    ; 16        ;
+;     -- 3 input functions                    ; 4         ;
+;     -- <=2 input functions                  ; 14        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 27        ;
+;     -- normal mode                          ; 22        ;
 ;     -- arithmetic mode                      ; 12        ;
 ;                                             ;           ;
 ; Total registers                             ; 7         ;
@@ -199,9 +199,9 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; dir~input ;
-; Maximum fan-out                             ; 11        ;
-; Total fan-out                               ; 173       ;
-; Average fan-out                             ; 2.06      ;
+; Maximum fan-out                             ; 7         ;
+; Total fan-out                               ; 156       ;
+; Average fan-out                             ; 1.97      ;
 +---------------------------------------------+-----------+
 
 
@@ -210,7 +210,7 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |lab4_2                    ; 39 (39)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 19   ; 0            ; |lab4_2             ; lab4_2      ; work         ;
+; |lab4_2                    ; 34 (34)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 19   ; 0            ; |lab4_2             ; lab4_2      ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -244,7 +244,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+-------+-----------------------------------------------+
 ; Parameter Name ; Value ; Type                                          ;
 +----------------+-------+-----------------------------------------------+
-; cm             ; 100   ; Signed Integer                                ;
+; cm             ; 14    ; Signed Integer                                ;
 +----------------+-------+-----------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -257,17 +257,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; boundary_port         ; 19                          ;
 ; cycloneiii_ff         ; 7                           ;
 ;     ENA CLR           ; 7                           ;
-; cycloneiii_lcell_comb ; 39                          ;
+; cycloneiii_lcell_comb ; 34                          ;
 ;     arith             ; 12                          ;
 ;         2 data inputs ; 12                          ;
-;     normal            ; 27                          ;
+;     normal            ; 22                          ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 1                           ;
-;         3 data inputs ; 5                           ;
-;         4 data inputs ; 19                          ;
+;         3 data inputs ; 4                           ;
+;         4 data inputs ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 3.20                        ;
+; Average LUT depth     ; 3.26                        ;
 +-----------------------+-----------------------------+
 
 
@@ -286,7 +285,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Oct 01 16:29:18 2024
+    Info: Processing started: Sat Oct 05 16:30:14 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab4_2 -c lab4_2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -300,14 +299,14 @@ Warning (10230): Verilog HDL assignment warning at lab4_2.sv(37): truncated valu
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 58 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 53 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 12 input pins
     Info (21059): Implemented 7 output pins
-    Info (21061): Implemented 39 logic cells
+    Info (21061): Implemented 34 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4818 megabytes
-    Info: Processing ended: Tue Oct 01 16:29:29 2024
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Peak virtual memory: 4819 megabytes
+    Info: Processing ended: Sat Oct 05 16:30:26 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:08
 
 

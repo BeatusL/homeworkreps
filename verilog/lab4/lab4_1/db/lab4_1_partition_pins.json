@@ -12,11 +12,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "ena",
+					"name" : "clk",
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "ena",
 					"strict" : false
 				}
 			]

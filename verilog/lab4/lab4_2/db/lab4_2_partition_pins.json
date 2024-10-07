@@ -44,11 +44,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "din[6]",
+					"name" : "din[4]",
 					"strict" : false
 				},
 				{
-					"name" : "din[5]",
+					"name" : "din[1]",
 					"strict" : false
 				},
 				{
@@ -60,7 +60,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "din[4]",
+					"name" : "din[5]",
+					"strict" : false
+				},
+				{
+					"name" : "din[6]",
 					"strict" : false
 				},
 				{
@@ -73,10 +77,6 @@
 				},
 				{
 					"name" : "ena",
-					"strict" : false
-				},
-				{
-					"name" : "din[1]",
 					"strict" : false
 				}
 			]
