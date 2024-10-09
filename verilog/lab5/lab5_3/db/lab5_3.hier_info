@@ -1,0 +1,55 @@
+|lab5_3
+clk => clk.IN1
+swa[0] => swa[0].IN1
+swa[1] => swa[1].IN1
+swa[2] => swa[2].IN1
+swa[3] => swa[3].IN1
+swb[0] => swb[0].IN1
+swb[1] => swb[1].IN1
+swb[2] => swb[2].IN1
+swb[3] => swb[3].IN1
+q[0] <= lab5_2:lab5_2.q
+q[1] <= lab5_2:lab5_2.q
+q[2] <= lab5_2:lab5_2.q
+q[3] <= lab5_2:lab5_2.q
+q[4] <= lab5_2:lab5_2.q
+q[5] <= lab5_2:lab5_2.q
+q[6] <= lab5_2:lab5_2.q
+q[7] <= lab5_2:lab5_2.q
+
+
+|lab5_3|lab5_2:lab5_2
+da[0] => ta[0].DATAIN
+da[1] => ta[1].DATAIN
+da[2] => ta[2].DATAIN
+da[3] => ta[3].DATAIN
+db[0] => tb[0].DATAIN
+db[1] => tb[1].DATAIN
+db[2] => tb[2].DATAIN
+db[3] => tb[3].DATAIN
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+clk => tb[0].CLK
+clk => tb[1].CLK
+clk => tb[2].CLK
+clk => tb[3].CLK
+clk => ta[0].CLK
+clk => ta[1].CLK
+clk => ta[2].CLK
+clk => ta[3].CLK
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

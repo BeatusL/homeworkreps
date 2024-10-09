@@ -1,0 +1,27 @@
+|lab5_1
+clk => srst.CLK
+clk => d[0].CLK
+clk => d[1].CLK
+clk => d[2].CLK
+clk => d[3].CLK
+clk => tmp_srst.CLK
+clk => tmp_d[0].CLK
+clk => tmp_d[1].CLK
+clk => tmp_d[2].CLK
+clk => tmp_d[3].CLK
+clk => state~2.DATAIN
+srst_in => tmp_srst.DATAIN
+din[0] => tmp_d[0].DATAIN
+din[1] => tmp_d[1].DATAIN
+din[2] => tmp_d[2].DATAIN
+din[3] => tmp_d[3].DATAIN
+q[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
