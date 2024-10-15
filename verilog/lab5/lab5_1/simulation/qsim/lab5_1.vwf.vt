@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/09/2024 04:16:49"
+// Generated on "10/11/2024 18:13:04"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          lab5_1
 // 
@@ -45,7 +45,7 @@ lab5_1 i1 (
 );
 initial 
 begin 
-#1000000 $finish;
+#2000000 $finish;
 end 
 
 // clk
@@ -55,36 +55,105 @@ begin
 	clk = #10000 1'b1;
 	#10000;
 end 
-
-// srst_in
-initial
-begin
-	srst_in = 1'b0;
-	srst_in = #420000 1'b1;
-	srst_in = #200000 1'b0;
-end 
 // din[ 3 ]
 initial
 begin
 	din[3] = 1'b0;
-	din[3] = #320000 1'b1;
+	din[3] = #20000 1'b1;
 	din[3] = #20000 1'b0;
+	din[3] = #120000 1'b1;
+	din[3] = #140000 1'b0;
+	din[3] = #60000 1'b1;
+	din[3] = #20000 1'b0;
+	din[3] = #100000 1'b1;
+	din[3] = #140000 1'b0;
+	din[3] = #100000 1'b1;
+	din[3] = #20000 1'b0;
+	din[3] = #60000 1'b1;
+	din[3] = #140000 1'b0;
+	din[3] = #40000 1'b1;
+	din[3] = #20000 1'b0;
+	din[3] = #240000 1'b1;
+	din[3] = #40000 1'b0;
+	din[3] = #160000 1'b1;
+	din[3] = #160000 1'b0;
+	din[3] = #160000 1'b1;
+	din[3] = #160000 1'b0;
 end 
 // din[ 2 ]
 initial
 begin
 	din[2] = 1'b0;
-	din[2] = #180000 1'b1;
+	din[2] = #20000 1'b1;
 	din[2] = #20000 1'b0;
+	din[2] = #40000 1'b1;
+	din[2] = #80000 1'b0;
+	din[2] = #80000 1'b1;
+	din[2] = #60000 1'b0;
+	din[2] = #60000 1'b1;
+	din[2] = #20000 1'b0;
+	din[2] = #20000 1'b1;
+	din[2] = #80000 1'b0;
+	din[2] = #80000 1'b1;
+	din[2] = #60000 1'b0;
+	din[2] = #100000 1'b1;
+	din[2] = #100000 1'b0;
+	din[2] = #60000 1'b1;
+	din[2] = #80000 1'b0;
+	din[2] = #280000 1'b1;
+	din[2] = #40000 1'b0;
+	din[2] = #80000 1'b1;
+	# 80000;
+	repeat(3)
+	begin
+		din[2] = 1'b0;
+		din[2] = #80000 1'b1;
+		# 80000;
+	end
+	din[2] = 1'b0;
 end 
 // din[ 1 ]
 initial
 begin
 	din[1] = 1'b0;
-	din[1] = #120000 1'b1;
+	din[1] = #20000 1'b1;
+	din[1] = #60000 1'b0;
+	din[1] = #40000 1'b1;
+	din[1] = #40000 1'b0;
+	din[1] = #40000 1'b1;
+	din[1] = #40000 1'b0;
+	din[1] = #40000 1'b1;
 	din[1] = #20000 1'b0;
-	din[1] = #100000 1'b1;
+	din[1] = #60000 1'b1;
+	din[1] = #40000 1'b0;
+	din[1] = #40000 1'b1;
+	din[1] = #40000 1'b0;
+	din[1] = #40000 1'b1;
+	din[1] = #40000 1'b0;
+	din[1] = #40000 1'b1;
+	din[1] = #40000 1'b0;
+	din[1] = #40000 1'b1;
+	din[1] = #60000 1'b0;
+	din[1] = #20000 1'b1;
+	din[1] = #60000 1'b0;
+	din[1] = #20000 1'b1;
+	din[1] = #40000 1'b0;
+	din[1] = #40000 1'b1;
 	din[1] = #20000 1'b0;
+	din[1] = #20000 1'b1;
+	din[1] = #20000 1'b0;
+	din[1] = #40000 1'b1;
+	din[1] = #20000 1'b0;
+	din[1] = #20000 1'b1;
+	din[1] = #20000 1'b0;
+	din[1] = #160000 1'b1;
+	# 40000;
+	repeat(9)
+	begin
+		din[1] = 1'b0;
+		din[1] = #40000 1'b1;
+		# 40000;
+	end
 end 
 // din[ 0 ]
 initial
@@ -92,8 +161,58 @@ begin
 	din[0] = 1'b0;
 	din[0] = #20000 1'b1;
 	din[0] = #20000 1'b0;
-	din[0] = #340000 1'b1;
+	din[0] = #20000 1'b1;
+	# 20000;
+	repeat(5)
+	begin
+		din[0] = 1'b0;
+		din[0] = #20000 1'b1;
+		# 20000;
+	end
+	din[0] = 1'b0;
+	din[0] = #20000 1'b1;
 	din[0] = #20000 1'b0;
+	din[0] = #20000 1'b1;
+	din[0] = #60000 1'b0;
+	din[0] = #20000 1'b1;
+	# 20000;
+	repeat(4)
+	begin
+		din[0] = 1'b0;
+		din[0] = #20000 1'b1;
+		# 20000;
+	end
+	din[0] = 1'b0;
+	din[0] = #60000 1'b1;
+	din[0] = #20000 1'b0;
+	din[0] = #20000 1'b1;
+	din[0] = #60000 1'b0;
+	din[0] = #20000 1'b1;
+	din[0] = #60000 1'b0;
+	din[0] = #20000 1'b1;
+	din[0] = #20000 1'b0;
+	din[0] = #20000 1'b1;
+	din[0] = #20000 1'b0;
+	din[0] = #80000 1'b1;
+	din[0] = #60000 1'b0;
+	din[0] = #200000 1'b1;
+	# 20000;
+	repeat(18)
+	begin
+		din[0] = 1'b0;
+		din[0] = #20000 1'b1;
+		# 20000;
+	end
+end 
+
+// srst_in
+initial
+begin
+	srst_in = 1'b0;
+	srst_in = #1020000 1'b1;
+	srst_in = #20000 1'b0;
+	srst_in = #80000 1'b1;
+	srst_in = #20000 1'b0;
 end 
 endmodule
 

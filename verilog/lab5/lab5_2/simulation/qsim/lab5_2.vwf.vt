@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/09/2024 11:58:30"
+// Generated on "10/11/2024 18:22:14"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          lab5_2
 // 
@@ -64,37 +64,55 @@ end
 initial
 begin
 	da[5] = 1'b0;
+	da[5] = #640000 1'b1;
 end 
 // da[ 4 ]
 initial
 begin
 	da[4] = 1'b0;
+	da[4] = #320000 1'b1;
+	da[4] = #320000 1'b0;
+	da[4] = #320000 1'b1;
 end 
 // da[ 3 ]
 initial
 begin
+	repeat(3)
+	begin
+		da[3] = 1'b0;
+		da[3] = #160000 1'b1;
+		# 160000;
+	end
 	da[3] = 1'b0;
-	da[3] = #40000 1'b1;
-	da[3] = #180000 1'b0;
 end 
 // da[ 2 ]
 initial
 begin
+	repeat(6)
+	begin
+		da[2] = 1'b0;
+		da[2] = #80000 1'b1;
+		# 80000;
+	end
 	da[2] = 1'b0;
-	da[2] = #40000 1'b1;
-	da[2] = #180000 1'b0;
 end 
 // da[ 1 ]
 initial
 begin
+	repeat(12)
+	begin
+		da[1] = 1'b0;
+		da[1] = #40000 1'b1;
+		# 40000;
+	end
 	da[1] = 1'b0;
 end 
 // da[ 0 ]
-initial
+always
 begin
 	da[0] = 1'b0;
-	da[0] = #40000 1'b1;
-	da[0] = #580000 1'b0;
+	da[0] = #20000 1'b1;
+	#20000;
 end 
 // db[ 6 ]
 initial
@@ -105,58 +123,65 @@ end
 initial
 begin
 	db[5] = 1'b0;
+	db[5] = #640000 1'b1;
 end 
 // db[ 4 ]
 initial
 begin
 	db[4] = 1'b0;
+	db[4] = #320000 1'b1;
+	db[4] = #640000 1'b0;
 end 
 // db[ 3 ]
 initial
 begin
 	db[3] = 1'b0;
-	db[3] = #40000 1'b1;
-	db[3] = #20000 1'b0;
-	db[3] = #440000 1'b1;
-	db[3] = #120000 1'b0;
+	db[3] = #160000 1'b1;
+	db[3] = #320000 1'b0;
+	db[3] = #320000 1'b1;
 end 
 // db[ 2 ]
 initial
 begin
 	db[2] = 1'b0;
-	db[2] = #100000 1'b1;
-	db[2] = #20000 1'b0;
-	db[2] = #220000 1'b1;
-	db[2] = #160000 1'b0;
+	db[2] = #80000 1'b1;
+	# 160000;
+	repeat(2)
+	begin
+		db[2] = 1'b0;
+		db[2] = #160000 1'b1;
+		# 160000;
+	end
+	db[2] = 1'b0;
 end 
 // db[ 1 ]
 initial
 begin
 	db[1] = 1'b0;
 	db[1] = #40000 1'b1;
-	db[1] = #20000 1'b0;
-	db[1] = #200000 1'b1;
-	db[1] = #80000 1'b0;
-	db[1] = #80000 1'b1;
-	db[1] = #80000 1'b0;
-	db[1] = #80000 1'b1;
-	db[1] = #40000 1'b0;
+	# 80000;
+	repeat(5)
+	begin
+		db[1] = 1'b0;
+		db[1] = #80000 1'b1;
+		# 80000;
+	end
+	db[1] = 1'b0;
 end 
 // db[ 0 ]
 initial
 begin
 	db[0] = 1'b0;
-	db[0] = #100000 1'b1;
-	db[0] = #20000 1'b0;
-	# 100000;
-	repeat(4)
+	db[0] = #20000 1'b1;
+	# 40000;
+	repeat(11)
 	begin
-		db[0] = 1'b1;
-		db[0] = #40000 1'b0;
+		db[0] = 1'b0;
+		db[0] = #40000 1'b1;
 		# 40000;
 	end
-	db[0] = 1'b1;
-	db[0] = #40000 1'b0;
+	db[0] = 1'b0;
+	db[0] = #40000 1'b1;
 end 
 endmodule
 

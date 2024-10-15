@@ -1,0 +1,18 @@
+module lab6_1 
+#(parameter w = 6)
+(	input [w-1:0]a, b,
+	output [w-1:0]min, max
+	);
+
+
+function [w-1:0] fmin;
+input [w-1:0] a, b;
+fmin = (a>b)? b:a;
+endfunction
+
+function [w-1:0] fmax;
+input [w-1:0] a, b;
+fmin = (a>b)? a:b;
+endfunction
+
+endmodule

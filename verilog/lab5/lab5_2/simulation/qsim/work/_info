@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/repos/verilog/lab5/lab5_2/simulation/qsim
 vhard_block
-Z1 !s110 1728464313
+Z1 !s110 1728660142
 !i10b 1
 !s100 GUSSVUN?a=7=2QhkoLdAN0
 IUY0S^;adzN0<2MIGGaf^j0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1728464312
+Z3 w1728660141
 Z4 8lab5_2.vo
 Z5 Flab5_2.vo
 L0 2964
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1728464313.000000
+Z7 !s108 1728660141.000000
 Z8 !s107 lab5_2.vo|
 Z9 !s90 -work|work|lab5_2.vo|
 !i113 1
@@ -53,11 +53,11 @@ R11
 vlab5_2_vlg_vec_tst
 R1
 !i10b 1
-!s100 M7I5IDB0bUfo`jg?37Bzj2
-IYmOU>d3DNWTHWAVC`=bMA3
+!s100 >]YAW<?a;nS_ShU^:30:L2
+IfAbBkn68@kzZETUnK37Bk3
 R2
 R0
-w1728464310
+w1728660134
 8lab5_2.vwf.vt
 Flab5_2.vwf.vt
 L0 29
@@ -65,7 +65,7 @@ R6
 r1
 !s85 0
 31
-R7
+!s108 1728660142.000000
 !s107 lab5_2.vwf.vt|
 !s90 -work|work|lab5_2.vwf.vt|
 !i113 1

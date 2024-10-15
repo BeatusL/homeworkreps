@@ -1,5 +1,6 @@
 vendor_name = ModelSim
 source_file = 1, D:/repos/verilog/lab5/lab5_1/lab5_1.sv
+source_file = 1, D:/repos/verilog/lab5/lab5_1/lab5_1.vwf
 source_file = 1, D:/repos/verilog/lab5/lab5_1/db/lab5_1.cbx.xml
 design_name = lab5_1
 instance = comp, \q[0]~output , q[0]~output, lab5_1, 1

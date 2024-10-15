@@ -1,5 +1,5 @@
 Flow report for lab5_1
-Wed Oct 09 04:16:51 2024
+Fri Oct 11 18:13:11 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Oct 09 04:16:51 2024       ;
+; Flow Status                        ; Successful - Fri Oct 11 18:13:11 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab5_1                                      ;
 ; Top-level Entity Name              ; lab5_1                                      ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/09/2024 04:14:45 ;
+; Start date & time ; 10/11/2024 17:55:40 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab5_1              ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 2543371530776.172843648441376          ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 2543371530776.172865853923960          ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -91,14 +91,19 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4819 MB             ; 00:00:08                           ;
-; Fitter               ; 00:00:06     ; 1.1                     ; 6072 MB             ; 00:00:01                           ;
-; Assembler            ; 00:00:01     ; 1.0                     ; 4671 MB             ; 00:00:00                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4838 MB             ; 00:00:00                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4630 MB             ; 00:00:00                           ;
-; Total                ; 00:00:26     ; --                      ; --                  ; 00:00:09                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4818 MB             ; 00:00:06                           ;
+; Fitter               ; 00:00:09     ; 1.0                     ; 6073 MB             ; 00:00:03                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4672 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:08     ; 1.0                     ; 4838 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4621 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:06     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
+; Total                ; 00:00:46     ; --                      ; --                  ; 00:00:19                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,6 +119,11 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -124,7 +134,12 @@ quartus_map --read_settings_files=on --write_settings_files=off lab5_1 -c lab5_1
 quartus_fit --read_settings_files=off --write_settings_files=off lab5_1 -c lab5_1
 quartus_asm --read_settings_files=off --write_settings_files=off lab5_1 -c lab5_1
 quartus_sta lab5_1 -c lab5_1
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_1 -c lab5_1 --vector_source=D:/repos/verilog/lab5/lab5_1/Waveform.vwf --testbench_file=D:/repos/verilog/lab5/lab5_1/simulation/qsim/Waveform.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_1 -c lab5_1 --vector_source=D:/repos/verilog/lab5/lab5_1/lab5_1.vwf --testbench_file=D:/repos/verilog/lab5/lab5_1/simulation/qsim/lab5_1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab5/lab5_1/simulation/qsim/ lab5_1 -c lab5_1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_1 -c lab5_1 --vector_source=D:/repos/verilog/lab5/lab5_1/lab5_1.vwf --testbench_file=D:/repos/verilog/lab5/lab5_1/simulation/qsim/lab5_1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab5/lab5_1/simulation/qsim/ lab5_1 -c lab5_1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_1 -c lab5_1 --vector_source=D:/repos/verilog/lab5/lab5_1/lab5_1.vwf --testbench_file=D:/repos/verilog/lab5/lab5_1/simulation/qsim/lab5_1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab5/lab5_1/simulation/qsim/ lab5_1 -c lab5_1
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_1 -c lab5_1 --vector_source=D:/repos/verilog/lab5/lab5_1/lab5_1.vwf --testbench_file=D:/repos/verilog/lab5/lab5_1/simulation/qsim/lab5_1.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab5/lab5_1/simulation/qsim/ lab5_1 -c lab5_1
 

@@ -21,6 +21,7 @@ after 2500 simTimestamp
 run -all
 quit -f
 
+
 </modelsim_script>
 <modelsim_script_timing>onerror {exit -code 1}
 vlib work
@@ -39,6 +40,7 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
 
 </modelsim_script_timing>
 <hdl_lang>verilog</hdl_lang>
@@ -425,7 +427,8 @@ TRANSITION_LIST("da[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 640.0;
+		LEVEL 1 FOR 360.0;
 	}
 }
 
@@ -434,7 +437,14 @@ TRANSITION_LIST("da[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 320.0;
+			LEVEL 1 FOR 320.0;
+		}
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 40.0;
 	}
 }
 
@@ -443,9 +453,13 @@ TRANSITION_LIST("da[3]")
 	NODE
 	{
 		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 3;
+			LEVEL 0 FOR 160.0;
+			LEVEL 1 FOR 160.0;
+		}
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 180.0;
-		LEVEL 0 FOR 780.0;
 	}
 }
 
@@ -454,9 +468,13 @@ TRANSITION_LIST("da[2]")
 	NODE
 	{
 		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 6;
+			LEVEL 0 FOR 80.0;
+			LEVEL 1 FOR 80.0;
+		}
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 180.0;
-		LEVEL 0 FOR 780.0;
 	}
 }
 
@@ -465,7 +483,13 @@ TRANSITION_LIST("da[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		NODE
+		{
+			REPEAT = 12;
+			LEVEL 0 FOR 40.0;
+			LEVEL 1 FOR 40.0;
+		}
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -474,9 +498,12 @@ TRANSITION_LIST("da[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 580.0;
-		LEVEL 0 FOR 380.0;
+		NODE
+		{
+			REPEAT = 25;
+			LEVEL 0 FOR 20.0;
+			LEVEL 1 FOR 20.0;
+		}
 	}
 }
 
@@ -494,7 +521,8 @@ TRANSITION_LIST("db[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 640.0;
+		LEVEL 1 FOR 360.0;
 	}
 }
 
@@ -503,7 +531,9 @@ TRANSITION_LIST("db[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 640.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -512,11 +542,10 @@ TRANSITION_LIST("db[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 440.0;
-		LEVEL 1 FOR 120.0;
-		LEVEL 0 FOR 380.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 200.0;
 	}
 }
 
@@ -525,11 +554,15 @@ TRANSITION_LIST("db[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 220.0;
+		LEVEL 0 FOR 80.0;
 		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 500.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 0 FOR 160.0;
+			LEVEL 1 FOR 160.0;
+		}
+		LEVEL 0 FOR 120.0;
 	}
 }
 
@@ -539,18 +572,14 @@ TRANSITION_LIST("db[1]")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 200.0;
 		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
 		NODE
 		{
-			REPEAT = 1;
-			LEVEL 1 FOR 80.0;
+			REPEAT = 5;
 			LEVEL 0 FOR 80.0;
+			LEVEL 1 FOR 80.0;
 		}
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 380.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
@@ -559,17 +588,16 @@ TRANSITION_LIST("db[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
 		NODE
 		{
-			REPEAT = 4;
-			LEVEL 1 FOR 40.0;
+			REPEAT = 11;
 			LEVEL 0 FOR 40.0;
+			LEVEL 1 FOR 40.0;
 		}
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 420.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 	}
 }
 

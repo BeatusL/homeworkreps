@@ -1,5 +1,5 @@
 Flow report for lab5_2
-Wed Oct 09 11:58:32 2024
+Fri Oct 11 18:22:21 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Oct 09 11:58:32 2024       ;
+; Flow Status                        ; Successful - Fri Oct 11 18:22:21 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab5_2                                      ;
 ; Top-level Entity Name              ; lab5_2                                      ;
@@ -102,7 +102,11 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4633 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4624 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4633 MB             ; 00:00:00                           ;
-; Total                ; 00:01:44     ; --                      ; --                  ; 00:00:09                           ;
+; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4624 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:07     ; 1.0                     ; 4633 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:08     ; 1.0                     ; 4624 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:07     ; 1.0                     ; 4633 MB             ; 00:00:01                           ;
+; Total                ; 00:02:09     ; --                      ; --                  ; 00:00:13                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,6 +119,10 @@ refer to the applicable agreement for further details.
 ; Fitter               ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
@@ -135,6 +143,11 @@ quartus_sta lab5_2 -c lab5_2
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_2 -c lab5_2 --vector_source=D:/repos/verilog/lab5/lab5_2/Waveform.vwf --testbench_file=D:/repos/verilog/lab5/lab5_2/simulation/qsim/Waveform.vwf.vt
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_2 -c lab5_2 --vector_source=D:/repos/verilog/lab5/lab5_2/lab5_2.vwf --testbench_file=D:/repos/verilog/lab5/lab5_2/simulation/qsim/lab5_2.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab5/lab5_2/simulation/qsim/ lab5_2 -c lab5_2
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_2 -c lab5_2 --vector_source=D:/repos/verilog/lab5/lab5_2/lab5_2.vwf --testbench_file=D:/repos/verilog/lab5/lab5_2/simulation/qsim/lab5_2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab5/lab5_2/simulation/qsim/ lab5_2 -c lab5_2
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_2 -c lab5_2 --vector_source=D:/repos/verilog/lab5/lab5_2/lab5_2.vwf --testbench_file=D:/repos/verilog/lab5/lab5_2/simulation/qsim/lab5_2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab5/lab5_2/simulation/qsim/ lab5_2 -c lab5_2
+quartus_sh --archive -revision lab5_2 -output D:/repos/verilog/lab5/lab5_2/lab5_2.qar lab5_2
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_2 -c lab5_2 --vector_source=D:/repos/verilog/lab5/lab5_2/lab5_2.vwf --testbench_file=D:/repos/verilog/lab5/lab5_2/simulation/qsim/lab5_2.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab5/lab5_2/simulation/qsim/ lab5_2 -c lab5_2
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab5_2 -c lab5_2 --vector_source=D:/repos/verilog/lab5/lab5_2/lab5_2.vwf --testbench_file=D:/repos/verilog/lab5/lab5_2/simulation/qsim/lab5_2.vwf.vt

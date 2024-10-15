@@ -1,0 +1,21 @@
+module lab6_3 
+#(parameter type = "lab6_1", w = 6)
+(	input reg [w-1:0] a, b, c, d,
+	input clk, rst,
+	output reg [w-1:0] min, max, midl, midh,
+	);
+
+reg [w-1:0] min1, min2, max1, max2;
+	
+	
+generate
+always @*
+if (type == "lab_1") begin :lab_1
+	lab6_1
+	l11 ()
+	l12 ()
+	l13 ()
+	l14 ()
+	l15 ()
+	end
+

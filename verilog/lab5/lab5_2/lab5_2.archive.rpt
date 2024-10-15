@@ -1,5 +1,5 @@
 Archive Project report for lab5_2
-Wed Oct 09 12:15:24 2024
+Fri Oct 11 18:41:53 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Wed Oct 09 12:15:24 2024 ;
+; Archive Project Status ; Successful - Fri Oct 11 18:41:53 2024 ;
 ; Revision Name          ; lab5_2                                ;
 ; Top-level Entity Name  ; lab5_2                                ;
 ; Family                 ; Cyclone IV E                          ;
@@ -53,16 +53,16 @@ Info: Archive will store files relative to the closest common parent directory
 Info (13213): Using common directory D:/repos/verilog/lab5/lab5_2/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
-Info: Generated archive 'D:/repos/verilog/lab5/lab5_2/lab5_2.qar'
+Info: Generated archive 'D:/repos/verilog/lab5/lab5_2/lab5_2_Wagner.qar'
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'lab5_2.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4826 megabytes
-    Info: Processing ended: Wed Oct 09 12:15:24 2024
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Fri Oct 11 18:41:53 2024
     Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 
 +--------------------------------------------------------------+
