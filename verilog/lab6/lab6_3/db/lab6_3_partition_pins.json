@@ -100,6 +100,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
 					"name" : "d[0]",
 					"strict" : false
 				},
@@ -193,10 +201,6 @@
 				},
 				{
 					"name" : "a[1]",
-					"strict" : false
-				},
-				{
-					"name" : "rst",
 					"strict" : false
 				}
 			]

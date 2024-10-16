@@ -1,3 +1,4 @@
+
 module lab6_1 
 #(parameter w = 6)
 (	input [w-1:0]a, b,

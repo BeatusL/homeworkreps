@@ -9,21 +9,21 @@ z2
 cModel Technology
 Z0 dD:/repos/verilog/lab6/lab6_3/simulation/qsim
 vhard_block
-Z1 !s110 1729027031
+Z1 !s110 1729070761
 !i10b 1
-!s100 RnddXTF@1FHIG]A0[z7iQ3
-I[8j@UZM90YK4DSXXJ8Bji1
+!s100 kIfGReeBNmjJEg?VTGTTO3
+ITlm:8hZQA4GZ`bE3mlmOS2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1729027030
+Z3 w1729070760
 Z4 8lab6_3.vo
 Z5 Flab6_3.vo
-L0 3064
+L0 4330
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1729027031.000000
+Z7 !s108 1729070760.000000
 Z8 !s107 lab6_3.vo|
 Z9 !s90 -work|work|lab6_3.vo|
 !i113 1
@@ -32,8 +32,8 @@ Z11 tCvgOpt 0
 vlab6_3
 R1
 !i10b 1
-!s100 ><F=SC@c^V@Wb__0Poc?c1
-Ihb<6ZDIkA60>B]GQUL45K0
+!s100 SMS:kRRMb:^gAXX0lY1n22
+IkAZhEokTIW^<Yd[hVgDA^3
 R2
 R0
 R3
@@ -57,7 +57,7 @@ R1
 IgnjEK29JCe]kZ?;bG83z]3
 R2
 R0
-w1729027028
+w1729070758
 8lab6_3.vwf.vt
 Flab6_3.vwf.vt
 L0 29
@@ -65,7 +65,7 @@ R6
 r1
 !s85 0
 31
-R7
+!s108 1729070761.000000
 !s107 lab6_3.vwf.vt|
 !s90 -work|work|lab6_3.vwf.vt|
 !i113 1

@@ -1,5 +1,5 @@
 Archive Project report for lab6_1
-Wed Oct 16 01:01:58 2024
+Wed Oct 16 13:00:06 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Wed Oct 16 01:01:58 2024 ;
+; Archive Project Status ; Successful - Wed Oct 16 13:00:06 2024 ;
 ; Revision Name          ; lab6_1                                ;
 ; Top-level Entity Name  ; lab6_1                                ;
 ; Family                 ; Cyclone IV E                          ;
@@ -60,7 +60,7 @@ Info: Generated report 'lab6_1.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4824 megabytes
-    Info: Processing ended: Wed Oct 16 01:01:58 2024
+    Info: Processing ended: Wed Oct 16 13:00:06 2024
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
