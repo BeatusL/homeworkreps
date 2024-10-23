@@ -1,5 +1,5 @@
 Flow report for lab6_2
-Tue Oct 15 20:39:32 2024
+Sat Oct 19 14:26:42 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 15 20:39:32 2024       ;
+; Flow Status                        ; Successful - Sat Oct 19 14:26:42 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab6_2                                      ;
 ; Top-level Entity Name              ; lab6_2                                      ;
@@ -98,7 +98,9 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:00                           ;
-; Total                ; 00:00:24     ; --                      ; --                  ; 00:00:09                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4621 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
+; Total                ; 00:00:26     ; --                      ; --                  ; 00:00:11                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,6 +116,8 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -125,6 +129,10 @@ quartus_fit --read_settings_files=off --write_settings_files=off lab6_2 -c lab6_
 quartus_asm --read_settings_files=off --write_settings_files=off lab6_2 -c lab6_2
 quartus_sta lab6_2 -c lab6_2
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab6_2 -c lab6_2 --vector_source=D:/repos/verilog/lab6/lab6_2/Waveform.vwf --testbench_file=D:/repos/verilog/lab6/lab6_2/simulation/qsim/Waveform.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab6_2 -c lab6_2 --vector_source=D:/repos/verilog/lab6/lab6_2/lab6_2.vwf --testbench_file=D:/repos/verilog/lab6/lab6_2/simulation/qsim/lab6_2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab6/lab6_2/simulation/qsim/ lab6_2 -c lab6_2
+quartus_sh --archive -revision lab6_2 -output D:/repos/verilog/lab6/lab6_2/lab6_2.qar lab6_2
+quartus_sh --archive -revision lab6_2 -output D:/repos/verilog/lab6/lab6_2/lab6_2.qar lab6_2
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab6_2 -c lab6_2 --vector_source=D:/repos/verilog/lab6/lab6_2/lab6_2.vwf --testbench_file=D:/repos/verilog/lab6/lab6_2/simulation/qsim/lab6_2.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab6/lab6_2/simulation/qsim/ lab6_2 -c lab6_2
 

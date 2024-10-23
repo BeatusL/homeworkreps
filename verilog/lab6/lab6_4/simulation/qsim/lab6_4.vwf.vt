@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/16/2024 12:36:09"
+// Generated on "10/19/2024 15:36:52"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          lab6_4
 // 
@@ -71,7 +71,8 @@ end
 // rst
 initial
 begin
-	rst = 1'b0;
+	rst = 1'b1;
+	rst = #710000 1'b0;
 end 
 // a[ 5 ]
 initial

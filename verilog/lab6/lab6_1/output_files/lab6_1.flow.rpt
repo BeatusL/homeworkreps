@@ -1,5 +1,5 @@
 Flow report for lab6_1
-Tue Oct 15 20:11:14 2024
+Sat Oct 19 14:21:34 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 15 20:11:14 2024       ;
+; Flow Status                        ; Successful - Sat Oct 19 14:21:34 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab6_1                                      ;
 ; Top-level Entity Name              ; lab6_1                                      ;
@@ -97,7 +97,9 @@ refer to the applicable agreement for further details.
 ; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4832 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4621 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4630 MB             ; 00:00:00                           ;
-; Total                ; 00:00:23     ; --                      ; --                  ; 00:00:10                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4621 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
+; Total                ; 00:00:26     ; --                      ; --                  ; 00:00:12                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,6 +114,8 @@ refer to the applicable agreement for further details.
 ; Timing Analyzer      ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -122,6 +126,10 @@ quartus_map --read_settings_files=on --write_settings_files=off lab6_1 -c lab6_1
 quartus_fit --read_settings_files=off --write_settings_files=off lab6_1 -c lab6_1
 quartus_asm --read_settings_files=off --write_settings_files=off lab6_1 -c lab6_1
 quartus_sta lab6_1 -c lab6_1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab6_1 -c lab6_1 --vector_source=D:/repos/verilog/lab6/lab6_1/lab6_1.vwf --testbench_file=D:/repos/verilog/lab6/lab6_1/simulation/qsim/lab6_1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab6/lab6_1/simulation/qsim/ lab6_1 -c lab6_1
+quartus_sh --archive -revision lab6_1 -output D:/repos/verilog/lab6/lab6_1/lab6_1.qar lab6_1
+quartus_sh --archive -revision lab6_1 -output D:/repos/verilog/lab6/lab6_1/lab6_1.qar lab6_1
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab6_1 -c lab6_1 --vector_source=D:/repos/verilog/lab6/lab6_1/lab6_1.vwf --testbench_file=D:/repos/verilog/lab6/lab6_1/simulation/qsim/lab6_1.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/repos/verilog/lab6/lab6_1/simulation/qsim/ lab6_1 -c lab6_1
 
