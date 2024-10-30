@@ -1,0 +1,21 @@
+<session>
+  <display_attributes active_tab="3"/>
+  <instance compilation_mode="normal" entity_name="sld_multitap" is_auto_node="true" name="LAI_D" type="generic">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="7" version="0"/>
+    <core_parameters bank_count="2" capture_mode="timing" crc_value="3E62" enable_auto_setup="false" enable_plug_run="false" max_freq="100" pin_count="2" power_up_state="tristate" tdm_rate="1"/>
+    <pins>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_0_0"/>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_0_1"/>
+    </pins>
+    <banks>
+      <bank name="Bank 0">
+        <signal name="Top_module:U1_Top_module|cnt_div:U1|Qcntdiv[23]" tap_type="postfit" type="reg"/>
+        <signal name="Top_module:U1_Top_module|cnt_div:U1|Qcntdiv[24]" tap_type="postfit" type="reg"/>
+      </bank>
+      <bank name="Bank 1">
+        <signal name="Top_module:U1_Top_module|cnt_div:U1|Qcntdiv[21]" tap_type="postfit" type="reg"/>
+        <signal name="Top_module:U1_Top_module|cnt_div:U1|Qcntdiv[22]" tap_type="postfit" type="reg"/>
+      </bank>
+    </banks>
+  </instance>
+</session>
