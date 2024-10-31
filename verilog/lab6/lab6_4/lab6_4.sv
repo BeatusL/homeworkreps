@@ -18,16 +18,15 @@ reg [w-1:0] min_, min1_, min2_, min3_, max_, max1_, max2_, max3_, midl_, midh_;
 
 
 always @(posedge clk) begin
-	if (rst) begin
+	if (~rst) begin
 		a_ <= 0;
 		b_ <= 0;
 		c_ <= 0;
 		d_ <= 0; end
-	else begin
 		a_ <= a;
 		b_ <= b;
 		c_ <= c;
-		d_ <= d; end
+		d_ <= d;
 end
 
 	

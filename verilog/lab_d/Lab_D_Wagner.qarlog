@@ -1,0 +1,44 @@
+Quartus Prime Archive log --	D:/repos/verilog/lab_d/Lab_D_Wagner.qarlog
+
+Archive:	D:/repos/verilog/lab_d/Lab_D_Wagner.qar
+Date:		Sun Oct 27 17:54:37 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog/lab_d/Lab_D.lai
+D:/repos/verilog/lab_d/Lab_D.qpf
+D:/repos/verilog/lab_d/Lab_D.qsf
+D:/repos/verilog/lab_d/Lab_D.stp
+D:/repos/verilog/lab_d/Lab_D.v
+D:/repos/verilog/lab_d/MY_ISSPE.qsys
+D:/repos/verilog/lab_d/MY_ISSPE.sopcinfo
+D:/repos/verilog/lab_d/MY_ISSPE/MY_ISSPE.cmp
+D:/repos/verilog/lab_d/MY_ISSPE/synthesis/MY_ISSPE.debuginfo
+D:/repos/verilog/lab_d/MY_ISSPE/synthesis/MY_ISSPE.qip
+D:/repos/verilog/lab_d/MY_ISSPE/synthesis/MY_ISSPE.v
+D:/repos/verilog/lab_d/MY_ISSPE/synthesis/submodules/altsource_probe_top.v
+D:/repos/verilog/lab_d/ROM.qip
+D:/repos/verilog/lab_d/ROM.v
+D:/repos/verilog/lab_d/ROM_adr_limit.qip
+D:/repos/verilog/lab_d/ROM_adr_limit.v
+D:/repos/verilog/lab_d/ROM_adr_limit_bb.v
+D:/repos/verilog/lab_d/ROM_adr_limit_inst.v
+D:/repos/verilog/lab_d/ROM_bb.v
+D:/repos/verilog/lab_d/ROM_init.hex
+D:/repos/verilog/lab_d/ROM_init.mif
+D:/repos/verilog/lab_d/ROM_inst.v
+D:/repos/verilog/lab_d/ROM_load.hex
+D:/repos/verilog/lab_d/ROM_load.mif
+D:/repos/verilog/lab_d/ROM_read.v
+D:/repos/verilog/lab_d/Spf_D.spf
+D:/repos/verilog/lab_d/Spf_D1.spf
+D:/repos/verilog/lab_d/Top_module.v
+D:/repos/verilog/lab_d/assignment_defaults.qdf
+D:/repos/verilog/lab_d/cnt_div.v
+D:/repos/verilog/lab_d/db/Lab_D_auto_stripped.stp
+D:/repos/verilog/lab_d/output_files/ROM_init.hex
+D:/repos/verilog/lab_d/signalprobe_qsf.tcl
+	======= Total: 33 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

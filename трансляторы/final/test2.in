@@ -1,0 +1,4 @@
+
+if (abc) {
+	abc = a + b + c;
+}

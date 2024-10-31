@@ -23,7 +23,7 @@ endtask
 
 always @(posedge clk) begin
 	tsort(a, b, min, max);
-	if (rst) begin
+	if (~rst) begin
 		min = 0;
 		max = 0; end
 end

@@ -1,0 +1,30 @@
+<digit>::= 0|1|2|...|9
+<letter>::= a|b|...|z|A|...|Z
+<identifier>::= <letter>|(<dentifier><digit>|<letter>))
+<integer>::= <digit>|(<integer><digit>)
+
+<IF>:: if
+<ELSE>:: else
+<ASSIGN>::= =
+<LBRACE>::= {
+<RBRACE>::= }
+<LPAREN>::= (
+<RPAREN>::= )
+<SEMICOLON>::= ;
+
+<CONSTANT_C>::= '<letter>'
+<CONSTANT_I>::= (<digit>|(<CONSTANT_I><digit>))
+<CONSTANT>:== CONSTANT_C|CONSTANT_I
+<AROP>::= +|-|/|*
+<INCDEC>::= (++)|(--)
+<COMP>::= >|<|(>=)|(<=)|(==)|(!=)
+<ARPOINTER>::= <identifier>[<CINSTANT_I>]
+
+<program>::= <if_statement>|(<if_statement><program>)
+<if_statement>::= <IF><condition><body>
+<condition>::= <LPAREN><assigned><COMP><assigned><RPAREN>
+<body>::= <LBRACE>|(<body><operation>)|(<body><RBRACE>)
+<operation>::= <identifier><ASSIGN><arop><SEMICOLON>
+<arop>::= (<assigned><AROP><assigned)|(<assigned><INCDEC>)|(<INCDEC><assigned>)
+<assigned>::= IDENTIFIER|CONSTANT|ARPOINTER|arop
+

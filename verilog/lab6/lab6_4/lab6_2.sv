@@ -24,7 +24,7 @@ endfunction
 always @(posedge clk) begin
 	min = fmin(a,b);
 	max = fmax(a,b);
-	if (rst) begin
+	if (~rst) begin
 			min = 0;
 			max = 0; end
 	end
