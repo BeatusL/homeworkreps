@@ -1,0 +1,23 @@
+|lab2
+y <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => inst[0].IN0
+x[0] => inst19.IN2
+x[0] => inst20.IN2
+x[0] => inst22.IN2
+x[1] => inst[1].IN0
+x[1] => inst21.IN2
+x[1] => inst20.IN1
+x[1] => inst22.IN1
+x[2] => inst[2].IN0
+x[2] => inst16.IN2
+x[2] => inst22.IN0
+x[2] => inst18.IN1
+x[3] => inst[3].IN0
+x[3] => inst16.IN1
+x[3] => inst19.IN1
+x[4] => inst[4].IN0
+x[4] => inst16.IN0
+x[4] => inst21.IN0
+x[4] => inst20.IN0
+
+

@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	C:/Student/20003/Wagner/lab2.qarlog
+
+Archive:	C:/Student/20003/Wagner/lab2.qar
+Date:		Thu May 23 00:20:59 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Student/20003/Wagner/assignment_defaults.qdf
+C:/Student/20003/Wagner/lab2.bdf
+C:/Student/20003/Wagner/lab2.qpf
+C:/Student/20003/Wagner/lab2.qsf
+C:/Student/20003/Wagner/lab2_assignment_defaults.qdf
+C:/Student/20003/Wagner/output_files/Chain1.cdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

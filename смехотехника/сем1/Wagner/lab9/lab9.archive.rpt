@@ -1,0 +1,155 @@
+Archive Project report for lab9
+Thu May 23 00:19:02 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu May 23 00:19:02 2024 ;
+; Revision Name          ; lab9                                  ;
+; Top-level Entity Name  ; b71                                   ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Student/20003/Wagner/lab9/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Student/20003/Wagner/lab9/lab9.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lab9.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4826 megabytes
+    Info: Processing ended: Thu May 23 00:19:02 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++--------------------------------------------------------------+
+; Files Archived                                               ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; b1.bdf                                                       ;
+; b2.bdf                                                       ;
+; b3.bdf                                                       ;
+; b4.bdf                                                       ;
+; b5.bdf                                                       ;
+; b7.bdf                                                       ;
+; b21.bdf                                                      ;
+; b71.bdf                                                      ;
+; c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf ;
+; count4.bsf                                                   ;
+; count4.qip                                                   ;
+; count4.v                                                     ;
+; count4_bb.v                                                  ;
+; count5.bsf                                                   ;
+; count5.qip                                                   ;
+; count5.v                                                     ;
+; count5_bb.v                                                  ;
+; count7.bsf                                                   ;
+; count7.qip                                                   ;
+; count7.v                                                     ;
+; count7_bb.v                                                  ;
+; count21.bsf                                                  ;
+; count21.qip                                                  ;
+; count21.v                                                    ;
+; count21_bb.v                                                 ;
+; count22.bsf                                                  ;
+; count22.qip                                                  ;
+; count22.v                                                    ;
+; count22_bb.v                                                 ;
+; counter1.bsf                                                 ;
+; counter1.qip                                                 ;
+; counter1.v                                                   ;
+; counter1_bb.v                                                ;
+; decoder1.bsf                                                 ;
+; decoder1.qip                                                 ;
+; decoder1.v                                                   ;
+; decoder1_bb.v                                                ;
+; decoder7.bsf                                                 ;
+; decoder7.qip                                                 ;
+; decoder7.v                                                   ;
+; decoder7_bb.v                                                ;
+; lab9.qpf                                                     ;
+; lab9.qsf                                                     ;
+; mux3.bsf                                                     ;
+; mux3.qip                                                     ;
+; mux3.v                                                       ;
+; mux3_bb.v                                                    ;
+; mux4.bsf                                                     ;
+; mux4.qip                                                     ;
+; mux4.v                                                       ;
+; mux4_bb.v                                                    ;
+; mux5.bsf                                                     ;
+; mux5.qip                                                     ;
+; mux5.v                                                       ;
+; mux5_bb.v                                                    ;
+; mux7.bsf                                                     ;
+; mux7.qip                                                     ;
+; mux7.v                                                       ;
+; mux7_bb.v                                                    ;
+; pll7.bsf                                                     ;
+; pll7.ppf                                                     ;
+; PLL7.qip                                                     ;
+; pll7.v                                                       ;
+; pll7_bb.v                                                    ;
+; pll71.bsf                                                    ;
+; pll71.ppf                                                    ;
+; pll71.qip                                                    ;
+; pll71.v                                                      ;
+; pll71_bb.v                                                   ;
+; sum7.bsf                                                     ;
+; sum7.qip                                                     ;
+; sum7.v                                                       ;
+; sum7_bb.v                                                    ;
+; Waveform1.vwf                                                ;
+; Waveform2.vwf                                                ;
+; Waveform3.vwf                                                ;
+; Waveform4.vwf                                                ;
+; Waveform5.vwf                                                ;
+; Waveform6.vwf                                                ;
+; Waveform7.vwf                                                ;
++--------------------------------------------------------------+
+
+

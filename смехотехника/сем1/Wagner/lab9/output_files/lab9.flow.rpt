@@ -1,0 +1,162 @@
+Flow report for lab9
+Wed May 22 20:49:33 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Wed May 22 20:49:33 2024       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; lab9                                        ;
+; Top-level Entity Name              ; b71                                         ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE6E22C8                                 ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 167 / 6,272 ( 3 % )                         ;
+;     Total combinational functions  ; 57 / 6,272 ( < 1 % )                        ;
+;     Dedicated logic registers      ; 142 / 6,272 ( 2 % )                         ;
+; Total registers                    ; 142                                         ;
+; Total pins                         ; 121 / 92 ( 132 % )                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 276,480 ( 0 % )                         ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
+; Total PLLs                         ; 1 / 2 ( 50 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/22/2024 20:48:47 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab9                ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 2545192227414.171640012705972          ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
+; MISC_FILE                           ; decoder1.bsf                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; decoder1_bb.v                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; counter1.bsf                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; counter1_bb.v                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; count21.bsf                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; count21_bb.v                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; count22.bsf                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; count22_bb.v                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux3.bsf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux3_bb.v                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux4.bsf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux4_bb.v                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; count4.bsf                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; count4_bb.v                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux5.bsf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux5_bb.v                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; count5.bsf                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; count5_bb.v                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux7.bsf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; mux7_bb.v                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; sum7.bsf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; sum7_bb.v                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; pll7.bsf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; pll7_bb.v                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; pll7.ppf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; count7.bsf                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; count7_bb.v                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; decoder7.bsf                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; decoder7_bb.v                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; pll71.bsf                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; pll71_bb.v                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; pll71.ppf                              ; --            ; --          ; --         ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; b71         ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; b71         ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; b71         ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; b71                                    ; lab9          ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4836 MB             ; 00:00:06                           ;
+; Fitter               ; 00:00:03     ; 1.0                     ; 5296 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4624 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4635 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4625 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4635 MB             ; 00:00:01                           ;
+; Total                ; 00:00:15     ; --                      ; --                  ; 00:00:08                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab9 -c lab9
+quartus_fit --read_settings_files=off --write_settings_files=off lab9 -c lab9
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab9 -c lab9 --vector_source=C:/Student/20003/Wagner/lab9/Waveform7.vwf --testbench_file=C:/Student/20003/Wagner/lab9/simulation/qsim/Waveform7.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Student/20003/Wagner/lab9/simulation/qsim/ lab9 -c lab9
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab9 -c lab9 --vector_source=C:/Student/20003/Wagner/lab9/Waveform7.vwf --testbench_file=C:/Student/20003/Wagner/lab9/simulation/qsim/Waveform7.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Student/20003/Wagner/lab9/simulation/qsim/ lab9 -c lab9
+
+
+

@@ -1,0 +1,7 @@
+
+State Machine - |SM1|fstate
+Name fstate.state_bit_1 fstate.state_bit_0 
+fstate.r0 0 0 
+fstate.r1 1 0 
+fstate.r2 1 1 
+fstate.r3 0 1 

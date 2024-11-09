@@ -1,0 +1,34 @@
+Quartus Prime Archive log --	C:/Student/20003/Wagner/lab3/lab3.qarlog
+
+Archive:	C:/Student/20003/Wagner/lab3/lab3.qar
+Date:		Thu May 23 00:19:37 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Student/20003/Wagner/lab3/GOOOOOOOL.bsf
+C:/Student/20003/Wagner/lab3/GOOOOOOOL.qip
+C:/Student/20003/Wagner/lab3/GOOOOOOOL.v
+C:/Student/20003/Wagner/lab3/GOOOOOOOL_bb.v
+C:/Student/20003/Wagner/lab3/GOOOOOOOOOOL.qip
+C:/Student/20003/Wagner/lab3/GOOOOOOOOOOL.v
+C:/Student/20003/Wagner/lab3/Waveform.vwf
+C:/Student/20003/Wagner/lab3/Waveform2.vwf
+C:/Student/20003/Wagner/lab3/Waveform3.vwf
+C:/Student/20003/Wagner/lab3/Waveform4.vwf
+C:/Student/20003/Wagner/lab3/Waveform5.vwf
+C:/Student/20003/Wagner/lab3/cnt.bsf
+C:/Student/20003/Wagner/lab3/cnt.qip
+C:/Student/20003/Wagner/lab3/cnt.v
+C:/Student/20003/Wagner/lab3/cnt_bb.v
+C:/Student/20003/Wagner/lab3/lab3.qpf
+C:/Student/20003/Wagner/lab3/lab3.qsf
+C:/Student/20003/Wagner/lab3/t1.bdf
+C:/Student/20003/Wagner/lab3/t3.bdf
+C:/Student/20003/Wagner/lab3/t6.bdf
+C:/Student/20003/Wagner/lab3/t7.bdf
+C:/Student/20003/Wagner/lab3/t8.bdf
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

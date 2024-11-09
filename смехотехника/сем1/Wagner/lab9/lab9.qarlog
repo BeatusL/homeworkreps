@@ -1,0 +1,91 @@
+Quartus Prime Archive log --	C:/Student/20003/Wagner/lab9/lab9.qarlog
+
+Archive:	C:/Student/20003/Wagner/lab9/lab9.qar
+Date:		Thu May 23 00:19:02 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Student/20003/Wagner/lab9/PLL7.qip
+C:/Student/20003/Wagner/lab9/Waveform1.vwf
+C:/Student/20003/Wagner/lab9/Waveform2.vwf
+C:/Student/20003/Wagner/lab9/Waveform3.vwf
+C:/Student/20003/Wagner/lab9/Waveform4.vwf
+C:/Student/20003/Wagner/lab9/Waveform5.vwf
+C:/Student/20003/Wagner/lab9/Waveform6.vwf
+C:/Student/20003/Wagner/lab9/Waveform7.vwf
+C:/Student/20003/Wagner/lab9/b1.bdf
+C:/Student/20003/Wagner/lab9/b2.bdf
+C:/Student/20003/Wagner/lab9/b21.bdf
+C:/Student/20003/Wagner/lab9/b3.bdf
+C:/Student/20003/Wagner/lab9/b4.bdf
+C:/Student/20003/Wagner/lab9/b5.bdf
+C:/Student/20003/Wagner/lab9/b7.bdf
+C:/Student/20003/Wagner/lab9/b71.bdf
+C:/Student/20003/Wagner/lab9/count21.bsf
+C:/Student/20003/Wagner/lab9/count21.qip
+C:/Student/20003/Wagner/lab9/count21.v
+C:/Student/20003/Wagner/lab9/count21_bb.v
+C:/Student/20003/Wagner/lab9/count22.bsf
+C:/Student/20003/Wagner/lab9/count22.qip
+C:/Student/20003/Wagner/lab9/count22.v
+C:/Student/20003/Wagner/lab9/count22_bb.v
+C:/Student/20003/Wagner/lab9/count4.bsf
+C:/Student/20003/Wagner/lab9/count4.qip
+C:/Student/20003/Wagner/lab9/count4.v
+C:/Student/20003/Wagner/lab9/count4_bb.v
+C:/Student/20003/Wagner/lab9/count5.bsf
+C:/Student/20003/Wagner/lab9/count5.qip
+C:/Student/20003/Wagner/lab9/count5.v
+C:/Student/20003/Wagner/lab9/count5_bb.v
+C:/Student/20003/Wagner/lab9/count7.bsf
+C:/Student/20003/Wagner/lab9/count7.qip
+C:/Student/20003/Wagner/lab9/count7.v
+C:/Student/20003/Wagner/lab9/count7_bb.v
+C:/Student/20003/Wagner/lab9/counter1.bsf
+C:/Student/20003/Wagner/lab9/counter1.qip
+C:/Student/20003/Wagner/lab9/counter1.v
+C:/Student/20003/Wagner/lab9/counter1_bb.v
+C:/Student/20003/Wagner/lab9/decoder1.bsf
+C:/Student/20003/Wagner/lab9/decoder1.qip
+C:/Student/20003/Wagner/lab9/decoder1.v
+C:/Student/20003/Wagner/lab9/decoder1_bb.v
+C:/Student/20003/Wagner/lab9/decoder7.bsf
+C:/Student/20003/Wagner/lab9/decoder7.qip
+C:/Student/20003/Wagner/lab9/decoder7.v
+C:/Student/20003/Wagner/lab9/decoder7_bb.v
+C:/Student/20003/Wagner/lab9/lab9.qpf
+C:/Student/20003/Wagner/lab9/lab9.qsf
+C:/Student/20003/Wagner/lab9/mux3.bsf
+C:/Student/20003/Wagner/lab9/mux3.qip
+C:/Student/20003/Wagner/lab9/mux3.v
+C:/Student/20003/Wagner/lab9/mux3_bb.v
+C:/Student/20003/Wagner/lab9/mux4.bsf
+C:/Student/20003/Wagner/lab9/mux4.qip
+C:/Student/20003/Wagner/lab9/mux4.v
+C:/Student/20003/Wagner/lab9/mux4_bb.v
+C:/Student/20003/Wagner/lab9/mux5.bsf
+C:/Student/20003/Wagner/lab9/mux5.qip
+C:/Student/20003/Wagner/lab9/mux5.v
+C:/Student/20003/Wagner/lab9/mux5_bb.v
+C:/Student/20003/Wagner/lab9/mux7.bsf
+C:/Student/20003/Wagner/lab9/mux7.qip
+C:/Student/20003/Wagner/lab9/mux7.v
+C:/Student/20003/Wagner/lab9/mux7_bb.v
+C:/Student/20003/Wagner/lab9/pll7.bsf
+C:/Student/20003/Wagner/lab9/pll7.ppf
+C:/Student/20003/Wagner/lab9/pll7.v
+C:/Student/20003/Wagner/lab9/pll71.bsf
+C:/Student/20003/Wagner/lab9/pll71.ppf
+C:/Student/20003/Wagner/lab9/pll71.qip
+C:/Student/20003/Wagner/lab9/pll71.v
+C:/Student/20003/Wagner/lab9/pll71_bb.v
+C:/Student/20003/Wagner/lab9/pll7_bb.v
+C:/Student/20003/Wagner/lab9/sum7.bsf
+C:/Student/20003/Wagner/lab9/sum7.qip
+C:/Student/20003/Wagner/lab9/sum7.v
+C:/Student/20003/Wagner/lab9/sum7_bb.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 80 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,60 @@
+Quartus Prime Archive log --	C:/Student/20003/Wagner/lab6/lab6.qarlog
+
+Archive:	C:/Student/20003/Wagner/lab6/lab6.qar
+Date:		Thu May 23 00:20:28 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Student/20003/Wagner/lab6/Waveform.vwf
+C:/Student/20003/Wagner/lab6/Waveform1.vwf
+C:/Student/20003/Wagner/lab6/Waveform2.vwf
+C:/Student/20003/Wagner/lab6/Waveform3.vwf
+C:/Student/20003/Wagner/lab6/Waveform4.vwf
+C:/Student/20003/Wagner/lab6/Waveform5.vwf
+C:/Student/20003/Wagner/lab6/Waveform6.vwf
+C:/Student/20003/Wagner/lab6/c1.bsf
+C:/Student/20003/Wagner/lab6/c1.qip
+C:/Student/20003/Wagner/lab6/c1.v
+C:/Student/20003/Wagner/lab6/c1_bb.v
+C:/Student/20003/Wagner/lab6/c2.bsf
+C:/Student/20003/Wagner/lab6/c2.qip
+C:/Student/20003/Wagner/lab6/c2.v
+C:/Student/20003/Wagner/lab6/c21.bsf
+C:/Student/20003/Wagner/lab6/c21.qip
+C:/Student/20003/Wagner/lab6/c21.v
+C:/Student/20003/Wagner/lab6/c21_bb.v
+C:/Student/20003/Wagner/lab6/c22.bsf
+C:/Student/20003/Wagner/lab6/c22.qip
+C:/Student/20003/Wagner/lab6/c22.v
+C:/Student/20003/Wagner/lab6/c22_bb.v
+C:/Student/20003/Wagner/lab6/c23.bsf
+C:/Student/20003/Wagner/lab6/c23.qip
+C:/Student/20003/Wagner/lab6/c23.v
+C:/Student/20003/Wagner/lab6/c23_bb.v
+C:/Student/20003/Wagner/lab6/c24.bsf
+C:/Student/20003/Wagner/lab6/c24.qip
+C:/Student/20003/Wagner/lab6/c24.v
+C:/Student/20003/Wagner/lab6/c24_bb.v
+C:/Student/20003/Wagner/lab6/c25.bsf
+C:/Student/20003/Wagner/lab6/c25.qip
+C:/Student/20003/Wagner/lab6/c25.v
+C:/Student/20003/Wagner/lab6/c25_bb.v
+C:/Student/20003/Wagner/lab6/c2_bb.v
+C:/Student/20003/Wagner/lab6/c3.bsf
+C:/Student/20003/Wagner/lab6/c3.qip
+C:/Student/20003/Wagner/lab6/c3.v
+C:/Student/20003/Wagner/lab6/c3_bb.v
+C:/Student/20003/Wagner/lab6/c4.qip
+C:/Student/20003/Wagner/lab6/lab6.qpf
+C:/Student/20003/Wagner/lab6/lab6.qsf
+C:/Student/20003/Wagner/lab6/lab6_assignment_defaults.qdf
+C:/Student/20003/Wagner/lab6/p1.bdf
+C:/Student/20003/Wagner/lab6/p2.bdf
+C:/Student/20003/Wagner/lab6/p3.bdf
+C:/Student/20003/Wagner/lab6/p4.bdf
+C:/Student/20003/Wagner/lab6/p5.bdf
+C:/Student/20003/Wagner/lab6/p6.bdf
+	======= Total: 49 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

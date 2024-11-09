@@ -1,0 +1,73 @@
+Quartus Prime Archive log --	C:/Student/20003/Wagner/lab7/lab7.qarlog
+
+Archive:	C:/Student/20003/Wagner/lab7/lab7.qar
+Date:		Thu May 23 00:19:21 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Student/20003/Wagner/lab7/Waveform01.vwf
+C:/Student/20003/Wagner/lab7/Waveform02.vwf
+C:/Student/20003/Wagner/lab7/Waveform03.vwf
+C:/Student/20003/Wagner/lab7/Waveform04.vwf
+C:/Student/20003/Wagner/lab7/Waveform06.vwf
+C:/Student/20003/Wagner/lab7/Waveform07.vwf
+C:/Student/20003/Wagner/lab7/Waveform08.vwf
+C:/Student/20003/Wagner/lab7/b01.bdf
+C:/Student/20003/Wagner/lab7/b02.bdf
+C:/Student/20003/Wagner/lab7/b03.bdf
+C:/Student/20003/Wagner/lab7/b04.bdf
+C:/Student/20003/Wagner/lab7/b06.bdf
+C:/Student/20003/Wagner/lab7/b07.bdf
+C:/Student/20003/Wagner/lab7/b08.bdf
+C:/Student/20003/Wagner/lab7/b8.bdf
+C:/Student/20003/Wagner/lab7/c06.bsf
+C:/Student/20003/Wagner/lab7/c06.qip
+C:/Student/20003/Wagner/lab7/c06.v
+C:/Student/20003/Wagner/lab7/c06_bb.v
+C:/Student/20003/Wagner/lab7/c07.bsf
+C:/Student/20003/Wagner/lab7/c07.qip
+C:/Student/20003/Wagner/lab7/c07.v
+C:/Student/20003/Wagner/lab7/c07_bb.v
+C:/Student/20003/Wagner/lab7/counter06.bsf
+C:/Student/20003/Wagner/lab7/counter06.qip
+C:/Student/20003/Wagner/lab7/counter06.v
+C:/Student/20003/Wagner/lab7/counter06_bb.v
+C:/Student/20003/Wagner/lab7/lab7.qpf
+C:/Student/20003/Wagner/lab7/lab7.qsf
+C:/Student/20003/Wagner/lab7/mux01.bsf
+C:/Student/20003/Wagner/lab7/mux01.qip
+C:/Student/20003/Wagner/lab7/mux01.v
+C:/Student/20003/Wagner/lab7/mux01_bb.v
+C:/Student/20003/Wagner/lab7/sr00.bsf
+C:/Student/20003/Wagner/lab7/sr00.qip
+C:/Student/20003/Wagner/lab7/sr00.v
+C:/Student/20003/Wagner/lab7/sr00_bb.v
+C:/Student/20003/Wagner/lab7/sr01.bsf
+C:/Student/20003/Wagner/lab7/sr01.qip
+C:/Student/20003/Wagner/lab7/sr01.v
+C:/Student/20003/Wagner/lab7/sr01_bb.v
+C:/Student/20003/Wagner/lab7/sr03.bsf
+C:/Student/20003/Wagner/lab7/sr03.qip
+C:/Student/20003/Wagner/lab7/sr03.v
+C:/Student/20003/Wagner/lab7/sr03_bb.v
+C:/Student/20003/Wagner/lab7/sr04.bsf
+C:/Student/20003/Wagner/lab7/sr04.qip
+C:/Student/20003/Wagner/lab7/sr04.v
+C:/Student/20003/Wagner/lab7/sr04_bb.v
+C:/Student/20003/Wagner/lab7/sr071.bsf
+C:/Student/20003/Wagner/lab7/sr071.qip
+C:/Student/20003/Wagner/lab7/sr071.v
+C:/Student/20003/Wagner/lab7/sr071_bb.v
+C:/Student/20003/Wagner/lab7/sr072.bsf
+C:/Student/20003/Wagner/lab7/sr072.qip
+C:/Student/20003/Wagner/lab7/sr072.v
+C:/Student/20003/Wagner/lab7/sr072_bb.v
+C:/Student/20003/Wagner/lab7/sr08.bsf
+C:/Student/20003/Wagner/lab7/sr08.qip
+C:/Student/20003/Wagner/lab7/sr08.v
+C:/Student/20003/Wagner/lab7/sr08_bb.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 62 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

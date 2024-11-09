@@ -1,0 +1,481 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "05/22/2024 20:49:32"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          b71
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module b71_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [9:0] A0;
+reg [9:0] A1;
+reg [9:0] A2;
+reg [9:0] A3;
+reg [9:0] B0;
+reg [9:0] B1;
+reg [9:0] B2;
+reg [9:0] B3;
+reg clk;
+// wires                                               
+wire [9:0] S0;
+wire [9:0] S1;
+wire [9:0] S2;
+wire [9:0] S3;
+
+// assign statements (if any)                          
+b71 i1 (
+// port map - connection between master ports and signals/registers   
+	.A0(A0),
+	.A1(A1),
+	.A2(A2),
+	.A3(A3),
+	.B0(B0),
+	.B1(B1),
+	.B2(B2),
+	.B3(B3),
+	.clk(clk),
+	.S0(S0),
+	.S1(S1),
+	.S2(S2),
+	.S3(S3)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// clk
+initial
+begin
+	repeat(12)
+	begin
+		clk = 1'b0;
+		clk = #40000 1'b1;
+		# 40000;
+	end
+	clk = 1'b0;
+end 
+// A0[ 9 ]
+initial
+begin
+	A0[9] = 1'b0;
+end 
+// A0[ 8 ]
+initial
+begin
+	A0[8] = 1'b0;
+end 
+// A0[ 7 ]
+initial
+begin
+	A0[7] = 1'b0;
+end 
+// A0[ 6 ]
+initial
+begin
+	A0[6] = 1'b0;
+end 
+// A0[ 5 ]
+initial
+begin
+	A0[5] = 1'b0;
+end 
+// A0[ 4 ]
+initial
+begin
+	A0[4] = 1'b0;
+end 
+// A0[ 3 ]
+initial
+begin
+	A0[3] = 1'b1;
+end 
+// A0[ 2 ]
+initial
+begin
+	A0[2] = 1'b1;
+end 
+// A0[ 1 ]
+initial
+begin
+	A0[1] = 1'b0;
+end 
+// A0[ 0 ]
+initial
+begin
+	A0[0] = 1'b0;
+end 
+// B0[ 9 ]
+initial
+begin
+	B0[9] = 1'b0;
+end 
+// B0[ 8 ]
+initial
+begin
+	B0[8] = 1'b0;
+end 
+// B0[ 7 ]
+initial
+begin
+	B0[7] = 1'b0;
+end 
+// B0[ 6 ]
+initial
+begin
+	B0[6] = 1'b0;
+end 
+// B0[ 5 ]
+initial
+begin
+	B0[5] = 1'b0;
+end 
+// B0[ 4 ]
+initial
+begin
+	B0[4] = 1'b0;
+end 
+// B0[ 3 ]
+initial
+begin
+	B0[3] = 1'b0;
+end 
+// B0[ 2 ]
+initial
+begin
+	B0[2] = 1'b0;
+end 
+// B0[ 1 ]
+initial
+begin
+	B0[1] = 1'b0;
+end 
+// B0[ 0 ]
+initial
+begin
+	B0[0] = 1'b0;
+end 
+// A1[ 9 ]
+initial
+begin
+	A1[9] = 1'b0;
+end 
+// A1[ 8 ]
+initial
+begin
+	A1[8] = 1'b0;
+end 
+// A1[ 7 ]
+initial
+begin
+	A1[7] = 1'b0;
+end 
+// A1[ 6 ]
+initial
+begin
+	A1[6] = 1'b0;
+end 
+// A1[ 5 ]
+initial
+begin
+	A1[5] = 1'b0;
+end 
+// A1[ 4 ]
+initial
+begin
+	A1[4] = 1'b0;
+end 
+// A1[ 3 ]
+initial
+begin
+	A1[3] = 1'b0;
+end 
+// A1[ 2 ]
+initial
+begin
+	A1[2] = 1'b0;
+end 
+// A1[ 1 ]
+initial
+begin
+	A1[1] = 1'b0;
+end 
+// A1[ 0 ]
+initial
+begin
+	A1[0] = 1'b0;
+end 
+// B1[ 9 ]
+initial
+begin
+	B1[9] = 1'b0;
+end 
+// B1[ 8 ]
+initial
+begin
+	B1[8] = 1'b0;
+end 
+// B1[ 7 ]
+initial
+begin
+	B1[7] = 1'b0;
+end 
+// B1[ 6 ]
+initial
+begin
+	B1[6] = 1'b0;
+end 
+// B1[ 5 ]
+initial
+begin
+	B1[5] = 1'b0;
+end 
+// B1[ 4 ]
+initial
+begin
+	B1[4] = 1'b0;
+end 
+// B1[ 3 ]
+initial
+begin
+	B1[3] = 1'b0;
+end 
+// B1[ 2 ]
+initial
+begin
+	B1[2] = 1'b0;
+end 
+// B1[ 1 ]
+initial
+begin
+	B1[1] = 1'b0;
+end 
+// B1[ 0 ]
+initial
+begin
+	B1[0] = 1'b0;
+end 
+// A2[ 9 ]
+initial
+begin
+	A2[9] = 1'b0;
+end 
+// A2[ 8 ]
+initial
+begin
+	A2[8] = 1'b0;
+end 
+// A2[ 7 ]
+initial
+begin
+	A2[7] = 1'b0;
+end 
+// A2[ 6 ]
+initial
+begin
+	A2[6] = 1'b0;
+end 
+// A2[ 5 ]
+initial
+begin
+	A2[5] = 1'b0;
+end 
+// A2[ 4 ]
+initial
+begin
+	A2[4] = 1'b0;
+end 
+// A2[ 3 ]
+initial
+begin
+	A2[3] = 1'b0;
+end 
+// A2[ 2 ]
+initial
+begin
+	A2[2] = 1'b0;
+end 
+// A2[ 1 ]
+initial
+begin
+	A2[1] = 1'b0;
+end 
+// A2[ 0 ]
+initial
+begin
+	A2[0] = 1'b0;
+end 
+// B2[ 9 ]
+initial
+begin
+	B2[9] = 1'b0;
+end 
+// B2[ 8 ]
+initial
+begin
+	B2[8] = 1'b0;
+end 
+// B2[ 7 ]
+initial
+begin
+	B2[7] = 1'b0;
+end 
+// B2[ 6 ]
+initial
+begin
+	B2[6] = 1'b0;
+end 
+// B2[ 5 ]
+initial
+begin
+	B2[5] = 1'b0;
+end 
+// B2[ 4 ]
+initial
+begin
+	B2[4] = 1'b0;
+end 
+// B2[ 3 ]
+initial
+begin
+	B2[3] = 1'b0;
+end 
+// B2[ 2 ]
+initial
+begin
+	B2[2] = 1'b0;
+end 
+// B2[ 1 ]
+initial
+begin
+	B2[1] = 1'b0;
+end 
+// B2[ 0 ]
+initial
+begin
+	B2[0] = 1'b0;
+end 
+// A3[ 9 ]
+initial
+begin
+	A3[9] = 1'b0;
+end 
+// A3[ 8 ]
+initial
+begin
+	A3[8] = 1'b0;
+end 
+// A3[ 7 ]
+initial
+begin
+	A3[7] = 1'b0;
+end 
+// A3[ 6 ]
+initial
+begin
+	A3[6] = 1'b0;
+end 
+// A3[ 5 ]
+initial
+begin
+	A3[5] = 1'b0;
+end 
+// A3[ 4 ]
+initial
+begin
+	A3[4] = 1'b0;
+end 
+// A3[ 3 ]
+initial
+begin
+	A3[3] = 1'b0;
+end 
+// A3[ 2 ]
+initial
+begin
+	A3[2] = 1'b0;
+end 
+// A3[ 1 ]
+initial
+begin
+	A3[1] = 1'b0;
+end 
+// A3[ 0 ]
+initial
+begin
+	A3[0] = 1'b0;
+end 
+// B3[ 9 ]
+initial
+begin
+	B3[9] = 1'b0;
+end 
+// B3[ 8 ]
+initial
+begin
+	B3[8] = 1'b0;
+end 
+// B3[ 7 ]
+initial
+begin
+	B3[7] = 1'b0;
+end 
+// B3[ 6 ]
+initial
+begin
+	B3[6] = 1'b0;
+end 
+// B3[ 5 ]
+initial
+begin
+	B3[5] = 1'b0;
+end 
+// B3[ 4 ]
+initial
+begin
+	B3[4] = 1'b0;
+end 
+// B3[ 3 ]
+initial
+begin
+	B3[3] = 1'b0;
+end 
+// B3[ 2 ]
+initial
+begin
+	B3[2] = 1'b0;
+end 
+// B3[ 1 ]
+initial
+begin
+	B3[1] = 1'b0;
+end 
+// B3[ 0 ]
+initial
+begin
+	B3[0] = 1'b0;
+end 
+endmodule
+

@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	C:/Student/20003/Wagner/lab4.qarlog
+
+Archive:	C:/Student/20003/Wagner/lab4.qar
+Date:		Thu May 23 00:21:21 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Student/20003/Wagner/SM1.smf
+C:/Student/20003/Wagner/VWFSM.vwf
+C:/Student/20003/Wagner/Waveform.vwf
+C:/Student/20003/Wagner/assignment_defaults.qdf
+C:/Student/20003/Wagner/lab4.bdf
+C:/Student/20003/Wagner/lab4.qpf
+C:/Student/20003/Wagner/lab4.qsf
+C:/Student/20003/Wagner/sm1.v
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

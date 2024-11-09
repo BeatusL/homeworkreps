@@ -1,0 +1,11 @@
+|SM1
+clock => fstate~1.DATAIN
+reset => fstate~3.DATAIN
+x1 => always1.IN0
+x1 => always1.IN0
+x1 => always1.IN0
+x2 => always1.IN1
+x2 => always1.IN1
+x2 => always1.IN1
+
+

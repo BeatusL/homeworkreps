@@ -1,0 +1,43 @@
+# do lab9.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:49:34 on May 22,2024
+# vlog -work work lab9.vo 
+# -- Compiling module b71
+# 
+# Top level modules:
+# 	b71
+# End time: 20:49:34 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:49:34 on May 22,2024
+# vlog -work work Waveform7.vwf.vt 
+# -- Compiling module b71_vlg_vec_tst
+# 
+# Top level modules:
+# 	b71_vlg_vec_tst
+# End time: 20:49:34 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.b71_vlg_vec_tst 
+# Start time: 20:49:34 on May 22,2024
+# Loading work.b71_vlg_vec_tst
+# Loading work.b71
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_pll
+# Loading cycloneive_ver.cycloneive_m_cntr
+# Loading cycloneive_ver.cycloneive_n_cntr
+# Loading cycloneive_ver.cycloneive_scale_cntr
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#25
+#  Note : Cycloneive PLL locked to incoming clock
+# Time: 360000  Instance: b71_vlg_vec_tst.i1.\inst4|altpll_component|auto_generated|pll1 
+# ** Note: $finish    : Waveform7.vwf.vt(66)
+#    Time: 1 us  Iteration: 0  Instance: /b71_vlg_vec_tst
+# End time: 20:49:34 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

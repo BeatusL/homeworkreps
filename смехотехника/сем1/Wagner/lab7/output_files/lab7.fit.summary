@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 07 13:13:32 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lab7
+Top-level Entity Name : b8
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 7 / 6,272 ( < 1 % )
+    Total combinational functions : 7 / 6,272 ( < 1 % )
+    Dedicated logic registers : 7 / 6,272 ( < 1 % )
+Total registers : 7
+Total pins : 11 / 92 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
