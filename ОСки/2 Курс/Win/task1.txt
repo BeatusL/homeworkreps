@@ -1,0 +1,44 @@
+$regPath = "Registry::HKEY_CLASSES_ROOT\.pdf"
+$regValue = "Content Type"
+$contentType = (Get-ItemProperty -Path $regPath -Name $regValue).$regValue
+
+$defaultAppPath = (Get-ItemProperty -Path $regPath)."(default)"
+
+$computerName = $env:COMPUTERNAME
+$workgroup = (Get-WmiObject -Class Win32_ComputerSystem).Workgroup
+$currentUserName = $env:USERNAME
+
+$driveLetter = "C"  # Укажите нужную букву диска
+$searchPath = "${driveLetter}:"
+$latestFile = Get-ChildItem -Path $searchPath -Filter "*.pdf" -Recurse | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+
+if ($latestFile) {
+    $result = "Success"
+    $output = "Computer Name: $computerName`r`n"
+    $output += "Workgroup: $workgroup`r`n"
+    $output += "Current User: $currentUserName`r`n"
+    $output += "Content Type: $contentType`r`n"
+    $output += "Default Application: $defaultAppPath`r`n"
+    $output += "Performance Result: $result`r`n"
+    $output += "`r`nLatest Found File:`r`n"
+    $output += "File Path: $($latestFile.FullName)`r`n"
+    $output += "Last Write Time: $($latestFile.LastWriteTime)`r`n"
+} else {
+    $result = "Failure"
+    $output = "Computer Name: $computerName`r`n"
+    $output += "Workgroup: $workgroup`r`n"
+    $output += "Current User: $currentUserName`r`n"
+    $output += "Content Type: $contentType`r`n"
+    $output += "Default Application: $defaultAppPath`r`n"
+    $output += "Performance Result: $result`r`n"
+}
+
+$tempDir = [System.IO.Path]::GetTempPath()
+
+$outputPath = Join-Path -Path $tempDir -ChildPath "file_search_results.txt"
+
+$output | Out-File -FilePath $outputPath
+
+Start-Process $outputPath
+
+

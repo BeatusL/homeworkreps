@@ -1,0 +1,29 @@
+D:/repos/verilog/labSIM2/tb_labSIM2_2.sv {1 {vlog -work work -sv -stats=none {D:\repos\verilog\labSIM2\tb_labSIM2_2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_labSIM2_2
+
+Top level modules:
+	tb_labSIM2_2
+
+} {} {}} D:/repos/verilog/labSIM2/lab6_1.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/labSIM2/lab6_1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab6_1
+
+Top level modules:
+	lab6_1
+
+} {} {}} D:/repos/verilog/labSIM2/lab6_2.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/labSIM2/lab6_2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab6_2
+
+Top level modules:
+	lab6_2
+
+} {} {}} D:/repos/verilog/labSIM2/lab6_3.sv {1 {vlog -work work -sv -stats=none {D:\repos\verilog\labSIM2\lab6_3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab6_3
+
+Top level modules:
+	lab6_3
+
+} {} {}}

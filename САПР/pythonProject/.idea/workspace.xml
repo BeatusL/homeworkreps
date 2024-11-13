@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a4604a9-d59c-4c9b-a836-06f01ef520f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Linux/operation_log_task2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Linux/operations_task3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Linux/task1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Linux/task1_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Linux/task2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Linux/task3.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task1_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task2_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task2_1_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task2_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task2_2_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task2_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task3_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ОСки/Win/task3_1.vbs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/101.py" beforeDir="false" afterPath="$PROJECT_DIR$/101.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -31,14 +48,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.101.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.101.executor": "Run",
+    "Python.p2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -56,5 +74,16 @@
       <updated>1725904362387</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

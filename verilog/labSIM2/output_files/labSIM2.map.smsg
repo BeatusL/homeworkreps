@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at labSIM2_1.sv(18): always construct contains both blocking and non-blocking assignments File: D:/repos/verilog/labSIM2/labSIM2_1.sv Line: 18

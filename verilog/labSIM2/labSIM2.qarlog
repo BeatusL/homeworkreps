@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	D:/repos/verilog/labSIM2/labSIM2.qarlog
+
+Archive:	D:/repos/verilog/labSIM2/labSIM2.qar
+Date:		Wed Nov 13 02:54:17 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog/labSIM2/lab6_1.sv
+D:/repos/verilog/labSIM2/lab6_2.sv
+D:/repos/verilog/labSIM2/lab6_3.sv
+D:/repos/verilog/labSIM2/labSIM2.qpf
+D:/repos/verilog/labSIM2/labSIM2.qsf
+D:/repos/verilog/labSIM2/labSIM2_1.sv
+D:/repos/verilog/labSIM2/labSIM2_3.sv
+D:/repos/verilog/labSIM2/tb_labSIM2.sv
+D:/repos/verilog/labSIM2/tb_labSIM2_2.sv
+D:/repos/verilog/labSIM2/tb_labSIM2_3.sv
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

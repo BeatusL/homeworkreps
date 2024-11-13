@@ -1,0 +1,45 @@
+Quartus Prime Archive log --	D:/repos/verilog/labSIM2/__labSIM2.auto.qarlog
+
+Archive:	D:/repos/verilog/labSIM2/__labSIM2.auto.qar
+Date:		Wed Nov 13 02:53:58 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog/labSIM2/db/labSIM2.cbx.xml
+D:/repos/verilog/labSIM2/db/labSIM2.qpf
+D:/repos/verilog/labSIM2/db/labSIM2.ram0_labSIM2_3_900a60b3.hdl.mif
+D:/repos/verilog/labSIM2/input.txt
+D:/repos/verilog/labSIM2/lab6_1.sv
+D:/repos/verilog/labSIM2/lab6_2.sv
+D:/repos/verilog/labSIM2/lab6_3.sv
+D:/repos/verilog/labSIM2/labSIM2_1.sv
+D:/repos/verilog/labSIM2/labSIM2_3.sv
+D:/repos/verilog/labSIM2/output_files/labSIM2.asm.rpt
+D:/repos/verilog/labSIM2/output_files/labSIM2.done
+D:/repos/verilog/labSIM2/output_files/labSIM2.fit.rpt
+D:/repos/verilog/labSIM2/output_files/labSIM2.fit.smsg
+D:/repos/verilog/labSIM2/output_files/labSIM2.fit.summary
+D:/repos/verilog/labSIM2/output_files/labSIM2.flow.rpt
+D:/repos/verilog/labSIM2/output_files/labSIM2.jdi
+D:/repos/verilog/labSIM2/output_files/labSIM2.map.rpt
+D:/repos/verilog/labSIM2/output_files/labSIM2.map.smsg
+D:/repos/verilog/labSIM2/output_files/labSIM2.map.summary
+D:/repos/verilog/labSIM2/output_files/labSIM2.pin
+D:/repos/verilog/labSIM2/output_files/labSIM2.sld
+D:/repos/verilog/labSIM2/output_files/labSIM2.sof
+D:/repos/verilog/labSIM2/output_files/labSIM2.sta.rpt
+D:/repos/verilog/labSIM2/output_files/labSIM2.sta.summary
+D:/repos/verilog/labSIM2/rom_input.txt
+D:/repos/verilog/labSIM2/tb_labSIM2.sv
+D:/repos/verilog/labSIM2/tb_labSIM2_2.sv
+D:/repos/verilog/labSIM2/tb_labSIM2_3.sv
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+labSIM2.archive.rpt
+labSIM2.qarlog
+labSIM2.qsf
+labSIM2_description.txt
+output.txt
+	======= Total: 34 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Intel_trn/ModelSim/Lab_MS4
+vram_tb
+Z1 !s110 1731267824
+!i10b 1
+!s100 KWb<ScPhBnMi6iEghRiV50
+Iekl]A7:ci95oZEH=V7NN>2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1730377558
+8C:/Intel_trn/ModelSim/Lab_MS4/ram_tb.v
+FC:/Intel_trn/ModelSim/Lab_MS4/ram_tb.v
+L0 4
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1731267824.000000
+!s107 C:/Intel_trn/ModelSim/Lab_MS4/ram_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Intel_trn/ModelSim/Lab_MS4/ram_tb.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vsp_ram
+R1
+!i10b 1
+!s100 5ZDEhi3Bb3R0GPhTi[JFP2
+IaNP7KT`P_zA5<fWObSK@;0
+R2
+R0
+w1730379686
+8C:/Intel_trn/ModelSim/Lab_MS4/ram_syn.v
+FC:/Intel_trn/ModelSim/Lab_MS4/ram_syn.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Intel_trn/ModelSim/Lab_MS4/ram_syn.v|
+!s90 -reportprogress|300|-work|work|C:/Intel_trn/ModelSim/Lab_MS4/ram_syn.v|
+!i113 1
+R5
+R6

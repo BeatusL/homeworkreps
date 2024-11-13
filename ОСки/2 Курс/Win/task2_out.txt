@@ -1,0 +1,8 @@
+Current CPU load: 9448.703125
+Process mspaint with ID 79728 terminated due to high CPU load.
+Current CPU load: 9486.234375
+Process mspaint with ID 80440 terminated due to high CPU load.
+Current CPU load: 9522.796875
+Process mspaint with ID 80316 terminated due to high CPU load.
+Current CPU load: 9582.75
+Process mspaint with ID 80816 terminated due to high CPU load.
