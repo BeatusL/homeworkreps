@@ -1,0 +1,167 @@
+|lab_QMS3
+CLK => CLK.IN1
+aRSTin => arst.PRESET
+aRSTin => t_rst.PRESET
+Din[0] => Dint.DATAB
+Din[1] => Dint.DATAB
+Din[2] => Dint.DATAB
+Din[3] => Dint.DATAB
+Din[4] => Dint.DATAB
+Din[5] => Dint.DATAB
+Din[6] => Dint.DATAB
+Din[7] => Dint.DATAB
+PWM <= PWM~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_QMS3|CNT:CNT_inst
+aclr => aclr.IN1
+clock => clock.IN1
+cout <= lpm_counter:LPM_COUNTER_component.cout
+q[0] <= lpm_counter:LPM_COUNTER_component.q
+q[1] <= lpm_counter:LPM_COUNTER_component.q
+q[2] <= lpm_counter:LPM_COUNTER_component.q
+q[3] <= lpm_counter:LPM_COUNTER_component.q
+q[4] <= lpm_counter:LPM_COUNTER_component.q
+q[5] <= lpm_counter:LPM_COUNTER_component.q
+q[6] <= lpm_counter:LPM_COUNTER_component.q
+q[7] <= lpm_counter:LPM_COUNTER_component.q
+
+
+|lab_QMS3|CNT:CNT_inst|lpm_counter:LPM_COUNTER_component
+clock => cntr_bmi:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_bmi:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_bmi:auto_generated.q[0]
+q[1] <= cntr_bmi:auto_generated.q[1]
+q[2] <= cntr_bmi:auto_generated.q[2]
+q[3] <= cntr_bmi:auto_generated.q[3]
+q[4] <= cntr_bmi:auto_generated.q[4]
+q[5] <= cntr_bmi:auto_generated.q[5]
+q[6] <= cntr_bmi:auto_generated.q[6]
+q[7] <= cntr_bmi:auto_generated.q[7]
+cout <= cntr_bmi:auto_generated.cout
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|lab_QMS3|CNT:CNT_inst|lpm_counter:LPM_COUNTER_component|cntr_bmi:auto_generated
+aclr => counter_reg_bit[7].IN0
+clock => counter_reg_bit[7].CLK
+clock => counter_reg_bit[6].CLK
+clock => counter_reg_bit[5].CLK
+clock => counter_reg_bit[4].CLK
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+cout <= cout_actual.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= counter_reg_bit[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= counter_reg_bit[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= counter_reg_bit[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= counter_reg_bit[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_QMS3|CMP:CMP_inst
+dataa[0] => dataa[0].IN1
+dataa[1] => dataa[1].IN1
+dataa[2] => dataa[2].IN1
+dataa[3] => dataa[3].IN1
+dataa[4] => dataa[4].IN1
+dataa[5] => dataa[5].IN1
+dataa[6] => dataa[6].IN1
+dataa[7] => dataa[7].IN1
+datab[0] => datab[0].IN1
+datab[1] => datab[1].IN1
+datab[2] => datab[2].IN1
+datab[3] => datab[3].IN1
+datab[4] => datab[4].IN1
+datab[5] => datab[5].IN1
+datab[6] => datab[6].IN1
+datab[7] => datab[7].IN1
+alb <= lpm_compare:LPM_COMPARE_component.alb
+
+
+|lab_QMS3|CMP:CMP_inst|lpm_compare:LPM_COMPARE_component
+dataa[0] => cmpr_6mg:auto_generated.dataa[0]
+dataa[1] => cmpr_6mg:auto_generated.dataa[1]
+dataa[2] => cmpr_6mg:auto_generated.dataa[2]
+dataa[3] => cmpr_6mg:auto_generated.dataa[3]
+dataa[4] => cmpr_6mg:auto_generated.dataa[4]
+dataa[5] => cmpr_6mg:auto_generated.dataa[5]
+dataa[6] => cmpr_6mg:auto_generated.dataa[6]
+dataa[7] => cmpr_6mg:auto_generated.dataa[7]
+datab[0] => cmpr_6mg:auto_generated.datab[0]
+datab[1] => cmpr_6mg:auto_generated.datab[1]
+datab[2] => cmpr_6mg:auto_generated.datab[2]
+datab[3] => cmpr_6mg:auto_generated.datab[3]
+datab[4] => cmpr_6mg:auto_generated.datab[4]
+datab[5] => cmpr_6mg:auto_generated.datab[5]
+datab[6] => cmpr_6mg:auto_generated.datab[6]
+datab[7] => cmpr_6mg:auto_generated.datab[7]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= cmpr_6mg:auto_generated.alb
+aeb <= <GND>
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|lab_QMS3|CMP:CMP_inst|lpm_compare:LPM_COMPARE_component|cmpr_6mg:auto_generated
+alb <= alb_int.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => op_1.IN15
+dataa[1] => op_1.IN13
+dataa[2] => op_1.IN11
+dataa[3] => op_1.IN9
+dataa[4] => op_1.IN7
+dataa[5] => op_1.IN5
+dataa[6] => op_1.IN3
+dataa[7] => op_1.IN1
+datab[0] => op_1.IN16
+datab[1] => op_1.IN14
+datab[2] => op_1.IN12
+datab[3] => op_1.IN10
+datab[4] => op_1.IN8
+datab[5] => op_1.IN6
+datab[6] => op_1.IN4
+datab[7] => op_1.IN2
+
+

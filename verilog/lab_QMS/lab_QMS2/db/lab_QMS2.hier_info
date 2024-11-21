@@ -1,0 +1,214 @@
+|lab_QMS2
+CLK => CLK.IN1
+aRSTin => arst.PRESET
+aRSTin => t_rst.PRESET
+Dout[0] <= Dout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Dout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Dout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[4] <= Dout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[5] <= Dout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[6] <= Dout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[7] <= Dout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[8] <= Dout[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[9] <= Dout[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[10] <= Dout[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[11] <= Dout[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[12] <= Dout[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[13] <= Dout[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[14] <= Dout[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[15] <= Dout[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_QMS2|CNT:CNT_inst
+aclr => aclr.IN1
+clock => clock.IN1
+q[0] <= lpm_counter:LPM_COUNTER_component.q
+q[1] <= lpm_counter:LPM_COUNTER_component.q
+q[2] <= lpm_counter:LPM_COUNTER_component.q
+q[3] <= lpm_counter:LPM_COUNTER_component.q
+q[4] <= lpm_counter:LPM_COUNTER_component.q
+q[5] <= lpm_counter:LPM_COUNTER_component.q
+q[6] <= lpm_counter:LPM_COUNTER_component.q
+q[7] <= lpm_counter:LPM_COUNTER_component.q
+
+
+|lab_QMS2|CNT:CNT_inst|lpm_counter:LPM_COUNTER_component
+clock => cntr_g7i:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_g7i:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+data[6] => ~NO_FANOUT~
+data[7] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_g7i:auto_generated.q[0]
+q[1] <= cntr_g7i:auto_generated.q[1]
+q[2] <= cntr_g7i:auto_generated.q[2]
+q[3] <= cntr_g7i:auto_generated.q[3]
+q[4] <= cntr_g7i:auto_generated.q[4]
+q[5] <= cntr_g7i:auto_generated.q[5]
+q[6] <= cntr_g7i:auto_generated.q[6]
+q[7] <= cntr_g7i:auto_generated.q[7]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|lab_QMS2|CNT:CNT_inst|lpm_counter:LPM_COUNTER_component|cntr_g7i:auto_generated
+aclr => counter_reg_bit[7].IN0
+clock => counter_reg_bit[7].CLK
+clock => counter_reg_bit[6].CLK
+clock => counter_reg_bit[5].CLK
+clock => counter_reg_bit[4].CLK
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= counter_reg_bit[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= counter_reg_bit[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= counter_reg_bit[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= counter_reg_bit[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_QMS2|PWR:PWR_inst
+dataa[0] => dataa[0].IN1
+dataa[1] => dataa[1].IN1
+dataa[2] => dataa[2].IN1
+dataa[3] => dataa[3].IN1
+dataa[4] => dataa[4].IN1
+dataa[5] => dataa[5].IN1
+dataa[6] => dataa[6].IN1
+dataa[7] => dataa[7].IN1
+datab[0] => datab[0].IN1
+datab[1] => datab[1].IN1
+datab[2] => datab[2].IN1
+datab[3] => datab[3].IN1
+datab[4] => datab[4].IN1
+datab[5] => datab[5].IN1
+datab[6] => datab[6].IN1
+datab[7] => datab[7].IN1
+result[0] <= lpm_mult:lpm_mult_component.result
+result[1] <= lpm_mult:lpm_mult_component.result
+result[2] <= lpm_mult:lpm_mult_component.result
+result[3] <= lpm_mult:lpm_mult_component.result
+result[4] <= lpm_mult:lpm_mult_component.result
+result[5] <= lpm_mult:lpm_mult_component.result
+result[6] <= lpm_mult:lpm_mult_component.result
+result[7] <= lpm_mult:lpm_mult_component.result
+result[8] <= lpm_mult:lpm_mult_component.result
+result[9] <= lpm_mult:lpm_mult_component.result
+result[10] <= lpm_mult:lpm_mult_component.result
+result[11] <= lpm_mult:lpm_mult_component.result
+result[12] <= lpm_mult:lpm_mult_component.result
+result[13] <= lpm_mult:lpm_mult_component.result
+result[14] <= lpm_mult:lpm_mult_component.result
+result[15] <= lpm_mult:lpm_mult_component.result
+
+
+|lab_QMS2|PWR:PWR_inst|lpm_mult:lpm_mult_component
+dataa[0] => mult_scn:auto_generated.dataa[0]
+dataa[1] => mult_scn:auto_generated.dataa[1]
+dataa[2] => mult_scn:auto_generated.dataa[2]
+dataa[3] => mult_scn:auto_generated.dataa[3]
+dataa[4] => mult_scn:auto_generated.dataa[4]
+dataa[5] => mult_scn:auto_generated.dataa[5]
+dataa[6] => mult_scn:auto_generated.dataa[6]
+dataa[7] => mult_scn:auto_generated.dataa[7]
+datab[0] => mult_scn:auto_generated.datab[0]
+datab[1] => mult_scn:auto_generated.datab[1]
+datab[2] => mult_scn:auto_generated.datab[2]
+datab[3] => mult_scn:auto_generated.datab[3]
+datab[4] => mult_scn:auto_generated.datab[4]
+datab[5] => mult_scn:auto_generated.datab[5]
+datab[6] => mult_scn:auto_generated.datab[6]
+datab[7] => mult_scn:auto_generated.datab[7]
+sum[0] => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mult_scn:auto_generated.result[0]
+result[1] <= mult_scn:auto_generated.result[1]
+result[2] <= mult_scn:auto_generated.result[2]
+result[3] <= mult_scn:auto_generated.result[3]
+result[4] <= mult_scn:auto_generated.result[4]
+result[5] <= mult_scn:auto_generated.result[5]
+result[6] <= mult_scn:auto_generated.result[6]
+result[7] <= mult_scn:auto_generated.result[7]
+result[8] <= mult_scn:auto_generated.result[8]
+result[9] <= mult_scn:auto_generated.result[9]
+result[10] <= mult_scn:auto_generated.result[10]
+result[11] <= mult_scn:auto_generated.result[11]
+result[12] <= mult_scn:auto_generated.result[12]
+result[13] <= mult_scn:auto_generated.result[13]
+result[14] <= mult_scn:auto_generated.result[14]
+result[15] <= mult_scn:auto_generated.result[15]
+
+
+|lab_QMS2|PWR:PWR_inst|lpm_mult:lpm_mult_component|mult_scn:auto_generated
+dataa[0] => mac_mult1.DATAA
+dataa[1] => mac_mult1.DATAA1
+dataa[2] => mac_mult1.DATAA2
+dataa[3] => mac_mult1.DATAA3
+dataa[4] => mac_mult1.DATAA4
+dataa[5] => mac_mult1.DATAA5
+dataa[6] => mac_mult1.DATAA6
+dataa[7] => mac_mult1.DATAA7
+datab[0] => mac_mult1.DATAB
+datab[1] => mac_mult1.DATAB1
+datab[2] => mac_mult1.DATAB2
+datab[3] => mac_mult1.DATAB3
+datab[4] => mac_mult1.DATAB4
+datab[5] => mac_mult1.DATAB5
+datab[6] => mac_mult1.DATAB6
+datab[7] => mac_mult1.DATAB7
+result[0] <= mac_out2.DATAOUT
+result[1] <= mac_out2.DATAOUT1
+result[2] <= mac_out2.DATAOUT2
+result[3] <= mac_out2.DATAOUT3
+result[4] <= mac_out2.DATAOUT4
+result[5] <= mac_out2.DATAOUT5
+result[6] <= mac_out2.DATAOUT6
+result[7] <= mac_out2.DATAOUT7
+result[8] <= mac_out2.DATAOUT8
+result[9] <= mac_out2.DATAOUT9
+result[10] <= mac_out2.DATAOUT10
+result[11] <= mac_out2.DATAOUT11
+result[12] <= mac_out2.DATAOUT12
+result[13] <= mac_out2.DATAOUT13
+result[14] <= mac_out2.DATAOUT14
+result[15] <= mac_out2.DATAOUT15
+
+

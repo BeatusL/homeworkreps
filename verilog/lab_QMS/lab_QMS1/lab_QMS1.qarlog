@@ -1,0 +1,27 @@
+Quartus Prime Archive log --	D:/repos/verilog/lab_QMS/lab_QMS1/lab_QMS1.qarlog
+
+Archive:	D:/repos/verilog/lab_QMS/lab_QMS1/lab_QMS1.qar
+Date:		Tue Nov 19 23:14:33 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog/lab_QMS/lab_QMS1/DFF_chain.v
+D:/repos/verilog/lab_QMS/lab_QMS1/ROM_8D.qip
+D:/repos/verilog/lab_QMS/lab_QMS1/ROM_8D.v
+D:/repos/verilog/lab_QMS/lab_QMS1/ROM_8D_bb.v
+D:/repos/verilog/lab_QMS/lab_QMS1/ROM_8D_inst.v
+D:/repos/verilog/lab_QMS/lab_QMS1/cnt_adr.qip
+D:/repos/verilog/lab_QMS/lab_QMS1/cnt_adr.v
+D:/repos/verilog/lab_QMS/lab_QMS1/cnt_adr_bb.v
+D:/repos/verilog/lab_QMS/lab_QMS1/cnt_adr_inst.v
+D:/repos/verilog/lab_QMS/lab_QMS1/cnt_div.v
+D:/repos/verilog/lab_QMS/lab_QMS1/lab_QMS1.qpf
+D:/repos/verilog/lab_QMS/lab_QMS1/lab_QMS1.qsf
+D:/repos/verilog/lab_QMS/lab_QMS1/lab_QMS1.v
+D:/repos/verilog/lab_QMS/lab_QMS1/rom_8d.hex
+D:/repos/verilog/lab_QMS/lab_QMS1/tb_lab_QMS1.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 16 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

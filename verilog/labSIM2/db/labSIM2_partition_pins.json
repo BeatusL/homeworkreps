@@ -40,23 +40,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "din[0]",
+					"name" : "da[2]",
 					"strict" : false
 				},
 				{
-					"name" : "din[1]",
+					"name" : "da[1]",
 					"strict" : false
 				},
 				{
-					"name" : "din[3]",
-					"strict" : false
-				},
-				{
-					"name" : "din[2]",
-					"strict" : false
-				},
-				{
-					"name" : "srst_in",
+					"name" : "da[0]",
 					"strict" : false
 				}
 			]

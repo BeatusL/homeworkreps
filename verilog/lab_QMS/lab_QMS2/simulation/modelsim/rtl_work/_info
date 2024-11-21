@@ -1,0 +1,108 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/repos/verilog/lab_QMS/lab_QMS2/simulation/modelsim
+vCNT
+Z1 !s110 1732041365
+!i10b 1
+!s100 SLMMn>A@U3A0lf=46_;1K1
+I5OU>S1o3TGi^ji[o;8zQA3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1732021421
+8D:/repos/verilog/lab_QMS/lab_QMS2/CNT.v
+FD:/repos/verilog/lab_QMS/lab_QMS2/CNT.v
+Z3 L0 39
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1732041365.000000
+!s107 D:/repos/verilog/lab_QMS/lab_QMS2/CNT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/repos/verilog/lab_QMS/lab_QMS2|D:/repos/verilog/lab_QMS/lab_QMS2/CNT.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+D:/repos/verilog/lab_QMS/lab_QMS2
+Z8 tCvgOpt 0
+n@c@n@t
+vlab_QMS2
+Z9 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 I>TK>8Z0lZnG]DHQ;j7H03
+I4W2NS7O0;Nl`T?NfMKKe;1
+R2
+!s105 lab_QMS2_sv_unit
+S1
+R0
+w1732038250
+8D:/repos/verilog/lab_QMS/lab_QMS2/lab_QMS2.sv
+FD:/repos/verilog/lab_QMS/lab_QMS2/lab_QMS2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/repos/verilog/lab_QMS/lab_QMS2/lab_QMS2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/repos/verilog/lab_QMS/lab_QMS2|D:/repos/verilog/lab_QMS/lab_QMS2/lab_QMS2.sv|
+!i113 1
+Z10 o-sv -work work
+Z11 !s92 -sv -work work +incdir+D:/repos/verilog/lab_QMS/lab_QMS2
+R8
+nlab_@q@m@s2
+vPWR
+R1
+!i10b 1
+!s100 HZP?:6l_;OE8BV<:PQ_`01
+I^zicF?`51XHiL=lS[LM]M0
+R2
+R0
+w1732021530
+8D:/repos/verilog/lab_QMS/lab_QMS2/PWR.v
+FD:/repos/verilog/lab_QMS/lab_QMS2/PWR.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/repos/verilog/lab_QMS/lab_QMS2/PWR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/repos/verilog/lab_QMS/lab_QMS2|D:/repos/verilog/lab_QMS/lab_QMS2/PWR.v|
+!i113 1
+R6
+R7
+R8
+n@p@w@r
+vtb_lab_QMS2
+R9
+R1
+!i10b 1
+!s100 o5cI<UWFCJzR;f@Qib@`N2
+IR49?fgiEL?AoUbMAQT]:^1
+R2
+!s105 tb_lab_QMS2_sv_unit
+S1
+R0
+w1732038244
+8D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv
+FD:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/repos/verilog/lab_QMS/lab_QMS2|D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv|
+!i113 1
+R10
+R11
+R8
+ntb_lab_@q@m@s2

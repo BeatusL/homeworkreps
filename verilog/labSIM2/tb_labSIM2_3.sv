@@ -23,7 +23,7 @@ labSIM2_3 lalala (.clk(clk), .da(da), .q(q));
 
 initial begin
 	$display("\t\t Time | CLK | da | q");
-	$monitor($time, clk, da, q);
+	$monitor($time,,,,,,clk,,,,,,da,,,,,q);
 	#1000 $stop;
 end
 

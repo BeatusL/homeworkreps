@@ -1,0 +1,5 @@
+module lab_QMS3 (
+   input  CLK, aRSTin,
+	input [7:0] Din,
+   output PWM	
+);
