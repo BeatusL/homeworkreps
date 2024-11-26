@@ -1,0 +1,31 @@
+Quartus Prime Archive log --	D:/repos/verilog/lab_3s/lab_3s.qarlog
+
+Archive:	D:/repos/verilog/lab_3s/lab_3s.qar
+Date:		Tue Nov 26 22:50:53 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog/lab_3s/b2bd_LOG.sv
+D:/repos/verilog/lab_3s/b2bd_ROM.sv
+D:/repos/verilog/lab_3s/b2bd_SR.sv
+D:/repos/verilog/lab_3s/b2ss.sv
+D:/repos/verilog/lab_3s/cnt_div.sv
+D:/repos/verilog/lab_3s/d_rg.sv
+D:/repos/verilog/lab_3s/dig_rg.sv
+D:/repos/verilog/lab_3s/expected_data_b2bcd.txt
+D:/repos/verilog/lab_3s/fsm.sv
+D:/repos/verilog/lab_3s/lab_3s.qpf
+D:/repos/verilog/lab_3s/lab_3s.qsf
+D:/repos/verilog/lab_3s/lab_3s.sv
+D:/repos/verilog/lab_3s/mux.sv
+D:/repos/verilog/lab_3s/rst_rg.sv
+D:/repos/verilog/lab_3s/ss_cntr.sv
+D:/repos/verilog/lab_3s/ss_rg.sv
+D:/repos/verilog/lab_3s/tb_b2bd_LOG.sv
+D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv
+D:/repos/verilog/lab_3s/tb_b2bd_SR.sv
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 20 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

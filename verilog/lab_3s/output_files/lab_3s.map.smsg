@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at ss_rg.sv(9): always construct contains both blocking and non-blocking assignments File: d:/repos/verilog/lab_2s/ss_rg.sv Line: 9
+Warning (10268): Verilog HDL information at dig_rg.sv(9): always construct contains both blocking and non-blocking assignments File: d:/repos/verilog/lab_2s/dig_rg.sv Line: 9

@@ -1,0 +1,139 @@
+D:/repos/verilog/lab_3s/b2ss.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/b2ss.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module b2ss
+
+Top level modules:
+	b2ss
+
+} {} {}} D:/repos/verilog/lab_3s/tb_FSM.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/tb_FSM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_FSM
+
+Top level modules:
+	tb_FSM
+
+} {} {}} D:/repos/verilog/lab_3s/b2bd_LOG.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/b2bd_LOG.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module b2bd_LOG
+
+Top level modules:
+	b2bd_LOG
+
+} {} {}} D:/repos/verilog/lab_3s/ss_cntr.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/ss_cntr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ss_cntr
+
+Top level modules:
+	ss_cntr
+
+} {} {}} D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_b2bd_ROM
+
+Top level modules:
+	tb_b2bd_ROM
+
+} {} {}} D:/repos/verilog/lab_3s/dig_rg.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/dig_rg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dig_rg
+
+Top level modules:
+	dig_rg
+
+} {} {}} D:/repos/verilog/lab_3s/FSM.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/FSM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FSM
+
+Top level modules:
+	FSM
+
+} {} {}} D:/repos/verilog/lab_3s/tb_MUX.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/tb_MUX.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_MUX
+
+Top level modules:
+	tb_MUX
+
+} {} {}} D:/repos/verilog/lab_3s/cnt_div.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/cnt_div.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt_div
+
+Top level modules:
+	cnt_div
+
+} {} {}} D:/repos/verilog/lab_3s/tb_b2bd_LOG.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/tb_b2bd_LOG.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_b2bd_LOG
+
+Top level modules:
+	tb_b2bd_LOG
+
+} {} {}} D:/repos/verilog/lab_3s/rst_rg.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/rst_rg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rst_rg
+
+Top level modules:
+	rst_rg
+
+} {} {}} D:/repos/verilog/lab_3s/MUX.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/MUX.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} D:/repos/verilog/lab_3s/lab_2s.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/lab_2s.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab_2s
+
+Top level modules:
+	lab_2s
+
+} {} {}} D:/repos/verilog/lab_3s/tb_b2bd_SR.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/tb_b2bd_SR.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_b2bd_SR
+
+Top level modules:
+	tb_b2bd_SR
+
+} {} {}} D:/repos/verilog/lab_3s/lab_3s.sv {0 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/lab_3s.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab_3s
+** Error: (vlog-13069) D:/repos/verilog/lab_3s/lab_3s.sv(15): near ".": syntax error, unexpected '.'.
+
+} {4.0 5.0} {}} D:/repos/verilog/lab_3s/d_rg.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/d_rg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module d_rg
+
+Top level modules:
+	d_rg
+
+} {} {}} D:/repos/verilog/lab_3s/ss_rg.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/ss_rg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ss_rg
+
+Top level modules:
+	ss_rg
+
+} {} {}} D:/repos/verilog/lab_3s/b2bd_SR.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/b2bd_SR.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module b2bd_SR
+
+Top level modules:
+	b2bd_SR
+
+} {} {}} D:/repos/verilog/lab_3s/b2bd_ROM.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/b2bd_ROM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module b2bd_ROM
+
+Top level modules:
+	b2bd_ROM
+
+} {} {}} D:/repos/verilog/lab_3s/tb_lab_2s.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_3s/tb_lab_2s.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_lab_2s
+
+Top level modules:
+	tb_lab_2s
+
+} {} {}}
