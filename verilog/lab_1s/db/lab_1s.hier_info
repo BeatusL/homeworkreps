@@ -1,0 +1,126 @@
+|lab_1s
+clk => comb.DATAIN
+rst_n => comb.DATAIN
+dout[0] <= led_rg:led_rg_inst.dout
+dout[1] <= led_rg:led_rg_inst.dout
+dout[2] <= led_rg:led_rg_inst.dout
+dout[3] <= led_rg:led_rg_inst.dout
+dout[4] <= led_rg:led_rg_inst.dout
+dout[5] <= led_rg:led_rg_inst.dout
+dout[6] <= led_rg:led_rg_inst.dout
+dout[7] <= led_rg:led_rg_inst.dout
+
+
+|lab_1s|cnt_div:cnt_div_inst
+clk => div_counter[0].CLK
+clk => div_counter[1].CLK
+clk => div_counter[2].CLK
+clk => div_counter[3].CLK
+clk => div_counter[4].CLK
+clk => div_counter[5].CLK
+clk => div_counter[6].CLK
+clk => div_counter[7].CLK
+clk => div_counter[8].CLK
+clk => div_counter[9].CLK
+clk => div_counter[10].CLK
+clk => div_counter[11].CLK
+clk => div_counter[12].CLK
+clk => div_counter[13].CLK
+clk => div_counter[14].CLK
+clk => div_counter[15].CLK
+clk => div_counter[16].CLK
+clk => div_counter[17].CLK
+clk => div_counter[18].CLK
+clk => div_counter[19].CLK
+clk => div_counter[20].CLK
+clk => div_counter[21].CLK
+clk => div_counter[22].CLK
+clk => div_counter[23].CLK
+clk => div_counter[24].CLK
+clk => div_counter[25].CLK
+clk => div_counter[26].CLK
+clk => div_counter[27].CLK
+clk => div_counter[28].CLK
+clk => div_counter[29].CLK
+clk => div_counter[30].CLK
+clk => div_counter[31].CLK
+rst_n => always0.IN1
+ena <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_1s|rst_rg:rst_reg_inst
+clk => rst_n_2.CLK
+clk => rst_n_1.CLK
+rst_n => rst_n_1.DATAIN
+rst_n_i <= rst_n_2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_1s|led_drv:led_drv_inst
+clk => dint_reg[0].CLK
+clk => dint_reg[1].CLK
+clk => dint_reg[2].CLK
+clk => dint_reg[3].CLK
+clk => dint_reg[4].CLK
+clk => dint_reg[5].CLK
+clk => dint_reg[6].CLK
+clk => dint_reg[7].CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+rst_n => counter.OUTPUTSELECT
+rst_n => counter.OUTPUTSELECT
+rst_n => counter.OUTPUTSELECT
+rst_n => counter.OUTPUTSELECT
+rst_n => counter.OUTPUTSELECT
+ena => counter.OUTPUTSELECT
+ena => counter.OUTPUTSELECT
+ena => counter.OUTPUTSELECT
+ena => counter.OUTPUTSELECT
+ena => counter.OUTPUTSELECT
+dint[0] <= dint_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+dint[1] <= dint_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+dint[2] <= dint_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+dint[3] <= dint_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+dint[4] <= dint_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+dint[5] <= dint_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+dint[6] <= dint_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+dint[7] <= dint_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_1s|led_rg:led_rg_inst
+dint[0] => reg_data.DATAA
+dint[1] => reg_data.DATAA
+dint[2] => reg_data.DATAA
+dint[3] => reg_data.DATAA
+dint[4] => reg_data.DATAA
+dint[5] => reg_data.DATAA
+dint[6] => reg_data.DATAA
+dint[7] => reg_data.DATAA
+clk => reg_data[0].CLK
+clk => reg_data[1].CLK
+clk => reg_data[2].CLK
+clk => reg_data[3].CLK
+clk => reg_data[4].CLK
+clk => reg_data[5].CLK
+clk => reg_data[6].CLK
+clk => reg_data[7].CLK
+rst_n => reg_data.OUTPUTSELECT
+rst_n => reg_data.OUTPUTSELECT
+rst_n => reg_data.OUTPUTSELECT
+rst_n => reg_data.OUTPUTSELECT
+rst_n => reg_data.OUTPUTSELECT
+rst_n => reg_data.OUTPUTSELECT
+rst_n => reg_data.OUTPUTSELECT
+rst_n => reg_data.OUTPUTSELECT
+dout[0] <= reg_data[0].DB_MAX_OUTPUT_PORT_TYPE
+dout[1] <= reg_data[1].DB_MAX_OUTPUT_PORT_TYPE
+dout[2] <= reg_data[2].DB_MAX_OUTPUT_PORT_TYPE
+dout[3] <= reg_data[3].DB_MAX_OUTPUT_PORT_TYPE
+dout[4] <= reg_data[4].DB_MAX_OUTPUT_PORT_TYPE
+dout[5] <= reg_data[5].DB_MAX_OUTPUT_PORT_TYPE
+dout[6] <= reg_data[6].DB_MAX_OUTPUT_PORT_TYPE
+dout[7] <= reg_data[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

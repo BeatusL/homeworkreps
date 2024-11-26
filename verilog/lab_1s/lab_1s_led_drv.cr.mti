@@ -1,0 +1,50 @@
+D:/repos/verilog/lab_1s/tb_cnt_div.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_1s/tb_cnt_div.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_cnt_div
+
+Top level modules:
+	tb_cnt_div
+
+} {} {}} D:/repos/verilog/lab_1s/led_drv.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_1s/led_drv.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module led_drv
+
+Top level modules:
+	led_drv
+
+} {} {}} D:/repos/verilog/lab_1s/tb_led_drv.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_1s/tb_led_drv.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_led_drv
+
+Top level modules:
+	tb_led_drv
+
+} {} {}} D:/repos/verilog/lab_1s/led_rg.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_1s/led_rg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module led_rg
+
+Top level modules:
+	led_rg
+
+} {} {}} D:/repos/verilog/lab_1s/rst_rg.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_1s/rst_rg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rst_rg
+
+Top level modules:
+	rst_rg
+
+} {} {}} D:/repos/verilog/lab_1s/cnt_div.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_1s/cnt_div.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cnt_div
+
+Top level modules:
+	cnt_div
+
+} {} {}} D:/repos/verilog/lab_1s/tb_lab_1s.sv {1 {vlog -work work -sv -stats=none {D:\repos\verilog\lab_1s\tb_lab_1s.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_lab_1s
+
+Top level modules:
+	tb_lab_1s
+
+} {} {}}

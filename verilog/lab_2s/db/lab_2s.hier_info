@@ -1,0 +1,269 @@
+|lab_2s
+clk => comb.DATAIN
+rst_n => comb.DATAIN
+ss[0] << ss_cntr:ss_cntr_inst.ss
+ss[1] << ss_cntr:ss_cntr_inst.ss
+ss[2] << ss_cntr:ss_cntr_inst.ss
+ss[3] << ss_cntr:ss_cntr_inst.ss
+ss[4] << ss_cntr:ss_cntr_inst.ss
+ss[5] << ss_cntr:ss_cntr_inst.ss
+ss[6] << ss_cntr:ss_cntr_inst.ss
+dig[1] << ss_cntr:ss_cntr_inst.dig
+dig[2] << ss_cntr:ss_cntr_inst.dig
+dig[3] << ss_cntr:ss_cntr_inst.dig
+dig[4] << ss_cntr:ss_cntr_inst.dig
+
+
+|lab_2s|ss_cntr:ss_cntr_inst
+clk => clk.IN6
+rst_n => rst_n.IN1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c[0] => c[0].IN1
+c[1] => c[1].IN1
+c[2] => c[2].IN1
+c[3] => c[3].IN1
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+ss[0] <= ss_rg:ss_rg_inst.ss
+ss[1] <= ss_rg:ss_rg_inst.ss
+ss[2] <= ss_rg:ss_rg_inst.ss
+ss[3] <= ss_rg:ss_rg_inst.ss
+ss[4] <= ss_rg:ss_rg_inst.ss
+ss[5] <= ss_rg:ss_rg_inst.ss
+ss[6] <= ss_rg:ss_rg_inst.ss
+dig[1] <= dig_rg:dig_rg_inst.dig
+dig[2] <= dig_rg:dig_rg_inst.dig
+dig[3] <= dig_rg:dig_rg_inst.dig
+dig[4] <= dig_rg:dig_rg_inst.dig
+
+
+|lab_2s|ss_cntr:ss_cntr_inst|d_rg:d_rg_inst
+a[0] => reg_a.DATAA
+a[1] => reg_a.DATAA
+a[2] => reg_a.DATAA
+a[3] => reg_a.DATAA
+b[0] => reg_b.DATAA
+b[1] => reg_b.DATAA
+b[2] => reg_b.DATAA
+b[3] => reg_b.DATAA
+c[0] => reg_c.DATAA
+c[1] => reg_c.DATAA
+c[2] => reg_c.DATAA
+c[3] => reg_c.DATAA
+d[0] => reg_d.DATAA
+d[1] => reg_d.DATAA
+d[2] => reg_d.DATAA
+d[3] => reg_d.DATAA
+clk => reg_d[0].CLK
+clk => reg_d[1].CLK
+clk => reg_d[2].CLK
+clk => reg_d[3].CLK
+clk => reg_c[0].CLK
+clk => reg_c[1].CLK
+clk => reg_c[2].CLK
+clk => reg_c[3].CLK
+clk => reg_b[0].CLK
+clk => reg_b[1].CLK
+clk => reg_b[2].CLK
+clk => reg_b[3].CLK
+clk => reg_a[0].CLK
+clk => reg_a[1].CLK
+clk => reg_a[2].CLK
+clk => reg_a[3].CLK
+rst_ni => reg_a.OUTPUTSELECT
+rst_ni => reg_a.OUTPUTSELECT
+rst_ni => reg_a.OUTPUTSELECT
+rst_ni => reg_a.OUTPUTSELECT
+rst_ni => reg_b.OUTPUTSELECT
+rst_ni => reg_b.OUTPUTSELECT
+rst_ni => reg_b.OUTPUTSELECT
+rst_ni => reg_b.OUTPUTSELECT
+rst_ni => reg_c.OUTPUTSELECT
+rst_ni => reg_c.OUTPUTSELECT
+rst_ni => reg_c.OUTPUTSELECT
+rst_ni => reg_c.OUTPUTSELECT
+rst_ni => reg_d.OUTPUTSELECT
+rst_ni => reg_d.OUTPUTSELECT
+rst_ni => reg_d.OUTPUTSELECT
+rst_ni => reg_d.OUTPUTSELECT
+ai[0] <= reg_a[0].DB_MAX_OUTPUT_PORT_TYPE
+ai[1] <= reg_a[1].DB_MAX_OUTPUT_PORT_TYPE
+ai[2] <= reg_a[2].DB_MAX_OUTPUT_PORT_TYPE
+ai[3] <= reg_a[3].DB_MAX_OUTPUT_PORT_TYPE
+bi[0] <= reg_b[0].DB_MAX_OUTPUT_PORT_TYPE
+bi[1] <= reg_b[1].DB_MAX_OUTPUT_PORT_TYPE
+bi[2] <= reg_b[2].DB_MAX_OUTPUT_PORT_TYPE
+bi[3] <= reg_b[3].DB_MAX_OUTPUT_PORT_TYPE
+ci[0] <= reg_c[0].DB_MAX_OUTPUT_PORT_TYPE
+ci[1] <= reg_c[1].DB_MAX_OUTPUT_PORT_TYPE
+ci[2] <= reg_c[2].DB_MAX_OUTPUT_PORT_TYPE
+ci[3] <= reg_c[3].DB_MAX_OUTPUT_PORT_TYPE
+di[0] <= reg_d[0].DB_MAX_OUTPUT_PORT_TYPE
+di[1] <= reg_d[1].DB_MAX_OUTPUT_PORT_TYPE
+di[2] <= reg_d[2].DB_MAX_OUTPUT_PORT_TYPE
+di[3] <= reg_d[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_2s|ss_cntr:ss_cntr_inst|rst_rg:rst_rg_inst
+clk => rst_n_2.CLK
+clk => rst_n_1.CLK
+rst_n => rst_n_1.DATAIN
+rst_n_i <= rst_n_2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_2s|ss_cntr:ss_cntr_inst|MUX:MUX_inst
+ai[0] => Mux3.IN0
+ai[1] => Mux2.IN0
+ai[2] => Mux1.IN0
+ai[3] => Mux0.IN0
+bi[0] => Mux3.IN1
+bi[1] => Mux2.IN1
+bi[2] => Mux1.IN1
+bi[3] => Mux0.IN1
+ci[0] => Mux3.IN2
+ci[1] => Mux2.IN2
+ci[2] => Mux1.IN2
+ci[3] => Mux0.IN2
+di[0] => Mux3.IN3
+di[1] => Mux2.IN3
+di[2] => Mux1.IN3
+di[3] => Mux0.IN3
+sel[0] => Mux0.IN5
+sel[0] => Mux1.IN5
+sel[0] => Mux2.IN5
+sel[0] => Mux3.IN5
+sel[1] => Mux0.IN4
+sel[1] => Mux1.IN4
+sel[1] => Mux2.IN4
+sel[1] => Mux3.IN4
+mo[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+mo[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+mo[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+mo[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_2s|ss_cntr:ss_cntr_inst|FSM:FSM_inst
+ENA => state.OUTPUTSELECT
+ENA => state.OUTPUTSELECT
+ENA => state.OUTPUTSELECT
+ENA => state.OUTPUTSELECT
+clk => state~1.DATAIN
+rst_ni => state~3.DATAIN
+sel[0] <= sel.DB_MAX_OUTPUT_PORT_TYPE
+sel[1] <= sel.DB_MAX_OUTPUT_PORT_TYPE
+digi[1] <= digi[1].DB_MAX_OUTPUT_PORT_TYPE
+digi[2] <= digi[2].DB_MAX_OUTPUT_PORT_TYPE
+digi[3] <= digi[3].DB_MAX_OUTPUT_PORT_TYPE
+digi[4] <= digi[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_2s|ss_cntr:ss_cntr_inst|cnt_div:cnt_div_inst
+clk => div_counter[0].CLK
+clk => div_counter[1].CLK
+clk => div_counter[2].CLK
+clk => div_counter[3].CLK
+clk => div_counter[4].CLK
+clk => div_counter[5].CLK
+clk => div_counter[6].CLK
+clk => div_counter[7].CLK
+clk => div_counter[8].CLK
+clk => div_counter[9].CLK
+clk => div_counter[10].CLK
+clk => div_counter[11].CLK
+clk => div_counter[12].CLK
+clk => div_counter[13].CLK
+clk => div_counter[14].CLK
+clk => div_counter[15].CLK
+clk => div_counter[16].CLK
+clk => div_counter[17].CLK
+clk => div_counter[18].CLK
+clk => div_counter[19].CLK
+clk => div_counter[20].CLK
+clk => div_counter[21].CLK
+clk => div_counter[22].CLK
+clk => div_counter[23].CLK
+clk => div_counter[24].CLK
+clk => div_counter[25].CLK
+clk => div_counter[26].CLK
+clk => div_counter[27].CLK
+clk => div_counter[28].CLK
+clk => div_counter[29].CLK
+clk => div_counter[30].CLK
+clk => div_counter[31].CLK
+rst_n => always0.IN1
+ENA <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_2s|ss_cntr:ss_cntr_inst|b2ss:b2ss_inst
+a[0] => arr.RADDR
+a[1] => arr.RADDR1
+a[2] => arr.RADDR2
+a[3] => arr.RADDR3
+d7seg[0] <= arr.DATAOUT
+d7seg[1] <= arr.DATAOUT1
+d7seg[2] <= arr.DATAOUT2
+d7seg[3] <= arr.DATAOUT3
+d7seg[4] <= arr.DATAOUT4
+d7seg[5] <= arr.DATAOUT5
+d7seg[6] <= arr.DATAOUT6
+
+
+|lab_2s|ss_cntr:ss_cntr_inst|ss_rg:ss_rg_inst
+ssi[0] => reg_data.DATAA
+ssi[1] => reg_data.DATAA
+ssi[2] => reg_data.DATAA
+ssi[3] => reg_data.DATAA
+ssi[4] => reg_data.DATAA
+ssi[5] => reg_data.DATAA
+ssi[6] => reg_data.DATAA
+clk => reg_data[0].CLK
+clk => reg_data[1].CLK
+clk => reg_data[2].CLK
+clk => reg_data[3].CLK
+clk => reg_data[4].CLK
+clk => reg_data[5].CLK
+clk => reg_data[6].CLK
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+ss[0] <= reg_data[0].DB_MAX_OUTPUT_PORT_TYPE
+ss[1] <= reg_data[1].DB_MAX_OUTPUT_PORT_TYPE
+ss[2] <= reg_data[2].DB_MAX_OUTPUT_PORT_TYPE
+ss[3] <= reg_data[3].DB_MAX_OUTPUT_PORT_TYPE
+ss[4] <= reg_data[4].DB_MAX_OUTPUT_PORT_TYPE
+ss[5] <= reg_data[5].DB_MAX_OUTPUT_PORT_TYPE
+ss[6] <= reg_data[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab_2s|ss_cntr:ss_cntr_inst|dig_rg:dig_rg_inst
+digi[1] => reg_data.DATAA
+digi[2] => reg_data.DATAA
+digi[3] => reg_data.DATAA
+digi[4] => reg_data.DATAA
+clk => reg_data[0].CLK
+clk => reg_data[1].CLK
+clk => reg_data[2].CLK
+clk => reg_data[3].CLK
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+rst_ni => reg_data.OUTPUTSELECT
+dig[1] <= reg_data[0].DB_MAX_OUTPUT_PORT_TYPE
+dig[2] <= reg_data[1].DB_MAX_OUTPUT_PORT_TYPE
+dig[3] <= reg_data[2].DB_MAX_OUTPUT_PORT_TYPE
+dig[4] <= reg_data[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

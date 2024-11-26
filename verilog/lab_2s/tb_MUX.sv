@@ -1,0 +1,52 @@
+`timescale 1ns/1ns
+module tb_MUX;
+	parameter W = 4;
+	reg [W-1:0] ai, bi, ci, di, mo, input_f, input_s, expected_mo;
+	reg [1:0] sel;
+	reg clk;
+	
+	always #10 clk = ~clk;
+	
+	MUX MUX_inst (
+		.ai(input_f), 
+		.bi(input_s),
+		.ci(input_s),
+		.di(input_f),
+		.sel(sel),
+		.mo(mo)
+	);
+	
+	task test();
+		integer file;
+		integer k;
+		file = $fopen("expected_data_MUX.txt", "r");
+		sel = 2'b00;
+		input_f = 4'b1111;
+		input_s = 4'b0000;
+		k = 0;
+		
+		while (!$feof(file)) begin
+			$fscanf(file, "%4b", expected_mo);
+			if (k == 4) begin
+				input_f = 4'b0000;
+				input_s = 4'b1111;
+			end
+			@(posedge clk);
+			if (expected_mo == mo)
+				$display("Test passed");
+			else
+				$display("Test failed");
+			sel = sel + 2'b01;
+			k++;
+		end
+		$fclose(file);
+	endtask
+	
+	initial begin
+		clk = 0;
+		test();
+		$stop;
+	end
+
+endmodule
+		

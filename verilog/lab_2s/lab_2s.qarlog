@@ -1,0 +1,29 @@
+Quartus Prime Archive log --	D:/repos/verilog/lab_2s/lab_2s.qarlog
+
+Archive:	D:/repos/verilog/lab_2s/lab_2s.qar
+Date:		Tue Nov 26 17:21:27 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog/lab_2s/FSM.sv
+D:/repos/verilog/lab_2s/MUX.sv
+D:/repos/verilog/lab_2s/b2ss.sv
+D:/repos/verilog/lab_2s/cnt_div.sv
+D:/repos/verilog/lab_2s/d_rg.sv
+D:/repos/verilog/lab_2s/dig_rg.sv
+D:/repos/verilog/lab_2s/expected_data.txt
+D:/repos/verilog/lab_2s/expected_data_MUX.txt
+D:/repos/verilog/lab_2s/lab_2s.qpf
+D:/repos/verilog/lab_2s/lab_2s.qsf
+D:/repos/verilog/lab_2s/lab_2s.sv
+D:/repos/verilog/lab_2s/rst_rg.sv
+D:/repos/verilog/lab_2s/ss_cntr.sv
+D:/repos/verilog/lab_2s/ss_rg.sv
+D:/repos/verilog/lab_2s/tb_FSM.sv
+D:/repos/verilog/lab_2s/tb_MUX.sv
+D:/repos/verilog/lab_2s/tb_lab_2s.sv
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 18 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

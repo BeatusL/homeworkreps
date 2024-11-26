@@ -12,49 +12,49 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/repos/verilog/lab_QMS/lab_QMS2 {D:/repos/verilog/lab_QMS/lab_QMS2/CNT.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:36:05 on Nov 19,2024
+# Start time: 01:18:35 on Nov 24,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/repos/verilog/lab_QMS/lab_QMS2" D:/repos/verilog/lab_QMS/lab_QMS2/CNT.v 
 # -- Compiling module CNT
 # 
 # Top level modules:
 # 	CNT
-# End time: 21:36:05 on Nov 19,2024, Elapsed time: 0:00:00
+# End time: 01:18:35 on Nov 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/repos/verilog/lab_QMS/lab_QMS2 {D:/repos/verilog/lab_QMS/lab_QMS2/PWR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:36:05 on Nov 19,2024
+# Start time: 01:18:35 on Nov 24,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/repos/verilog/lab_QMS/lab_QMS2" D:/repos/verilog/lab_QMS/lab_QMS2/PWR.v 
 # -- Compiling module PWR
 # 
 # Top level modules:
 # 	PWR
-# End time: 21:36:05 on Nov 19,2024, Elapsed time: 0:00:00
+# End time: 01:18:35 on Nov 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/repos/verilog/lab_QMS/lab_QMS2 {D:/repos/verilog/lab_QMS/lab_QMS2/lab_QMS2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:36:05 on Nov 19,2024
+# Start time: 01:18:35 on Nov 24,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/repos/verilog/lab_QMS/lab_QMS2" D:/repos/verilog/lab_QMS/lab_QMS2/lab_QMS2.sv 
 # -- Compiling module lab_QMS2
 # 
 # Top level modules:
 # 	lab_QMS2
-# End time: 21:36:05 on Nov 19,2024, Elapsed time: 0:00:00
+# End time: 01:18:35 on Nov 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+D:/repos/verilog/lab_QMS/lab_QMS2 {D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:36:05 on Nov 19,2024
+# Start time: 01:18:35 on Nov 24,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/repos/verilog/lab_QMS/lab_QMS2" D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv 
 # -- Compiling module tb_lab_QMS2
 # 
 # Top level modules:
 # 	tb_lab_QMS2
-# End time: 21:36:05 on Nov 19,2024, Elapsed time: 0:00:00
+# End time: 01:18:35 on Nov 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_lab_QMS2
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_lab_QMS2 
-# Start time: 21:36:05 on Nov 19,2024
+# Start time: 01:18:37 on Nov 24,2024
 # Loading sv_std.std
 # Loading work.tb_lab_QMS2
 # Loading work.lab_QMS2
@@ -585,14 +585,9 @@
 # ** Note: $stop    : D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv(33)
 #    Time: 21560 ns  Iteration: 0  Instance: /tb_lab_QMS2
 # Break in Module tb_lab_QMS2 at D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv line 33
-add wave -position insertpoint sim:/tb_lab_QMS2/DUT/*
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/repos/verilog/lab_QMS/lab_QMS2/simulation/modelsim/wave.do
-run -all
+do D:/repos/verilog/lab_QMS/lab_QMS2/simulation/modelsim/wave.do
 restart
 run -all
-# GetModuleFileName: Не найден указанный модуль.
-# 
-# 
 # CNT:           0 | Dout: 0000
 # CNT:           1 | Dout: 0000
 # CNT:           2 | Dout: 0000
@@ -1108,9 +1103,5 @@ run -all
 # ** Note: $stop    : D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv(33)
 #    Time: 21560 ns  Iteration: 0  Instance: /tb_lab_QMS2
 # Break in Module tb_lab_QMS2 at D:/repos/verilog/lab_QMS/lab_QMS2/tb_lab_QMS2.sv line 33
-# unknown option "-rowmargin"
-# unknown option "-rowmargin"
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/repos/verilog/lab_QMS/lab_QMS2/simulation/modelsim/wave.do
-do D:/repos/verilog/lab_QMS/lab_QMS2/simulation/modelsim/wave.do
-# End time: 21:39:17 on Nov 19,2024, Elapsed time: 0:03:12
-# Errors: 2, Warnings: 0
+# End time: 01:41:29 on Nov 24,2024, Elapsed time: 0:22:52
+# Errors: 0, Warnings: 0

@@ -2,22 +2,22 @@
 CLK => CLK.IN1
 aRSTin => arst.PRESET
 aRSTin => t_rst.PRESET
-Dout[0] <= Dout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[1] <= Dout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[2] <= Dout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[3] <= Dout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[4] <= Dout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[5] <= Dout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[6] <= Dout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[7] <= Dout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[8] <= Dout[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[9] <= Dout[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[10] <= Dout[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[11] <= Dout[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[12] <= Dout[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[13] <= Dout[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[14] <= Dout[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Dout[15] <= Dout[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[0] << Dout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] << Dout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] << Dout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] << Dout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[4] << Dout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[5] << Dout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[6] << Dout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[7] << Dout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[8] << Dout[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[9] << Dout[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[10] << Dout[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[11] << Dout[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[12] << Dout[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[13] << Dout[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[14] << Dout[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[15] << Dout[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |lab_QMS2|CNT:CNT_inst

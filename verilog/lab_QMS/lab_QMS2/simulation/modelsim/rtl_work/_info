@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/repos/verilog/lab_QMS/lab_QMS2/simulation/modelsim
 vCNT
-Z1 !s110 1732041365
+Z1 !s110 1732400315
 !i10b 1
 !s100 SLMMn>A@U3A0lf=46_;1K1
 I5OU>S1o3TGi^ji[o;8zQA3
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1732041365.000000
+Z5 !s108 1732400315.000000
 !s107 D:/repos/verilog/lab_QMS/lab_QMS2/CNT.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/repos/verilog/lab_QMS/lab_QMS2|D:/repos/verilog/lab_QMS/lab_QMS2/CNT.v|
 !i113 1

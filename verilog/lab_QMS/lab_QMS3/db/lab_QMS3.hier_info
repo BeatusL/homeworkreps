@@ -10,7 +10,7 @@ Din[4] => Dint.DATAB
 Din[5] => Dint.DATAB
 Din[6] => Dint.DATAB
 Din[7] => Dint.DATAB
-PWM <= PWM~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PWM << PWM~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |lab_QMS3|CNT:CNT_inst

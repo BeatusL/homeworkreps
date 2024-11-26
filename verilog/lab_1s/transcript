@@ -1,0 +1,100 @@
+# Compile of tb_led_drv.sv was successful.
+# Compile of led_drv.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.tb_led_drv
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.tb_led_drv 
+# Start time: 00:38:04 on Nov 26,2024
+# Loading sv_std.std
+# Loading work.tb_led_drv
+# ** Error (suppressible): (vsim-19) Failed to access library 'rtl_work' at "rtl_work".
+# No such file or directory. (errno = ENOENT)
+# Loading work.led_drv
+# ** Warning: (vsim-PLI-3691) D:/repos/verilog/lab_1s/tb_led_drv.sv(16): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_led_drv File: D:/repos/verilog/lab_1s/tb_led_drv.sv
+# ** Warning: (vsim-PLI-3691) D:/repos/verilog/lab_1s/tb_led_drv.sv(36): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /tb_led_drv/test/#anonblk#46134262#35#4# File: D:/repos/verilog/lab_1s/tb_led_drv.sv
+run -all
+# Test           0 passed
+# Test          1failed. Actual =  3 expected =  1
+# Test          2failed. Actual =  9 expected =  3
+# Test          3failed. Actual = 33 expected =  5
+# Test          4failed. Actual =129 expected =  9
+# Test          5failed. Actual = 33 expected = 17
+# Test          6failed. Actual =  9 expected = 33
+# Test          7failed. Actual =  3 expected = 65
+# Test          8failed. Actual =255 expected =129
+# Test          9failed. Actual =160 expected = 65
+# Test         10failed. Actual =136 expected = 33
+# Test         11failed. Actual =130 expected = 17
+# Test         12failed. Actual =130 expected =  9
+# Test         13failed. Actual =136 expected =  5
+# Test         14failed. Actual =160 expected =  3
+# Test         15failed. Actual =128 expected =  1
+# Test         16failed. Actual =  0 expected =255
+# Test         17failed. Actual =  3 expected =192
+# Test         18failed. Actual =  9 expected =160
+# Test         19failed. Actual = 33 expected =144
+# Test         20failed. Actual =129 expected =136
+# Test         21failed. Actual = 33 expected =132
+# Test         22failed. Actual =  9 expected =130
+# Test         23failed. Actual =  3 expected =129
+# Test         24failed. Actual =255 expected =130
+# Test         25failed. Actual =160 expected =132
+# Test          26 passed
+# Test         27failed. Actual =130 expected =144
+# Test         28failed. Actual =130 expected =160
+# Test         29failed. Actual =136 expected =192
+# Test         30failed. Actual =160 expected =128
+# ** Note: $stop    : D:/repos/verilog/lab_1s/tb_led_drv.sv(50)
+#    Time: 123 us  Iteration: 1  Instance: /tb_led_drv
+# Break in Module tb_led_drv at D:/repos/verilog/lab_1s/tb_led_drv.sv line 50
+# Compile of tb_led_drv.sv was successful.
+# Compile of led_drv.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_led_drv
+# ** Error (suppressible): (vsim-19) Failed to access library 'rtl_work' at "rtl_work".
+# No such file or directory. (errno = ENOENT)
+# Loading work.led_drv
+# ** Warning: (vsim-PLI-3691) D:/repos/verilog/lab_1s/tb_led_drv.sv(16): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_led_drv File: D:/repos/verilog/lab_1s/tb_led_drv.sv
+# ** Warning: (vsim-PLI-3691) D:/repos/verilog/lab_1s/tb_led_drv.sv(37): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /tb_led_drv/test/#anonblk#46134262#35#4# File: D:/repos/verilog/lab_1s/tb_led_drv.sv
+run -all
+# GetModuleFileName: Не найден указанный модуль.
+# 
+# 
+# Test          0failed. Actual =  1 expected =  0
+# Test          1failed. Actual =  5 expected =  1
+# Test          2failed. Actual = 17 expected =  3
+# Test          3failed. Actual = 65 expected =  5
+# Test          4failed. Actual = 65 expected =  9
+# Test           5 passed
+# Test          6failed. Actual =  5 expected = 33
+# Test          7failed. Actual =  1 expected = 65
+# Test          8failed. Actual =192 expected =129
+# Test          9failed. Actual =144 expected = 65
+# Test         10failed. Actual =132 expected = 33
+# Test         11failed. Actual =129 expected = 17
+# Test         12failed. Actual =132 expected =  9
+# Test         13failed. Actual =144 expected =  5
+# Test         14failed. Actual =192 expected =  3
+# Test         15failed. Actual =  x expected =  1
+# Test         16failed. Actual =  1 expected =255
+# Test         17failed. Actual =  5 expected =192
+# Test         18failed. Actual = 17 expected =160
+# Test         19failed. Actual = 65 expected =144
+# Test         20failed. Actual = 65 expected =136
+# Test         21failed. Actual = 17 expected =132
+# Test         22failed. Actual =  5 expected =130
+# Test         23failed. Actual =  1 expected =129
+# Test         24failed. Actual =192 expected =130
+# Test         25failed. Actual =144 expected =132
+# Test         26failed. Actual =132 expected =136
+# Test         27failed. Actual =129 expected =144
+# Test         28failed. Actual =132 expected =160
+# Test         29failed. Actual =144 expected =192
+# Test         30failed. Actual =192 expected =128
+# ** Note: $stop    : D:/repos/verilog/lab_1s/tb_led_drv.sv(51)
+#    Time: 125 us  Iteration: 1  Instance: /tb_led_drv
+# Break in Module tb_led_drv at D:/repos/verilog/lab_1s/tb_led_drv.sv line 51

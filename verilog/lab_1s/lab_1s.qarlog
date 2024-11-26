@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	D:/repos/verilog/lab_1s/lab_1s.qarlog
+
+Archive:	D:/repos/verilog/lab_1s/lab_1s.qar
+Date:		Tue Nov 26 01:53:58 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog/lab_1s/cnt_div.sv
+D:/repos/verilog/lab_1s/lab_1s.qpf
+D:/repos/verilog/lab_1s/lab_1s.qsf
+D:/repos/verilog/lab_1s/lab_1s.sv
+D:/repos/verilog/lab_1s/led_drv.sv
+D:/repos/verilog/lab_1s/led_rg.sv
+D:/repos/verilog/lab_1s/rom_data.txt
+D:/repos/verilog/lab_1s/rst_rg.sv
+D:/repos/verilog/lab_1s/tb_cnt_div.sv
+D:/repos/verilog/lab_1s/tb_lab_1s.sv
+D:/repos/verilog/lab_1s/tb_led_drv.sv
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
