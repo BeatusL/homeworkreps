@@ -1,0 +1,7 @@
+file name 1.sh, size 150, attributes -rwxr-xr-x
+file name 2.sh, size 197, attributes -rwxr-xr-x
+file name 3_1.sh, size 37, attributes -rwxr-xr-x
+file name 3_2.sh, size 49, attributes -rwxr-xr-x
+file name 4.sh, size 327, attributes -rwxr-xr-x
+file name test1.txt, size 11, attributes -rw-r--r--
+file name test2.txt, size 19, attributes -rw-r--r--
