@@ -1,0 +1,29 @@
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/Lab3_1.v {1 {vlog -work work -stats=none {C:\Users\lalet\Documents\Polytech\QuartusLabs\sem2\Lab3_1\Lab3_1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Lab3_1
+
+Top level modules:
+	Lab3_1
+
+} {} {}} C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/impl_Lab3_1.v {1 {vlog -work work -stats=none C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/impl_Lab3_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module impl_Lab3_1
+
+Top level modules:
+	impl_Lab3_1
+
+} {} {}} C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/tb_Lab3_1.v {1 {vlog -work work -stats=none C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/tb_Lab3_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_Lab3_1
+
+Top level modules:
+	tb_Lab3_1
+
+} {} {}} C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db_Lab3_1.v {1 {vlog -work work -stats=none C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db_Lab3_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module db_Lab3_1
+
+Top level modules:
+	db_Lab3_1
+
+} {} {}}

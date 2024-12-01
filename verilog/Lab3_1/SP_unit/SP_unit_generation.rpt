@@ -1,0 +1,15 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\lalet\Documents\Polytech\QuartusLabs\sem2\Lab3_1\SP_unit.qsys --synthesis=VERILOG --output-directory=C:\Users\lalet\Documents\Polytech\QuartusLabs\sem2\Lab3_1\SP_unit\synthesis --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading Lab3_1/SP_unit.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SP_unit: Generating SP_unit "SP_unit" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "SP_unit" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: SP_unit: Done "SP_unit" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

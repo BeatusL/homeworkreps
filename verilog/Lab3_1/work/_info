@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/lab2_2
+vdb_Lab3_1
+Z0 !s110 1677072620
+!i10b 1
+!s100 fnNH05FFaeBlgf5bMjiai3
+IP_<YcCG0SD2iSgA^K2F_N3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1
+w1677063090
+8C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db_Lab3_1.v
+FC:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db_Lab3_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1677072620.000000
+!s107 C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db_Lab3_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db_Lab3_1.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+ndb_@lab3_1
+vimpl_Lab3_1
+R0
+!i10b 1
+!s100 dhPAaA;;D?bBZ5^P=24J?3
+InPGa[2`ai6;8?bNiY>L9j2
+R1
+R2
+w1677066501
+8C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/impl_Lab3_1.v
+FC:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/impl_Lab3_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/impl_Lab3_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/impl_Lab3_1.v|
+!i113 1
+R5
+R6
+nimpl_@lab3_1
+vLab3_1
+R0
+!i10b 1
+!s100 0mgRcZk`P68RdGTc?Bb>T1
+IHn^CGGKzHiIRdde1P;5@93
+R1
+R2
+w1677072615
+8C:\Users\lalet\Documents\Polytech\QuartusLabs\sem2\Lab3_1\Lab3_1.v
+FC:\Users\lalet\Documents\Polytech\QuartusLabs\sem2\Lab3_1\Lab3_1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\lalet\Documents\Polytech\QuartusLabs\sem2\Lab3_1\Lab3_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\lalet\Documents\Polytech\QuartusLabs\sem2\Lab3_1\Lab3_1.v|
+!i113 1
+R5
+R6
+n@lab3_1
+vtb_Lab3_1
+R0
+!i10b 1
+!s100 8C26`z6P:U3T?NbA`STMY1
+I^DV2S^?ZSWS7FUKXTT9bW2
+R1
+R2
+w1613450051
+8C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/tb_Lab3_1.v
+FC:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/tb_Lab3_1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/tb_Lab3_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/tb_Lab3_1.v|
+!i113 1
+R5
+R6
+ntb_@lab3_1

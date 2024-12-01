@@ -1,0 +1,34 @@
+Quartus Prime Archive log --	C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/Lab3_1.qarlog
+
+Archive:	C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/Lab3_1.qar
+Date:		Wed Feb 22 15:53:45 2023
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/Lab3_1.qpf
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/Lab3_1.qsf
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/Lab3_1.stp
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/Lab3_1.v
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/Lab3_12.stp
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/PLL_unit.ppf
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/PLL_unit.qip
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/PLL_unit.v
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/PLL_unit_inst.v
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/SP_unit.qsys
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/SP_unit.sopcinfo
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/SP_unit/SP_unit.cmp
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/SP_unit/synthesis/SP_unit.debuginfo
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/SP_unit/synthesis/SP_unit.qip
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/SP_unit/synthesis/SP_unit.v
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/SP_unit/synthesis/submodules/altsource_probe_top.v
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db/Lab3_12_auto_stripped.stp
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db_Lab3_1.sdc
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/db_Lab3_1.v
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/impl_Lab3_1.sdc
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/impl_Lab3_1.v
+C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/output_files/Lab3_1.sof
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
