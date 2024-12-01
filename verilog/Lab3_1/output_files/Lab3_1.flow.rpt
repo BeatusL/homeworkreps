@@ -1,5 +1,5 @@
 Flow report for Lab3_1
-Sat Nov 30 14:55:34 2024
+Sun Dec 01 16:56:22 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Nov 30 14:55:34 2024       ;
+; Flow Status                        ; Successful - Sun Dec 01 16:56:18 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Lab3_1                                      ;
-; Top-level Entity Name              ; db_Lab3_1                                   ;
+; Top-level Entity Name              ; impl_Lab3_1                                 ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE6E22C8                                 ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; N/A until Partition Merge                   ;
-;     Total combinational functions  ; N/A until Partition Merge                   ;
-;     Dedicated logic registers      ; N/A until Partition Merge                   ;
-; Total registers                    ; N/A until Partition Merge                   ;
-; Total pins                         ; N/A until Partition Merge                   ;
-; Total virtual pins                 ; N/A until Partition Merge                   ;
-; Total memory bits                  ; N/A until Partition Merge                   ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
-; Total PLLs                         ; N/A until Partition Merge                   ;
+; Total logic elements               ; 1,239 / 6,272 ( 20 % )                      ;
+;     Total combinational functions  ; 759 / 6,272 ( 12 % )                        ;
+;     Dedicated logic registers      ; 991 / 6,272 ( 16 % )                        ;
+; Total registers                    ; 991                                         ;
+; Total pins                         ; 14 / 92 ( 15 % )                            ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 5,504 / 276,480 ( 2 % )                     ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/30/2024 14:54:58 ;
+; Start date & time ; 12/01/2024 16:55:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab3_1              ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+-----------------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                           ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+-----------------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 2543371530776.173296769804420                                   ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 2543371530776.173306133720880                                   ; --            ; --          ; --         ;
 ; ENABLE_SIGNALTAP                    ; On                                                              ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                              ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                               ; --            ; --          ; --         ;
@@ -85,9 +85,9 @@ refer to the applicable agreement for further details.
 ; MISC_FILE                           ; PLL_unit.ppf                                                    ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                                            ; --            ; --          ; --         ;
 ; NUM_PARALLEL_PROCESSORS             ; All                                                             ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)                          ; --            ; db_Lab3_1   ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                          ; --            ; db_Lab3_1   ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                          ; --            ; db_Lab3_1   ; Top        ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                          ; --            ; impl_Lab3_1 ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                          ; --            ; impl_Lab3_1 ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                          ; --            ; impl_Lab3_1 ; Top        ;
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                             ; --            ; --          ; --         ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                           ; --            ; --          ; --         ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                    ; --            ; --          ; --         ;
@@ -124,34 +124,43 @@ refer to the applicable agreement for further details.
 ; SMART_RECOMPILE                     ; On                                                              ; Off           ; --          ; --         ;
 ; SOPCINFO_FILE                       ; SP_unit/synthesis/../../SP_unit.sopcinfo                        ; --            ; --          ; --         ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                              ; --            ; --          ; --         ;
-; TOP_LEVEL_ENTITY                    ; db_Lab3_1                                                       ; Lab3_1        ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; impl_Lab3_1                                                     ; Lab3_1        ; --          ; --         ;
 ; USE_SIGNALTAP_FILE                  ; Lab3_12.stp                                                     ; --            ; --          ; --         ;
 +-------------------------------------+-----------------------------------------------------------------+---------------+-------------+------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                          ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:37     ; 1.0                     ; 4846 MB             ; 00:00:19                           ;
-; Total                  ; 00:00:37     ; --                      ; --                  ; 00:00:19                           ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:27     ; 1.0                     ; 4886 MB             ; 00:00:19                           ;
+; Fitter               ; 00:00:08     ; 1.2                     ; 6113 MB             ; 00:00:03                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.2                     ; 4865 MB             ; 00:00:01                           ;
+; Total                ; 00:00:40     ; --                      ; --                  ; 00:00:24                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+--------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                      ;
-+------------------------+------------------+------------+------------+----------------+
-; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
-+------------------------+------------------+------------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off Lab3_1 -c Lab3_1 --analysis_and_elaboration
+quartus_map --read_settings_files=on --write_settings_files=off Lab3_1 -c Lab3_1
+quartus_fit --read_settings_files=off --write_settings_files=off Lab3_1 -c Lab3_1
+quartus_asm --read_settings_files=off --write_settings_files=off Lab3_1 -c Lab3_1
+quartus_sta Lab3_1 -c Lab3_1
 
 
 

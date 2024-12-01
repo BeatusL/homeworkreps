@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE6E22C8
-set_global_assignment -name TOP_LEVEL_ENTITY db_Lab3_1
+set_global_assignment -name TOP_LEVEL_ENTITY impl_Lab3_1
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:31:22  FEBRUARY 20, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -200,9 +200,6 @@ set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[27] -
 set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[31] -to ST_unit|gnd -section_id ST_unit
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ADVANCED_TRIGGER_ENTITY=sld_reserved_Lab3_1_ST_unit_1_ebfa," -section_id ST_unit
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ENABLE_ADVANCED_TRIGGER=1" -section_id ST_unit
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VERILOG_FILE tb_Lab3_1.v
 set_global_assignment -name SRAM_OBJECT_FILE output_files/Lab3_1.sof
 set_global_assignment -name VERILOG_FILE impl_Lab3_1.v
@@ -213,5 +210,8 @@ set_global_assignment -name QIP_FILE SP_unit/synthesis/SP_unit.qip
 set_global_assignment -name QIP_FILE PLL_unit.qip
 set_global_assignment -name SIGNALTAP_FILE Lab3_1.stp
 set_global_assignment -name SIGNALTAP_FILE Lab3_12.stp
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name SLD_FILE db/Lab3_12_auto_stripped.stp

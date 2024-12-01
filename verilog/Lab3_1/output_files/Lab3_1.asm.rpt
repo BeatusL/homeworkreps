@@ -1,5 +1,5 @@
 Assembler report for Lab3_1
-Wed Feb 22 14:50:05 2023
+Sun Dec 01 16:56:18 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -11,7 +11,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   3. Assembler Settings
   4. Assembler Encrypted IP Cores Summary
   5. Assembler Generated Files
-  6. Assembler Device Options: C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/output_files/Lab3_1.sof
+  6. Assembler Device Options: D:/repos/verilog/Lab3_1/output_files/Lab3_1.sof
   7. Assembler Messages
 
 
@@ -38,9 +38,9 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Feb 22 14:50:05 2023 ;
+; Assembler Status      ; Successful - Sun Dec 01 16:56:18 2024 ;
 ; Revision Name         ; Lab3_1                                ;
-; Top-level Entity Name ; db_Lab3_1                             ;
+; Top-level Entity Name ; impl_Lab3_1                           ;
 ; Family                ; Cyclone IV E                          ;
 ; Device                ; EP4CE6E22C8                           ;
 +-----------------------+---------------------------------------+
@@ -58,28 +58,27 @@ refer to the applicable agreement for further details.
 +--------+------------------------+--------------+
 ; Vendor ; IP Core Name           ; License Type ;
 +--------+------------------------+--------------+
-; Altera ; Signal Tap (6AF7 BCE1) ; Licensed     ;
 ; Altera ; Signal Tap (6AF7 BCEC) ; Licensed     ;
 +--------+------------------------+--------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Assembler Generated Files                                                         ;
-+-----------------------------------------------------------------------------------+
-; File Name                                                                         ;
-+-----------------------------------------------------------------------------------+
-; C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/output_files/Lab3_1.sof ;
-+-----------------------------------------------------------------------------------+
++-------------------------------------------------+
+; Assembler Generated Files                       ;
++-------------------------------------------------+
+; File Name                                       ;
++-------------------------------------------------+
+; D:/repos/verilog/Lab3_1/output_files/Lab3_1.sof ;
++-------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/lalet/Documents/Polytech/QuartusLabs/sem2/Lab3_1/output_files/Lab3_1.sof ;
-+----------------+--------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                    ;
-+----------------+--------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00142C0C                                                                                 ;
-; Checksum       ; 0x00142C0C                                                                                 ;
-+----------------+--------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+; Assembler Device Options: D:/repos/verilog/Lab3_1/output_files/Lab3_1.sof ;
++----------------+----------------------------------------------------------+
+; Option         ; Setting                                                  ;
++----------------+----------------------------------------------------------+
+; JTAG usercode  ; 0x00139849                                               ;
+; Checksum       ; 0x00139849                                               ;
++----------------+----------------------------------------------------------+
 
 
 +--------------------+
@@ -88,14 +87,14 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Feb 22 14:50:02 2023
+    Info: Processing started: Sun Dec 01 16:56:16 2024
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Lab3_1 -c Lab3_1
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4672 megabytes
-    Info: Processing ended: Wed Feb 22 14:50:05 2023
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4676 megabytes
+    Info: Processing ended: Sun Dec 01 16:56:18 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
