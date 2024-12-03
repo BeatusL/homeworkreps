@@ -31,6 +31,10 @@ module tb_MUX;
 				input_f = 4'b0000;
 				input_s = 4'b1111;
 			end
+			if (k == 15) begin
+				input_f = 4'b0110;
+				input_s = 4'b1111;
+			end
 			@(posedge clk);
 			if (expected_mo == mo)
 				$display("Test passed");
@@ -38,6 +42,8 @@ module tb_MUX;
 				$display("Test failed");
 			sel = sel + 2'b01;
 			k++;
+			input_f = input_f - 4'b0001;
+			input_s = input_s + 4'b0001;
 		end
 		$fclose(file);
 	endtask
