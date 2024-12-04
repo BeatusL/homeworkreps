@@ -1,5 +1,5 @@
 Archive Project report for lab_2s
-Tue Nov 26 17:21:27 2024
+Wed Dec 04 10:58:01 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Tue Nov 26 17:21:27 2024 ;
+; Archive Project Status ; Successful - Wed Dec 04 10:58:01 2024 ;
 ; Revision Name          ; lab_2s                                ;
 ; Top-level Entity Name  ; lab_2s                                ;
 ; Family                 ; Cyclone IV E                          ;
@@ -60,7 +60,7 @@ Info: Generated report 'lab_2s.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4826 megabytes
-    Info: Processing ended: Tue Nov 26 17:21:27 2024
+    Info: Processing ended: Wed Dec 04 10:58:01 2024
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
