@@ -1,0 +1,321 @@
+# Compile of lab_3s.sv failed with 1 errors.
+vsim work.tb_b2bd_ROM
+# vsim work.tb_b2bd_ROM 
+# Start time: 20:22:26 on Dec 09,2024
+# Loading sv_std.std
+# Loading work.tb_b2bd_ROM
+# Loading work.b2bd_ROM
+# Loading work.b2bd_LOG
+# Loading work.b2bd_SR
+# ** Warning: (vsim-PLI-3691) D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Region: /tb_b2bd_ROM/test File: D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv
+# ** Error: (vsim-3043) D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv(27): Unresolved reference to 'bdc'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_b2bd_ROM File: D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv
+# Error loading design
+# End time: 20:22:29 on Dec 09,2024, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 1
+add wave -position insertpoint  \
+vsim:/tb_b2bd_LOG/bc \
+vsim:/tb_b2bd_LOG/bdc \
+vsim:/tb_b2bd_LOG/bdc_expected \
+vsim:/tb_b2bd_LOG/clk
+# Break key hit
+# Break key hit
+vsim work.tb_b2bd_ROM
+# vsim work.tb_b2bd_ROM 
+# Start time: 20:23:05 on Dec 09,2024
+# Loading sv_std.std
+# Loading work.tb_b2bd_ROM
+# Loading work.b2bd_ROM
+# Loading work.b2bd_LOG
+# Loading work.b2bd_SR
+# ** Warning: (vsim-PLI-3691) D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Region: /tb_b2bd_ROM/test File: D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv
+# ** Error: (vsim-3043) D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv(27): Unresolved reference to 'bdc'.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_b2bd_ROM File: D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv
+# Error loading design
+# End time: 20:23:06 on Dec 09,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of lab_3s.sv failed with 1 errors.
+# Compile of tb_b2bd_ROM.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+vsim work.tb_b2bd_ROM
+# vsim work.tb_b2bd_ROM 
+# Start time: 20:27:21 on Dec 09,2024
+# Loading sv_std.std
+# Loading work.tb_b2bd_ROM
+# Loading work.b2bd_ROM
+# Loading work.b2bd_LOG
+# Loading work.b2bd_SR
+# ** Warning: (vsim-PLI-3691) D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv(24): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ns  Iteration: 0  Region: /tb_b2bd_ROM/test File: D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv
+add wave -position insertpoint  \
+sim:/tb_b2bd_ROM/bc \
+sim:/tb_b2bd_ROM/bdc_1 \
+sim:/tb_b2bd_ROM/bdc_2 \
+sim:/tb_b2bd_ROM/bdc_3 \
+sim:/tb_b2bd_ROM/bdc_expected \
+sim:/tb_b2bd_ROM/clk
+run -all
+# Test   0 passed 
+# Test   1 passed 
+# Test   2 passed 
+# Test   3 passed 
+# Test   4 passed 
+# Test   5 passed 
+# Test   6 passed 
+# Test   7 passed 
+# Test   8 passed 
+# Test   9 passed 
+# Test  10 passed 
+# Test  11 passed 
+# Test  12 passed 
+# Test  13 passed 
+# Test  14 passed 
+# Test  15 passed 
+# Test  16 passed 
+# Test  17 passed 
+# Test  18 passed 
+# Test  19 passed 
+# Test  20 passed 
+# Test  21 passed 
+# Test  22 passed 
+# Test  23 passed 
+# Test  24 passed 
+# Test  25 passed 
+# Test  26 passed 
+# Test  27 passed 
+# Test  28 passed 
+# Test  29 passed 
+# Test  30 passed 
+# Test  31 passed 
+# Test  32 passed 
+# Test  33 passed 
+# Test  34 passed 
+# Test  35 passed 
+# Test  36 passed 
+# Test  37 passed 
+# Test  38 passed 
+# Test  39 passed 
+# Test  40 passed 
+# Test  41 passed 
+# Test  42 passed 
+# Test  43 passed 
+# Test  44 passed 
+# Test  45 passed 
+# Test  46 passed 
+# Test  47 passed 
+# Test  48 passed 
+# Test  49 passed 
+# Test  50 passed 
+# Test  51 passed 
+# Test  52 passed 
+# Test  53 passed 
+# Test  54 passed 
+# Test  55 passed 
+# Test  56 passed 
+# Test  57 passed 
+# Test  58 passed 
+# Test  59 passed 
+# Test  60 passed 
+# Test  61 passed 
+# Test  62 passed 
+# Test  63 passed 
+# Test  64 passed 
+# Test  65 passed 
+# Test  66 passed 
+# Test  67 passed 
+# Test  68 passed 
+# Test  69 passed 
+# Test  70 passed 
+# Test  71 passed 
+# Test  72 passed 
+# Test  73 passed 
+# Test  74 passed 
+# Test  75 passed 
+# Test  76 passed 
+# Test  77 passed 
+# Test  78 passed 
+# Test  79 passed 
+# Test  80 passed 
+# Test  81 passed 
+# Test  82 passed 
+# Test  83 passed 
+# Test  84 passed 
+# Test  85 passed 
+# Test  86 passed 
+# Test  87 passed 
+# Test  88 passed 
+# Test  89 passed 
+# Test  90 passed 
+# Test  91 passed 
+# Test  92 passed 
+# Test  93 passed 
+# Test  94 passed 
+# Test  95 passed 
+# Test  96 passed 
+# Test  97 passed 
+# Test  98 passed 
+# Test  99 passed 
+# Test 100 passed 
+# Test 101 passed 
+# Test 102 passed 
+# Test 103 passed 
+# Test 104 passed 
+# Test 105 passed 
+# Test 106 passed 
+# Test 107 passed 
+# Test 108 passed 
+# Test 109 passed 
+# Test 110 passed 
+# Test 111 passed 
+# Test 112 passed 
+# Test 113 passed 
+# Test 114 passed 
+# Test 115 passed 
+# Test 116 passed 
+# Test 117 passed 
+# Test 118 passed 
+# Test 119 passed 
+# Test 120 passed 
+# Test 121 passed 
+# Test 122 passed 
+# Test 123 passed 
+# Test 124 passed 
+# Test 125 passed 
+# Test 126 passed 
+# Test 127 passed 
+# Test 128 passed 
+# Test 129 passed 
+# Test 130 passed 
+# Test 131 passed 
+# Test 132 passed 
+# Test 133 passed 
+# Test 134 passed 
+# Test 135 passed 
+# Test 136 passed 
+# Test 137 passed 
+# Test 138 passed 
+# Test 139 passed 
+# Test 140 passed 
+# Test 141 passed 
+# Test 142 passed 
+# Test 143 passed 
+# Test 144 passed 
+# Test 145 passed 
+# Test 146 passed 
+# Test 147 passed 
+# Test 148 passed 
+# Test 149 passed 
+# Test 150 passed 
+# Test 151 passed 
+# Test 152 passed 
+# Test 153 passed 
+# Test 154 passed 
+# Test 155 passed 
+# Test 156 passed 
+# Test 157 passed 
+# Test 158 passed 
+# Test 159 passed 
+# Test 160 passed 
+# Test 161 passed 
+# Test 162 passed 
+# Test 163 passed 
+# Test 164 passed 
+# Test 165 passed 
+# Test 166 passed 
+# Test 167 passed 
+# Test 168 passed 
+# Test 169 passed 
+# Test 170 passed 
+# Test 171 passed 
+# Test 172 passed 
+# Test 173 passed 
+# Test 174 passed 
+# Test 175 passed 
+# Test 176 passed 
+# Test 177 passed 
+# Test 178 passed 
+# Test 179 passed 
+# Test 180 passed 
+# Test 181 passed 
+# Test 182 passed 
+# Test 183 passed 
+# Test 184 passed 
+# Test 185 passed 
+# Test 186 passed 
+# Test 187 passed 
+# Test 188 passed 
+# Test 189 passed 
+# Test 190 passed 
+# Test 191 passed 
+# Test 192 passed 
+# Test 193 passed 
+# Test 194 passed 
+# Test 195 passed 
+# Test 196 passed 
+# Test 197 passed 
+# Test 198 passed 
+# Test 199 passed 
+# Test 200 passed 
+# Test 201 passed 
+# Test 202 passed 
+# Test 203 passed 
+# Test 204 passed 
+# Test 205 passed 
+# Test 206 passed 
+# Test 207 passed 
+# Test 208 passed 
+# Test 209 passed 
+# Test 210 passed 
+# Test 211 passed 
+# Test 212 passed 
+# Test 213 passed 
+# Test 214 passed 
+# Test 215 passed 
+# Test 216 passed 
+# Test 217 passed 
+# Test 218 passed 
+# Test 219 passed 
+# Test 220 passed 
+# Test 221 passed 
+# Test 222 passed 
+# Test 223 passed 
+# Test 224 passed 
+# Test 225 passed 
+# Test 226 passed 
+# Test 227 passed 
+# Test 228 passed 
+# Test 229 passed 
+# Test 230 passed 
+# Test 231 passed 
+# Test 232 passed 
+# Test 233 passed 
+# Test 234 passed 
+# Test 235 passed 
+# Test 236 passed 
+# Test 237 passed 
+# Test 238 passed 
+# Test 239 passed 
+# Test 240 passed 
+# Test 241 passed 
+# Test 242 passed 
+# Test 243 passed 
+# Test 244 passed 
+# Test 245 passed 
+# Test 246 passed 
+# Test 247 passed 
+# Test 248 passed 
+# Test 249 passed 
+# Test 250 passed 
+# Test 251 passed 
+# Test 252 passed 
+# Test 253 passed 
+# Test 254 passed 
+# Test 255 passed 
+# Test   0 failed. Got    0, expected 597
+# ** Note: $stop    : D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv(36)
+#    Time: 30840 ns  Iteration: 0  Instance: /tb_b2bd_ROM
+# Break in Module tb_b2bd_ROM at D:/repos/verilog/lab_3s/tb_b2bd_ROM.sv line 36
+# End time: 20:29:16 on Dec 09,2024, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 1

@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\intelFPGA_lite\18.1\ISSPE_lab.qsys --block-symbol-file --output-directory=C:\intelFPGA_lite\18.1\ISSPE_lab --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading 18.1/ISSPE_lab.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\intelFPGA_lite\18.1\ISSPE_lab.qsys --synthesis=VERILOG --output-directory=C:\intelFPGA_lite\18.1\ISSPE_lab\synthesis --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading 18.1/ISSPE_lab.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ISSPE_lab: Generating ISSPE_lab "ISSPE_lab" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "ISSPE_lab" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: ISSPE_lab: Done "ISSPE_lab" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

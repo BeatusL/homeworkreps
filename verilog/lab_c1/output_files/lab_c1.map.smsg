@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at lab_c1.sv(7): always construct contains both blocking and non-blocking assignments File: D:/repos/verilog/lab_c1/lab_c1.sv Line: 7

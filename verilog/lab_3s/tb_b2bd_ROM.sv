@@ -24,7 +24,7 @@ module tb_b2bd_ROM;
 			$fscanf(file, "%12b", bdc_expected);
 			if ({bdc_1, bdc_2, bdc_3} == {bdc_expected, bdc_expected, bdc_expected})
 				$display("Test ", bc, " passed ");
-			else $display("Test ", bc," failed. Got ", bdc, ", expected", bdc_expected);
+			else $display("Test ", bc," failed. Got ", bdc_1, ", expected", bdc_expected);
          bc++;
 		end
 		$fclose(file);

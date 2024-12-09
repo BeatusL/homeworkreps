@@ -1,0 +1,22 @@
+D:/repos/verilog/lab_c1/lab_c1.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_c1/lab_c1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab_c1
+
+Top level modules:
+	lab_c1
+
+} {} {}} D:/repos/verilog/lab_c1/tb_mux2_1R.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_c1/tb_mux2_1R.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_mux2_1R
+
+Top level modules:
+	tb_mux2_1R
+
+} {} {}} D:/repos/verilog/lab_c1/tb_lab_c1.sv {1 {vlog -work work -sv -stats=none D:/repos/verilog/lab_c1/tb_lab_c1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_lab_c1
+
+Top level modules:
+	tb_lab_c1
+
+} {} {}}

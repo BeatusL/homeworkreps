@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab_3s
-Tue Nov 26 22:44:07 2024
+Mon Dec 09 20:34:39 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -60,7 +60,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 26 22:44:07 2024       ;
+; Analysis & Synthesis Status        ; Successful - Mon Dec 09 20:34:39 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab_3s                                      ;
 ; Top-level Entity Name              ; lab_3s                                      ;
@@ -187,15 +187,15 @@ refer to the applicable agreement for further details.
 +-----------------------------------------+-----------------+-------------------------------------------------------+------------------------------------------------------------------------------+---------+
 ; b2bd_ROM.sv                             ; yes             ; User SystemVerilog HDL File                           ; D:/repos/verilog/lab_3s/b2bd_ROM.sv                                          ;         ;
 ; lab_3s.sv                               ; yes             ; User SystemVerilog HDL File                           ; D:/repos/verilog/lab_3s/lab_3s.sv                                            ;         ;
-; ss_cntr.sv                              ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/ss_cntr.sv                                           ;         ;
-; d_rg.sv                                 ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/d_rg.sv                                              ;         ;
-; rst_rg.sv                               ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/rst_rg.sv                                            ;         ;
-; mux.sv                                  ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/mux.sv                                               ;         ;
-; fsm.sv                                  ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/fsm.sv                                               ;         ;
-; cnt_div.sv                              ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/cnt_div.sv                                           ;         ;
-; b2ss.sv                                 ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/b2ss.sv                                              ;         ;
-; ss_rg.sv                                ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/ss_rg.sv                                             ;         ;
-; dig_rg.sv                               ; yes             ; Auto-Found SystemVerilog HDL File                     ; d:/repos/verilog/lab_2s/dig_rg.sv                                            ;         ;
+; ss_cntr.sv                              ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/ss_cntr.sv                                           ;         ;
+; d_rg.sv                                 ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/d_rg.sv                                              ;         ;
+; rst_rg.sv                               ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/rst_rg.sv                                            ;         ;
+; mux.sv                                  ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/mux.sv                                               ;         ;
+; fsm.sv                                  ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/fsm.sv                                               ;         ;
+; cnt_div.sv                              ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/cnt_div.sv                                           ;         ;
+; b2ss.sv                                 ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/b2ss.sv                                              ;         ;
+; ss_rg.sv                                ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/ss_rg.sv                                             ;         ;
+; dig_rg.sv                               ; yes             ; Auto-Found SystemVerilog HDL File                     ; D:/repos/verilog/lab_3s/dig_rg.sv                                            ;         ;
 ; altsyncram.tdf                          ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
 ; stratix_ram_block.inc                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
 ; lpm_mux.inc                             ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
@@ -594,7 +594,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Nov 26 22:43:55 2024
+    Info: Processing started: Mon Dec 09 20:34:29 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab_3s -c lab_3s
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -617,37 +617,37 @@ Critical Warning (10846): Verilog HDL Instantiation warning at lab_3s.sv(29): in
 Critical Warning (10846): Verilog HDL Instantiation warning at lab_3s.sv(35): instance has no name File: D:/repos/verilog/lab_3s/lab_3s.sv Line: 35
 Critical Warning (10846): Verilog HDL Instantiation warning at lab_3s.sv(41): instance has no name File: D:/repos/verilog/lab_3s/lab_3s.sv Line: 41
 Info (12127): Elaborating entity "lab_3s" for the top level hierarchy
-Warning (12125): Using design file /repos/verilog/lab_2s/ss_cntr.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: ss_cntr File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 1
+Warning (12125): Using design file ss_cntr.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: ss_cntr File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 1
 Info (12128): Elaborating entity "ss_cntr" for hierarchy "ss_cntr:comb_3" File: D:/repos/verilog/lab_3s/lab_3s.sv Line: 20
-Warning (12125): Using design file /repos/verilog/lab_2s/d_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: d_rg File: d:/repos/verilog/lab_2s/d_rg.sv Line: 1
-Info (12128): Elaborating entity "d_rg" for hierarchy "ss_cntr:comb_3|d_rg:d_rg_inst" File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 20
-Warning (12125): Using design file /repos/verilog/lab_2s/rst_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: rst_rg File: d:/repos/verilog/lab_2s/rst_rg.sv Line: 1
-Info (12128): Elaborating entity "rst_rg" for hierarchy "ss_cntr:comb_3|rst_rg:rst_rg_inst" File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 26
-Warning (12090): Entity "MUX" obtained from "mux.sv" instead of from Quartus Prime megafunction library File: d:/repos/verilog/lab_2s/mux.sv Line: 1
-Warning (12125): Using design file /repos/verilog/lab_2s/mux.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: MUX File: d:/repos/verilog/lab_2s/mux.sv Line: 1
-Info (12128): Elaborating entity "MUX" for hierarchy "ss_cntr:comb_3|MUX:MUX_inst" File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 32
-Warning (12125): Using design file /repos/verilog/lab_2s/fsm.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: FSM File: d:/repos/verilog/lab_2s/fsm.sv Line: 1
-Info (12128): Elaborating entity "FSM" for hierarchy "ss_cntr:comb_3|FSM:FSM_inst" File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 40
-Warning (12125): Using design file /repos/verilog/lab_2s/cnt_div.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: cnt_div File: d:/repos/verilog/lab_2s/cnt_div.sv Line: 1
-Info (12128): Elaborating entity "cnt_div" for hierarchy "ss_cntr:comb_3|cnt_div:cnt_div_inst" File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 47
-Warning (12125): Using design file /repos/verilog/lab_2s/b2ss.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: b2ss File: d:/repos/verilog/lab_2s/b2ss.sv Line: 1
-Info (12128): Elaborating entity "b2ss" for hierarchy "ss_cntr:comb_3|b2ss:b2ss_inst" File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 52
-Warning (10030): Net "arr.data_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: d:/repos/verilog/lab_2s/b2ss.sv Line: 7
-Warning (10030): Net "arr.waddr_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: d:/repos/verilog/lab_2s/b2ss.sv Line: 7
-Warning (10030): Net "arr.we_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: d:/repos/verilog/lab_2s/b2ss.sv Line: 7
-Warning (12125): Using design file /repos/verilog/lab_2s/ss_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: ss_rg File: d:/repos/verilog/lab_2s/ss_rg.sv Line: 1
-Info (12128): Elaborating entity "ss_rg" for hierarchy "ss_cntr:comb_3|ss_rg:ss_rg_inst" File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 59
-Warning (12125): Using design file /repos/verilog/lab_2s/dig_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: dig_rg File: d:/repos/verilog/lab_2s/dig_rg.sv Line: 1
-Info (12128): Elaborating entity "dig_rg" for hierarchy "ss_cntr:comb_3|dig_rg:dig_rg_inst" File: d:/repos/verilog/lab_2s/ss_cntr.sv Line: 66
+Warning (12125): Using design file d_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: d_rg File: D:/repos/verilog/lab_3s/d_rg.sv Line: 1
+Info (12128): Elaborating entity "d_rg" for hierarchy "ss_cntr:comb_3|d_rg:d_rg_inst" File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 20
+Warning (12125): Using design file rst_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: rst_rg File: D:/repos/verilog/lab_3s/rst_rg.sv Line: 1
+Info (12128): Elaborating entity "rst_rg" for hierarchy "ss_cntr:comb_3|rst_rg:rst_rg_inst" File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 26
+Warning (12090): Entity "MUX" obtained from "mux.sv" instead of from Quartus Prime megafunction library File: D:/repos/verilog/lab_3s/mux.sv Line: 1
+Warning (12125): Using design file mux.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: MUX File: D:/repos/verilog/lab_3s/mux.sv Line: 1
+Info (12128): Elaborating entity "MUX" for hierarchy "ss_cntr:comb_3|MUX:MUX_inst" File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 32
+Warning (12125): Using design file fsm.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: FSM File: D:/repos/verilog/lab_3s/fsm.sv Line: 1
+Info (12128): Elaborating entity "FSM" for hierarchy "ss_cntr:comb_3|FSM:FSM_inst" File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 40
+Warning (12125): Using design file cnt_div.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: cnt_div File: D:/repos/verilog/lab_3s/cnt_div.sv Line: 1
+Info (12128): Elaborating entity "cnt_div" for hierarchy "ss_cntr:comb_3|cnt_div:cnt_div_inst" File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 47
+Warning (12125): Using design file b2ss.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b2ss File: D:/repos/verilog/lab_3s/b2ss.sv Line: 1
+Info (12128): Elaborating entity "b2ss" for hierarchy "ss_cntr:comb_3|b2ss:b2ss_inst" File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 52
+Warning (10030): Net "arr.data_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: D:/repos/verilog/lab_3s/b2ss.sv Line: 7
+Warning (10030): Net "arr.waddr_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: D:/repos/verilog/lab_3s/b2ss.sv Line: 7
+Warning (10030): Net "arr.we_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: D:/repos/verilog/lab_3s/b2ss.sv Line: 7
+Warning (12125): Using design file ss_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: ss_rg File: D:/repos/verilog/lab_3s/ss_rg.sv Line: 1
+Info (12128): Elaborating entity "ss_rg" for hierarchy "ss_cntr:comb_3|ss_rg:ss_rg_inst" File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 59
+Warning (12125): Using design file dig_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: dig_rg File: D:/repos/verilog/lab_3s/dig_rg.sv Line: 1
+Info (12128): Elaborating entity "dig_rg" for hierarchy "ss_cntr:comb_3|dig_rg:dig_rg_inst" File: D:/repos/verilog/lab_3s/ss_cntr.sv Line: 66
 Info (12128): Elaborating entity "b2bd_ROM" for hierarchy "b2bd_ROM:comb_4" File: D:/repos/verilog/lab_3s/lab_3s.sv Line: 41
 Warning (10030): Net "bd_ROM.data_a" at b2bd_ROM.sv(7) has no driver or initial value, using a default initial value '0' File: D:/repos/verilog/lab_3s/b2bd_ROM.sv Line: 7
 Warning (10030): Net "bd_ROM.waddr_a" at b2bd_ROM.sv(7) has no driver or initial value, using a default initial value '0' File: D:/repos/verilog/lab_3s/b2bd_ROM.sv Line: 7
@@ -655,7 +655,7 @@ Warning (10030): Net "bd_ROM.we_a" at b2bd_ROM.sv(7) has no driver or initial va
 Info (13014): Ignored 9 buffer(s)
     Info (13019): Ignored 9 SOFT buffer(s)
 Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276004): RAM logic "ss_cntr:comb_3|b2ss:b2ss_inst|arr" is uninferred due to inappropriate RAM size File: d:/repos/verilog/lab_2s/b2ss.sv Line: 7
+    Info (276004): RAM logic "ss_cntr:comb_3|b2ss:b2ss_inst|arr" is uninferred due to inappropriate RAM size File: D:/repos/verilog/lab_3s/b2ss.sv Line: 7
 Info (19000): Inferred 1 megafunctions from design logic
     Info (276029): Inferred altsyncram megafunction from the following design logic: "b2bd_ROM:comb_4|bd_ROM_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to ROM
@@ -693,10 +693,10 @@ Info (21057): Implemented 121 device resources after synthesis - the final resou
     Info (21061): Implemented 89 logic cells
     Info (21064): Implemented 12 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
-    Info: Peak virtual memory: 4827 megabytes
-    Info: Processing ended: Tue Nov 26 22:44:07 2024
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:07
+    Info: Peak virtual memory: 4826 megabytes
+    Info: Processing ended: Mon Dec 09 20:34:39 2024
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:09
 
 
 +------------------------------------------+

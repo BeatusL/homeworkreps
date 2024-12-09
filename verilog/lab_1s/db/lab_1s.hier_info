@@ -1,14 +1,14 @@
 |lab_1s
 clk => comb.DATAIN
 rst_n => comb.DATAIN
-dout[0] <= led_rg:led_rg_inst.dout
-dout[1] <= led_rg:led_rg_inst.dout
-dout[2] <= led_rg:led_rg_inst.dout
-dout[3] <= led_rg:led_rg_inst.dout
-dout[4] <= led_rg:led_rg_inst.dout
-dout[5] <= led_rg:led_rg_inst.dout
-dout[6] <= led_rg:led_rg_inst.dout
-dout[7] <= led_rg:led_rg_inst.dout
+dout[0] << led_rg:led_rg_inst.dout
+dout[1] << led_rg:led_rg_inst.dout
+dout[2] << led_rg:led_rg_inst.dout
+dout[3] << led_rg:led_rg_inst.dout
+dout[4] << led_rg:led_rg_inst.dout
+dout[5] << led_rg:led_rg_inst.dout
+dout[6] << led_rg:led_rg_inst.dout
+dout[7] << led_rg:led_rg_inst.dout
 
 
 |lab_1s|cnt_div:cnt_div_inst
