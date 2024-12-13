@@ -1,5 +1,5 @@
 Timing Analyzer report for lab_3s
-Mon Dec 09 20:34:50 2024
+Thu Dec 12 18:06:11 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -98,14 +98,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.10        ;
+; Average used               ; 1.08        ;
 ; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   3.1%      ;
-;     Processor 3            ;   1.9%      ;
-;     Processors 4-12        ;   0.6%      ;
+;     Processor 2            ;   2.5%      ;
+;     Processor 3            ;   1.5%      ;
+;     Processors 4-12        ;   0.5%      ;
 +----------------------------+-------------+
 
 
@@ -299,93 +299,93 @@ No paths to report.
 ; 0.726 ; ss_cntr:comb_3|FSM:FSM_inst|state.S1                ; ss_cntr:comb_3|FSM:FSM_inst|state.S2                                                                   ; clk          ; clk         ; 0.000        ; 0.081      ; 1.019      ;
 ; 0.760 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[15] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[15]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.053      ;
 ; 0.760 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[3]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[3]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.053      ;
-; 0.761 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.054      ;
 ; 0.761 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[13] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[13]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.054      ;
 ; 0.761 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[11] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[11]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.054      ;
 ; 0.761 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[5]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[5]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.054      ;
 ; 0.761 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[1]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[1]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.054      ;
+; 0.761 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.054      ;
 ; 0.762 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.055      ;
 ; 0.762 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[27] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[27]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.055      ;
 ; 0.762 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.055      ;
 ; 0.762 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.055      ;
-; 0.763 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[31] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[31]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.056      ;
-; 0.763 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.056      ;
 ; 0.763 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[9]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[9]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.056      ;
 ; 0.763 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[7]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[7]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.056      ;
 ; 0.763 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[6]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[6]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.056      ;
+; 0.763 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[31] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[31]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.056      ;
+; 0.763 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.056      ;
+; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
+; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[12] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[12]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
+; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[4]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[4]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
 ; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[25] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[25]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
 ; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[23] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[23]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
 ; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
 ; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
-; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
-; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[12] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[12]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
-; 0.764 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[4]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[4]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.057      ;
-; 0.765 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.058      ;
-; 0.765 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.058      ;
 ; 0.765 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[10] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[10]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.058      ;
 ; 0.765 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[8]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[8]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.058      ;
+; 0.765 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.058      ;
+; 0.765 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.058      ;
 ; 0.766 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[28] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[28]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.059      ;
 ; 0.766 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[26] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[26]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.059      ;
 ; 0.766 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[24] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[24]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.059      ;
 ; 0.786 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[0]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[0]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.079      ;
 ; 0.929 ; ss_cntr:comb_3|FSM:FSM_inst|state.S2                ; ss_cntr:comb_3|FSM:FSM_inst|state.S3                                                                   ; clk          ; clk         ; 0.000        ; 0.081      ; 1.222      ;
 ; 1.115 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[3]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[4]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.408      ;
-; 1.116 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.409      ;
-; 1.116 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.409      ;
 ; 1.116 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[5]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[6]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.409      ;
 ; 1.116 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[13] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.409      ;
 ; 1.116 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[11] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[12]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.409      ;
-; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.410      ;
-; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.410      ;
-; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[27] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[28]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.410      ;
+; 1.116 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.409      ;
+; 1.116 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.409      ;
 ; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[15] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16]                                                    ; clk          ; clk         ; 0.000        ; 0.079      ; 1.408      ;
 ; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[9]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[10]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.410      ;
 ; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[7]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[8]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.410      ;
+; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.410      ;
+; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.410      ;
+; 1.117 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[27] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[28]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.410      ;
 ; 1.118 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[25] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[26]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.411      ;
 ; 1.118 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[23] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[24]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.411      ;
-; 1.124 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.417      ;
 ; 1.124 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[2]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[3]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.417      ;
 ; 1.124 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[0]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[1]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.417      ;
 ; 1.124 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[6]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[7]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.417      ;
-; 1.125 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.418      ;
-; 1.125 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[23]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.418      ;
+; 1.124 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.417      ;
 ; 1.125 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[15]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.418      ;
 ; 1.125 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[12] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[13]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.418      ;
 ; 1.125 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[4]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[5]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.418      ;
-; 1.126 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.419      ;
-; 1.126 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[31]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.419      ;
+; 1.125 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.418      ;
+; 1.125 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[23]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.418      ;
 ; 1.126 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[10] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[11]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.419      ;
 ; 1.126 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[8]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[9]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.419      ;
+; 1.126 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.419      ;
+; 1.126 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[31]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.419      ;
 ; 1.127 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[28] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.420      ;
 ; 1.127 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[26] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[27]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.420      ;
 ; 1.127 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[24] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[25]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.420      ;
-; 1.133 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.426      ;
 ; 1.133 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[2]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[4]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.426      ;
 ; 1.133 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[6]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[8]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.426      ;
-; 1.134 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.427      ;
-; 1.134 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[24]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.427      ;
+; 1.133 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.426      ;
 ; 1.134 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[4]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[6]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.427      ;
 ; 1.134 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[12] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.427      ;
-; 1.135 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.428      ;
+; 1.134 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[18] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.427      ;
+; 1.134 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[24]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.427      ;
 ; 1.135 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[10] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[12]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.428      ;
 ; 1.135 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[8]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[10]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.428      ;
+; 1.135 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[20] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[22]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.428      ;
+; 1.136 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16]                                                    ; clk          ; clk         ; 0.000        ; 0.079      ; 1.427      ;
 ; 1.136 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[28] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[30]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.429      ;
 ; 1.136 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[26] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[28]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.429      ;
 ; 1.136 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[24] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[26]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.429      ;
-; 1.136 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[14] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[16]                                                    ; clk          ; clk         ; 0.000        ; 0.079      ; 1.427      ;
 ; 1.246 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[1]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[3]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.539      ;
 ; 1.246 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[3]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[5]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.539      ;
-; 1.247 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.540      ;
-; 1.247 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.540      ;
 ; 1.247 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[5]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[7]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.540      ;
 ; 1.247 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[13] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[15]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.540      ;
 ; 1.247 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[11] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[13]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.540      ;
-; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[23]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.541      ;
-; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[31]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.541      ;
-; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[27] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.541      ;
+; 1.247 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.540      ;
+; 1.247 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[19] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.540      ;
 ; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[15] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[17]                                                    ; clk          ; clk         ; 0.000        ; 0.079      ; 1.539      ;
 ; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[9]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[11]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.541      ;
 ; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[7]  ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[9]                                                     ; clk          ; clk         ; 0.000        ; 0.081      ; 1.541      ;
+; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[21] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[23]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.541      ;
+; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[31]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.541      ;
+; 1.248 ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[27] ; ss_cntr:comb_3|cnt_div:cnt_div_inst|div_counter[29]                                                    ; clk          ; clk         ; 0.000        ; 0.081      ; 1.541      ;
 +-------+-----------------------------------------------------+--------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
 
 
@@ -1177,7 +1177,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Dec 09 20:34:48 2024
+    Info: Processing started: Thu Dec 12 18:06:08 2024
 Info: Command: quartus_sta lab_3s -c lab_3s
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1255,9 +1255,9 @@ Info (332114): Report Metastability: Found 8 synchronizer chains.
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4847 megabytes
-    Info: Processing ended: Mon Dec 09 20:34:50 2024
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 4850 megabytes
+    Info: Processing ended: Thu Dec 12 18:06:11 2024
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:01
 
 

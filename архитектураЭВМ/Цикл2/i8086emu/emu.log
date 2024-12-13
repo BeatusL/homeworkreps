@@ -1,0 +1,68 @@
+[Warning] i8086devices.c: Line 94: Load Devices.
+[Warning] i8086devices.c: Line 126: devices/i8086pic.so: Datei wurde erfolgreich geladen.
+[Warning] i8086devices.c: Line 126: devices/i8086pit.so: Datei wurde erfolgreich geladen.
+[Warning] devices/i8086pit.c: Line 90: PIT-Thread started.
+[Warning] i8086devices.c: Line 126: devices/i8086beep.so: Datei wurde erfolgreich geladen.
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] i8086devices.c: Line 140: Close Devices.
+[Warning] i8086devices.c: Line 185: dlsym: Win32 error 127
+[Warning] devices/i8086pit.c: Line 181: Waiting for PIT-Thread.
+[Warning] devices/i8086pit.c: Line 124: PIT-Thread end.
+[Warning] devices/i8086pit.c: Line 190: PIT-Thread closed.

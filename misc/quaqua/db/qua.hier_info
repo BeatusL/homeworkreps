@@ -1,0 +1,9 @@
+|qua
+Q <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+nR <= inst.DB_MAX_OUTPUT_PORT_TYPE
+R => inst.IN0
+nS <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S => inst1.IN0
+nQ <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

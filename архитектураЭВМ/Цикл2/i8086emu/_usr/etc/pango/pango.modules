@@ -1,0 +1,20 @@
+# Pango Modules file
+# Automatically generated file, do not edit
+#
+# ModulesPath = _usr/lib/pango/1.2.0/modules
+#
+_usr/lib/pango/1.2.0/modules/pango-arabic-ft2.dll ArabicScriptEngineFt2 PangoEngineShape PangoRenderFT2 1548-1785:*
+_usr/lib/pango/1.2.0/modules/pango-arabic-x.dll ArabicScriptEngineX PangoEngineShape PangoRenderX 1547-1747:*
+_usr/lib/pango/1.2.0/modules/pango-basic-ft2.dll BasicScriptEngineFT2 PangoEngineShape PangoRenderFT2 0-687:* 688-767: 896-1423:* 1425-1524: 1548-1785: 3585-3675: 7680-8191:* 8192-40959:* 44032-55203:kr 63744-64011:kr 65280-65507:*
+_usr/lib/pango/1.2.0/modules/pango-basic-win32.dll BasicScriptEngineWin32 PangoEngineShape PangoRenderWin32 32-687:* 688-767: 896-1423:* 1425-1524:* 1548-1785: 3585-3675: 4256-4351:* 4608-5887:* 7680-8191:* 8192-42182:* 44032-55203:kr 63744-64011:kr 65280-65517:*
+_usr/lib/pango/1.2.0/modules/pango-basic-x.dll BasicScriptEngineX PangoEngineShape PangoRenderX 0-687:* 688-767: 896-1423:* 1425-1524: 1548-1785: 3585-3675: 4256-4351:* 4608-5887:* 7680-8191:* 8192-13311:* 13312-40869:* 40960-42182:* 44032-55203: 57344-63470:* 63744-64045:* 65072-65131:* 65280-65518:*
+_usr/lib/pango/1.2.0/modules/pango-bengali-x.dll BengaliScriptEngineX PangoEngineShape PangoRenderX 2432-2559:*
+_usr/lib/pango/1.2.0/modules/pango-devanagari-x.dll DevanagariScriptEngineX PangoEngineShape PangoRenderX 2304-2431:* 8205-8205:*
+_usr/lib/pango/1.2.0/modules/pango-gujarati-x.dll GujaratiScriptEngineX PangoEngineShape PangoRenderX 2688-2815:* 8205-8205:*
+_usr/lib/pango/1.2.0/modules/pango-gurmukhi-x.dll GurmukhiScriptEngineX PangoEngineShape PangoRenderX 2560-2687:*
+_usr/lib/pango/1.2.0/modules/pango-hangul-x.dll HangulScriptEngineX PangoEngineShape PangoRenderX 4352-4607:* 44032-55203:*
+_usr/lib/pango/1.2.0/modules/pango-hebrew-ft2.dll HebrewScriptEngineFT2 PangoEngineShape PangoRenderFT2 1425-1524:* 64285-64335:*
+_usr/lib/pango/1.2.0/modules/pango-hebrew-x.dll HebrewScriptEngineX PangoEngineShape PangoRenderX 1425-1524:* 64285-64335:*
+_usr/lib/pango/1.2.0/modules/pango-myanmar-x.dll MyanmarScriptEngineX PangoEngineShape PangoRenderX 4096-4223:*
+_usr/lib/pango/1.2.0/modules/pango-tamil-x.dll TamilScriptEngineX PangoEngineShape PangoRenderX 2944-3071:*
+_usr/lib/pango/1.2.0/modules/pango-thai-x.dll ThaiScriptEngineX PangoEngineShape PangoRenderX 3585-3675:*

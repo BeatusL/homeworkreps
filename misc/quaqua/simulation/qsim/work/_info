@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/repos/misc/quaqua/simulation/qsim
+vhard_block
+Z1 !s110 1734124755
+!i10b 1
+!s100 LZXVlSdUc5PfNWgHVYZaG1
+I`E3@FBG82kWzo8@ZoQFAM3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1734124755
+Z4 8qua.vo
+Z5 Fqua.vo
+L0 196
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1734124755.000000
+Z8 !s107 qua.vo|
+Z9 !s90 -work|work|qua.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vqua
+R1
+!i10b 1
+!s100 V4C^Tk`4VV?RBPXKW[eLD1
+IZFkWZ74NXGm[Iz[kDNgjd1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vqua_vlg_vec_tst
+!s110 1734124756
+!i10b 1
+!s100 c`53Q_VYZ6E]en5F:h9oR3
+IVNi:ARhd1M`QjKBaY:eGV2
+R2
+R0
+w1734124754
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
