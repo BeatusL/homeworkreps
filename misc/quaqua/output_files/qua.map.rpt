@@ -1,5 +1,5 @@
 Analysis & Synthesis report for qua
-Sat Dec 14 00:15:38 2024
+Mon Dec 23 01:59:25 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -13,11 +13,13 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Logic Cells Representing Combinational Loops
+  8. Analysis & Synthesis DSP Block Usage Summary
   9. General Register Statistics
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+ 10. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0
+ 11. lpm_mult Parameter Settings by Entity Instance
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
 
 
 
@@ -43,19 +45,19 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Dec 14 00:15:38 2024       ;
+; Analysis & Synthesis Status        ; Successful - Mon Dec 23 01:59:25 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; qua                                         ;
-; Top-level Entity Name              ; qua                                         ;
+; Top-level Entity Name              ; SystemVerilog1                              ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 2                                           ;
-;     Total combinational functions  ; 2                                           ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 6                                           ;
+; Total logic elements               ; 37                                          ;
+;     Total combinational functions  ; 37                                          ;
+;     Dedicated logic registers      ; 10                                          ;
+; Total registers                    ; 10                                          ;
+; Total pins                         ; 41                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 2                                           ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
@@ -65,7 +67,7 @@ refer to the applicable agreement for further details.
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                            ; qua                ; qua                ;
+; Top-level entity name                                            ; SystemVerilog1     ; qua                ;
 ; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -161,66 +163,82 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                           ;
-+----------------------------------+-----------------+------------------------------------+------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path ; Library ;
-+----------------------------------+-----------------+------------------------------------+------------------------------+---------+
-; qua.bdf                          ; yes             ; User Block Diagram/Schematic File  ; D:/repos/misc/quaqua/qua.bdf ;         ;
-+----------------------------------+-----------------+------------------------------------+------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                               ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                           ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
+; SystemVerilog1.sv                ; yes             ; User SystemVerilog HDL File  ; D:/repos/misc/quaqua/SystemVerilog1.sv                                 ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mult.tdf    ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc  ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_add_sub.inc ;         ;
+; multcore.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/multcore.inc    ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/bypassff.inc    ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altshift.inc    ;         ;
+; db/mult_oct.tdf                  ; yes             ; Auto-Generated Megafunction  ; D:/repos/misc/quaqua/db/mult_oct.tdf                                   ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimated Total logic elements              ; 2     ;
-;                                             ;       ;
-; Total combinational functions               ; 2     ;
-; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 0     ;
-;     -- 3 input functions                    ; 1     ;
-;     -- <=2 input functions                  ; 1     ;
-;                                             ;       ;
-; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 2     ;
-;     -- arithmetic mode                      ; 0     ;
-;                                             ;       ;
-; Total registers                             ; 0     ;
-;     -- Dedicated logic registers            ; 0     ;
-;     -- I/O registers                        ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 6     ;
-;                                             ;       ;
-; Embedded Multiplier 9-bit elements          ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; inst3 ;
-; Maximum fan-out                             ; 3     ;
-; Total fan-out                               ; 15    ;
-; Average fan-out                             ; 1.07  ;
-+---------------------------------------------+-------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 37        ;
+;                                             ;           ;
+; Total combinational functions               ; 37        ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 0         ;
+;     -- 3 input functions                    ; 31        ;
+;     -- <=2 input functions                  ; 6         ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 4         ;
+;     -- arithmetic mode                      ; 33        ;
+;                                             ;           ;
+; Total registers                             ; 10        ;
+;     -- Dedicated logic registers            ; 10        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 41        ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 2         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 10        ;
+; Total fan-out                               ; 181       ;
+; Average fan-out                             ; 1.38      ;
++---------------------------------------------+-----------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |qua                       ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 6    ; 0            ; |qua                ; qua         ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                 ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------+----------------+--------------+
+; Compilation Hierarchy Node      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                    ; Entity Name    ; Library Name ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------+----------------+--------------+
+; |SystemVerilog1                 ; 37 (37)             ; 10 (10)                   ; 0           ; 2            ; 0       ; 1         ; 41   ; 0            ; |SystemVerilog1                                        ; SystemVerilog1 ; work         ;
+;    |lpm_mult:Mult0|             ; 0 (0)               ; 0 (0)                     ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |SystemVerilog1|lpm_mult:Mult0                         ; lpm_mult       ; work         ;
+;       |mult_oct:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |SystemVerilog1|lpm_mult:Mult0|mult_oct:auto_generated ; mult_oct       ; work         ;
++---------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------+----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops               ;
-+--------------------------------------------------------+---+
-; Logic Cell Name                                        ;   ;
-+--------------------------------------------------------+---+
-; inst3~0                                                ;   ;
-; Number of logic cells representing combinational loops ; 1 ;
-+--------------------------------------------------------+---+
-Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 0           ;
+; Simple Multipliers (18-bit)           ; 1           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 2           ;
+; Signed Embedded Multipliers           ; 0           ;
+; Unsigned Embedded Multipliers         ; 1           ;
+; Mixed Sign Embedded Multipliers       ; 0           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
 +------------------------------------------------------+
@@ -228,7 +246,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 10    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -238,20 +256,80 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 
 
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0                     ;
++------------------------------------------------+--------------+---------------------+
+; Parameter Name                                 ; Value        ; Type                ;
++------------------------------------------------+--------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 10           ; Untyped             ;
+; LPM_WIDTHB                                     ; 10           ; Untyped             ;
+; LPM_WIDTHP                                     ; 20           ; Untyped             ;
+; LPM_WIDTHR                                     ; 20           ; Untyped             ;
+; LPM_WIDTHS                                     ; 1            ; Untyped             ;
+; LPM_REPRESENTATION                             ; UNSIGNED     ; Untyped             ;
+; LPM_PIPELINE                                   ; 0            ; Untyped             ;
+; LATENCY                                        ; 0            ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped             ;
+; USE_EAB                                        ; OFF          ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 6            ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_oct     ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped             ;
++------------------------------------------------+--------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance         ;
++---------------------------------------+----------------+
+; Name                                  ; Value          ;
++---------------------------------------+----------------+
+; Number of entity instances            ; 1              ;
+; Entity Instance                       ; lpm_mult:Mult0 ;
+;     -- LPM_WIDTHA                     ; 10             ;
+;     -- LPM_WIDTHB                     ; 10             ;
+;     -- LPM_WIDTHP                     ; 20             ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED       ;
+;     -- INPUT_A_IS_CONSTANT            ; NO             ;
+;     -- INPUT_B_IS_CONSTANT            ; NO             ;
+;     -- USE_EAB                        ; OFF            ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO           ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx             ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx             ;
++---------------------------------------+----------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 6                           ;
-; cycloneiii_lcell_comb ; 5                           ;
-;     normal            ; 5                           ;
-;         1 data inputs ; 3                           ;
-;         2 data inputs ; 1                           ;
-;         3 data inputs ; 1                           ;
+; boundary_port         ; 41                          ;
+; cycloneiii_ff         ; 10                          ;
+;     plain             ; 10                          ;
+; cycloneiii_lcell_comb ; 37                          ;
+;     arith             ; 33                          ;
+;         2 data inputs ; 2                           ;
+;         3 data inputs ; 31                          ;
+;     normal            ; 4                           ;
+;         2 data inputs ; 4                           ;
+; cycloneiii_mac_mult   ; 1                           ;
+; cycloneiii_mac_out    ; 1                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 1.00                        ;
+; Max LUT depth         ; 3.80                        ;
+; Average LUT depth     ; 2.42                        ;
 +-----------------------+-----------------------------+
 
 
@@ -270,24 +348,42 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Dec 14 00:15:28 2024
+    Info: Processing started: Mon Dec 23 01:59:14 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off qua -c qua
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file qua.bdf
     Info (12023): Found entity 1: qua
-Info (12127): Elaborating entity "qua" for the top level hierarchy
-Info (286030): Timing-Driven Synthesis is running
+Info (12021): Found 1 design units, including 1 entities, in source file systemverilog1.sv
+    Info (12023): Found entity 1: SystemVerilog1 File: D:/repos/misc/quaqua/SystemVerilog1.sv Line: 1
+Info (12127): Elaborating entity "SystemVerilog1" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at SystemVerilog1.sv(9): truncated value with size 32 to match size of target (10) File: D:/repos/misc/quaqua/SystemVerilog1.sv Line: 9
+Info (278001): Inferred 1 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult0" File: D:/repos/misc/quaqua/SystemVerilog1.sv Line: 9
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult0" File: D:/repos/misc/quaqua/SystemVerilog1.sv Line: 9
+Info (12133): Instantiated megafunction "lpm_mult:Mult0" with the following parameter: File: D:/repos/misc/quaqua/SystemVerilog1.sv Line: 9
+    Info (12134): Parameter "LPM_WIDTHA" = "10"
+    Info (12134): Parameter "LPM_WIDTHB" = "10"
+    Info (12134): Parameter "LPM_WIDTHP" = "20"
+    Info (12134): Parameter "LPM_WIDTHR" = "20"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_oct.tdf
+    Info (12023): Found entity 1: mult_oct File: D:/repos/misc/quaqua/db/mult_oct.tdf Line: 28
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 8 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 4 output pins
-    Info (21061): Implemented 2 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4774 megabytes
-    Info: Processing ended: Sat Dec 14 00:15:38 2024
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:07
+Info (21057): Implemented 80 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 31 input pins
+    Info (21059): Implemented 10 output pins
+    Info (21061): Implemented 37 logic cells
+    Info (21062): Implemented 2 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4737 megabytes
+    Info: Processing ended: Mon Dec 23 01:59:25 2024
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:05
 
 

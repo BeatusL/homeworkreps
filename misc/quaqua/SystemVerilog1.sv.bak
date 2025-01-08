@@ -1,0 +1,17 @@
+module dmpx #(parameter P = 4) (
+		input clk,
+		input [P-1:0] in,
+		input sel,
+		output [P-1:0] out1, out2
+)
+
+	always_ff @(posedge clk)
+		if (sel) begin
+			out1 <= in;
+			out2 <= 0;
+		end else begin
+			out1 <= 0;
+			out2 <= in;
+		end
+
+endmodule
