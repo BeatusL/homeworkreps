@@ -1,0 +1,132 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 272 264)
+	(text "lab_PD1_sys" (rect 98 -1 152 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 248 20 260)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 80 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 101 82 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 80 112)(line_width 1))
+	)
+	(port
+		(pt 272 144)
+		(input)
+		(text "alu0_out_ready" (rect 0 0 62 12)(font "Arial" (font_size 8)))
+		(text "alu0_out_ready" (rect 193 133 277 144)(font "Arial" (font_size 8)))
+		(line (pt 272 144)(pt 160 144)(line_width 1))
+	)
+	(port
+		(pt 272 216)
+		(input)
+		(text "alu1_out_ready" (rect 0 0 61 12)(font "Arial" (font_size 8)))
+		(text "alu1_out_ready" (rect 195 205 279 216)(font "Arial" (font_size 8)))
+		(line (pt 272 216)(pt 160 216)(line_width 1))
+	)
+	(port
+		(pt 272 72)
+		(output)
+		(text "delay_out_valid" (rect 0 0 62 12)(font "Arial" (font_size 8)))
+		(text "delay_out_valid" (rect 193 61 283 72)(font "Arial" (font_size 8)))
+		(line (pt 272 72)(pt 160 72)(line_width 1))
+	)
+	(port
+		(pt 272 88)
+		(output)
+		(text "delay_out_data[31..0]" (rect 0 0 84 12)(font "Arial" (font_size 8)))
+		(text "delay_out_data[31..0]" (rect 166 77 292 88)(font "Arial" (font_size 8)))
+		(line (pt 272 88)(pt 160 88)(line_width 3))
+	)
+	(port
+		(pt 272 128)
+		(output)
+		(text "alu0_out_data[31..0]" (rect 0 0 79 12)(font "Arial" (font_size 8)))
+		(text "alu0_out_data[31..0]" (rect 172 117 292 128)(font "Arial" (font_size 8)))
+		(line (pt 272 128)(pt 160 128)(line_width 3))
+	)
+	(port
+		(pt 272 160)
+		(output)
+		(text "alu0_out_valid" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "alu0_out_valid" (rect 199 149 283 160)(font "Arial" (font_size 8)))
+		(line (pt 272 160)(pt 160 160)(line_width 1))
+	)
+	(port
+		(pt 272 200)
+		(output)
+		(text "alu1_out_data[31..0]" (rect 0 0 77 12)(font "Arial" (font_size 8)))
+		(text "alu1_out_data[31..0]" (rect 174 189 294 200)(font "Arial" (font_size 8)))
+		(line (pt 272 200)(pt 160 200)(line_width 3))
+	)
+	(port
+		(pt 272 232)
+		(output)
+		(text "alu1_out_valid" (rect 0 0 55 12)(font "Arial" (font_size 8)))
+		(text "alu1_out_valid" (rect 201 221 285 232)(font "Arial" (font_size 8)))
+		(line (pt 272 232)(pt 160 232)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 65 43 148 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 85 67 188 144)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 51 83 132 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 85 107 212 224)(font "Arial" (color 0 0 0)))
+		(text "delay_out" (rect 161 43 376 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "valid" (rect 137 67 304 144)(font "Arial" (color 0 0 0)))
+		(text "data" (rect 139 83 302 176)(font "Arial" (color 0 0 0)))
+		(text "alu0_out" (rect 161 99 370 211)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "data" (rect 139 123 302 256)(font "Arial" (color 0 0 0)))
+		(text "ready" (rect 132 139 294 288)(font "Arial" (color 0 0 0)))
+		(text "valid" (rect 137 155 304 320)(font "Arial" (color 0 0 0)))
+		(text "alu1_out" (rect 161 171 370 355)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "data" (rect 139 195 302 400)(font "Arial" (color 0 0 0)))
+		(text "ready" (rect 132 211 294 432)(font "Arial" (color 0 0 0)))
+		(text "valid" (rect 137 227 304 464)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 237 248 522 506)(font "Arial" ))
+		(line (pt 80 32)(pt 160 32)(line_width 1))
+		(line (pt 160 32)(pt 160 248)(line_width 1))
+		(line (pt 80 248)(pt 160 248)(line_width 1))
+		(line (pt 80 32)(pt 80 248)(line_width 1))
+		(line (pt 81 52)(pt 81 76)(line_width 1))
+		(line (pt 82 52)(pt 82 76)(line_width 1))
+		(line (pt 81 92)(pt 81 116)(line_width 1))
+		(line (pt 82 92)(pt 82 116)(line_width 1))
+		(line (pt 159 52)(pt 159 92)(line_width 1))
+		(line (pt 158 52)(pt 158 92)(line_width 1))
+		(line (pt 159 108)(pt 159 164)(line_width 1))
+		(line (pt 158 108)(pt 158 164)(line_width 1))
+		(line (pt 159 180)(pt 159 236)(line_width 1))
+		(line (pt 158 180)(pt 158 236)(line_width 1))
+		(line (pt 0 0)(pt 272 0)(line_width 1))
+		(line (pt 272 0)(pt 272 264)(line_width 1))
+		(line (pt 0 264)(pt 272 264)(line_width 1))
+		(line (pt 0 0)(pt 0 264)(line_width 1))
+	)
+)
