@@ -1,0 +1,20 @@
+Quartus Prime Archive log --	D:/repos/verilog2/lab_PD1/__lab_PD1.auto.qarlog
+
+Archive:	D:/repos/verilog2/lab_PD1/__lab_PD1.auto.qar
+Date:		Wed Feb 12 09:30:20 2025
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/repos/verilog2/lab_PD1/db/lab_PD1.cbx.xml
+D:/repos/verilog2/lab_PD1/db/lab_PD1.qpf
+D:/repos/verilog2/lab_PD1/output_files/lab_PD1.flow.rpt
+D:/repos/verilog2/lab_PD1/output_files/lab_PD1.map.rpt
+D:/repos/verilog2/lab_PD1/output_files/lab_PD1.map.smsg
+D:/repos/verilog2/lab_PD1/output_files/lab_PD1.map.summary
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+lab_PD1.qsf
+lab_PD1_sys.qsys
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
