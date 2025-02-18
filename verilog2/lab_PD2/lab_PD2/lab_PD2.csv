@@ -1,0 +1,22 @@
+# system info lab_PD2 on 2025.02.17.16:26:41
+system_info:
+name,value
+DEVICE,EP4CE10E22A7
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1739795200
+#
+#
+# Files generated for lab_PD2 on 2025.02.17.16:26:41
+files:
+filepath,kind,attributes,module,is_top
+simulation/lab_PD2.v,VERILOG,,lab_PD2,true
+simulation/submodules/MyST_sink.sv,SYSTEM_VERILOG,,MyST_sink,false
+simulation/submodules/MyST_source.sv,SYSTEM_VERILOG,,MyST_source,false
+simulation/submodules/altera_avalon_sc_fifo.v,VERILOG,,altera_avalon_sc_fifo,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+lab_PD2.MyST_sink,MyST_sink
+lab_PD2.MyST_source,MyST_source
+lab_PD2.sc_fifo,altera_avalon_sc_fifo

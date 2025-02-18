@@ -1,0 +1,35 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/repos/verilog2/lab_PD2/simulation/modelsim
+vMyST_sink
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1739796530
+!i10b 1
+!s100 ^PzS]:U6Qll@KKL]<=P:g3
+Ilk3e>4ddP3m;?9i4e>F>b2
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 MyST_sink_sv_unit
+S1
+R0
+w1739795201
+8D:/repos/verilog2/lab_PD2/lab_PD2/simulation/submodules/MyST_sink.sv
+FD:/repos/verilog2/lab_PD2/lab_PD2/simulation/submodules/MyST_sink.sv
+L0 2
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1739796530.000000
+!s107 D:/repos/verilog2/lab_PD2/lab_PD2/simulation/submodules/MyST_sink.sv|
+!s90 -reportprogress|300|-sv|D:/repos/verilog2/lab_PD2/lab_PD2/simulation/submodules/MyST_sink.sv|-work|MyST_sink|
+!i113 1
+o-sv -work MyST_sink
+tCvgOpt 0
+n@my@s@t_sink

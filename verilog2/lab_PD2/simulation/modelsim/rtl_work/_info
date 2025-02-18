@@ -1,0 +1,83 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/repos/verilog2/lab_PD2/simulation/modelsim
+vlab_PD2
+Z1 !s110 1739796530
+!i10b 1
+!s100 KU7_W=UDPN2<D5lJe4YXa0
+I22fnClo2MZ?F@jKe`S@V20
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1739795201
+8D:/repos/verilog2/lab_PD2/lab_PD2/simulation/lab_PD2.v
+FD:/repos/verilog2/lab_PD2/lab_PD2/simulation/lab_PD2.v
+L0 6
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1739796530.000000
+!s107 D:/repos/verilog2/lab_PD2/lab_PD2/simulation/lab_PD2.v|
+!s90 -reportprogress|300|D:/repos/verilog2/lab_PD2/lab_PD2/simulation/lab_PD2.v|
+!i113 1
+Z5 tCvgOpt 0
+nlab_@p@d2
+vlab_PD2_top
+Z6 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R1
+!i10b 1
+!s100 E=GhM2lLcV7J^XbKPKG[53
+IGL??^cBYPR6EKfDDnR_<31
+R2
+!s105 lab_PD2_top_sv_unit
+S1
+R0
+w1681110342
+8D:/repos/verilog2/lab_PD2/lab_PD2_top.sv
+FD:/repos/verilog2/lab_PD2/lab_PD2_top.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/repos/verilog2/lab_PD2/lab_PD2_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/repos/verilog2/lab_PD2|D:/repos/verilog2/lab_PD2/lab_PD2_top.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+D:/repos/verilog2/lab_PD2
+R5
+nlab_@p@d2_top
+vtb_lab_PD2_top
+R6
+R1
+!i10b 1
+!s100 Xzn3NH_5oMSf0B@5<9fOd0
+I^8@keJRTel`H9hKG6:UgG0
+R2
+!s105 tb_lab_PD2_top_sv_unit
+S1
+R0
+w1681145904
+8D:/repos/verilog2/lab_PD2/tb_lab_PD2_top.sv
+FD:/repos/verilog2/lab_PD2/tb_lab_PD2_top.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/repos/verilog2/lab_PD2/tb_lab_PD2_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/repos/verilog2/lab_PD2|D:/repos/verilog2/lab_PD2/tb_lab_PD2_top.sv|
+!i113 1
+R7
+R8
+R5
+ntb_lab_@p@d2_top

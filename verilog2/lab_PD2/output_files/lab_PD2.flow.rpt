@@ -1,0 +1,182 @@
+Flow report for lab_PD2
+Mon Feb 17 16:18:48 2025
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Mon Feb 17 16:18:48 2025       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; lab_PD2                                     ;
+; Top-level Entity Name              ; db_lab_PD2_top                              ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 1,226 / 6,272 ( 20 % )                      ;
+;     Total combinational functions  ; 732 / 6,272 ( 12 % )                        ;
+;     Dedicated logic registers      ; 969 / 6,272 ( 15 % )                        ;
+; Total registers                    ; 969                                         ;
+; Total pins                         ; 1 / 92 ( 1 % )                              ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 2,624 / 276,480 ( < 1 % )                   ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
+; Device                             ; EP4CE6E22C6                                 ;
+; Timing Models                      ; Final                                       ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/17/2025 16:18:08 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab_PD2             ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                              ;
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+----------------+------------------+
+; Assignment Name                      ; Value                                                                                                                                                              ; Default Value ; Entity Name    ; Section Id       ;
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+----------------+------------------+
+; COMPILER_SIGNATURE_ID                ; 2543371530776.173979828825824                                                                                                                                      ; --            ; --             ; --               ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                                                 ; --            ; --             ; tb_lab_PD2_top   ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_lab_PD2_top                                                                                                                                                     ; --            ; --             ; eda_simulation   ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                                                                                        ; --            ; --             ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                                                                                                                          ; <None>        ; --             ; --               ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                                                                                    ; --            ; --             ; eda_simulation   ;
+; EDA_TEST_BENCH_FILE                  ; tb_lab_PD2_top.sv                                                                                                                                                  ; --            ; --             ; tb_lab_PD2_top   ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_lab_PD2_top                                                                                                                                                     ; --            ; --             ; tb_lab_PD2_top   ;
+; EDA_TEST_BENCH_NAME                  ; tb_lab_PD2_top                                                                                                                                                     ; --            ; --             ; eda_simulation   ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                                                                                                               ; --            ; --             ; eda_simulation   ;
+; ENABLE_SIGNALTAP                     ; On                                                                                                                                                                 ; --            ; --             ; --               ;
+; IP_SEARCH_PATHS                      ; d:\repos\verilog2\lab_pd2\my_ip_lib                                                                                                                                ; --            ; --             ; --               ;
+; MISC_FILE                            ; SP_unit/synthesis/../SP_unit.cmp                                                                                                                                   ; --            ; --             ; --               ;
+; MISC_FILE                            ; SP_unit/synthesis/../../SP_unit.qsys                                                                                                                               ; --            ; --             ; --               ;
+; MISC_FILE                            ; lab_PD2/synthesis/../lab_PD2.cmp                                                                                                                                   ; --            ; --             ; --               ;
+; MISC_FILE                            ; lab_PD2/synthesis/../../lab_PD2.qsys                                                                                                                               ; --            ; --             ; --               ;
+; MISC_FILE                            ; lab_PD2/simulation/../../lab_PD2.qsys                                                                                                                              ; --            ; --             ; --               ;
+; MISC_FILE                            ; lab_PD2/simulation/lab_PD2.v                                                                                                                                       ; --            ; --             ; --               ;
+; MISC_FILE                            ; lab_PD2/simulation/submodules/altera_avalon_sc_fifo.v                                                                                                              ; --            ; --             ; --               ;
+; MISC_FILE                            ; lab_PD2/simulation/submodules/MyST_source.sv                                                                                                                       ; --            ; --             ; --               ;
+; MISC_FILE                            ; lab_PD2/simulation/submodules/MyST_sink.sv                                                                                                                         ; --            ; --             ; --               ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                                                                                                             ; --            ; db_lab_PD2_top ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                                                                                                             ; --            ; db_lab_PD2_top ; Top              ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                                                                                                             ; --            ; db_lab_PD2_top ; Top              ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                                                                                                                       ; --            ; --             ; --               ;
+; SLD_FILE                             ; SP_unit/synthesis/SP_unit.debuginfo                                                                                                                                ; --            ; --             ; --               ;
+; SLD_FILE                             ; lab_PD2/synthesis/lab_PD2.debuginfo                                                                                                                                ; --            ; --             ; --               ;
+; SLD_FILE                             ; db/stp1_auto_stripped.stp                                                                                                                                          ; --            ; --             ; --               ;
+; SLD_INFO                             ; QSYS_NAME SP_unit HAS_SOPCINFO 1 GENERATION_ID 1739796838                                                                                                          ; --            ; SP_unit        ; --               ;
+; SLD_INFO                             ; QSYS_NAME lab_PD2 HAS_SOPCINFO 1 GENERATION_ID 1739795202                                                                                                          ; --            ; --             ; --               ;
+; SLD_NODE_CREATOR_ID                  ; 110                                                                                                                                                                ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                                                                                                                      ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                            ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=41                                                                                                                                                   ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=41                                                                                                                                                ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_BITS=41                                                                                                                                      ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                                                                                                                                            ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                                                                                                                                             ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=143                                                                                                                                      ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                      ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=64                                                                                                                                                ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                         ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                     ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                                                                                                                                                  ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                                                                                                                                             ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                       ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INCREMENTAL_ROUTING=1                                                                                                                                          ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                                                                                                                                                ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=64                                                                                                                                                ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                           ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_PIPELINE=0                                                                                                                                             ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_PIPELINE=0                                                                                                                                                 ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_COUNTER_PIPELINE=0                                                                                                                                             ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                               ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                       ; --            ; --             ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                      ; --            ; --             ; auto_signaltap_0 ;
+; SOPCINFO_FILE                        ; SP_unit/synthesis/../../SP_unit.sopcinfo                                                                                                                           ; --            ; --             ; --               ;
+; SOPCINFO_FILE                        ; lab_PD2/synthesis/../../lab_PD2.sopcinfo                                                                                                                           ; --            ; --             ; --               ;
+; SPD_FILE                             ; lab_PD2/simulation/../lab_PD2.spd                                                                                                                                  ; --            ; --             ; --               ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                                                                                                                 ; --            ; --             ; --               ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                                                                                                                 ; --            ; --             ; --               ;
+; TOP_LEVEL_ENTITY                     ; db_lab_PD2_top                                                                                                                                                     ; lab_PD2       ; --             ; --               ;
+; USE_SIGNALTAP_FILE                   ; lab_PD2/stp1.stp                                                                                                                                                   ; --            ; --             ; --               ;
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+----------------+------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 4884 MB             ; 00:00:17                           ;
+; Fitter               ; 00:00:05     ; 1.2                     ; 6104 MB             ; 00:00:04                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.2                     ; 4880 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4657 MB             ; 00:00:02                           ;
+; Total                ; 00:00:34     ; --                      ; --                  ; 00:00:25                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-K75V9G5  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab_PD2 -c lab_PD2
+quartus_fit --read_settings_files=off --write_settings_files=off lab_PD2 -c lab_PD2
+quartus_asm --read_settings_files=off --write_settings_files=off lab_PD2 -c lab_PD2
+quartus_sta lab_PD2 -c lab_PD2
+quartus_eda --read_settings_files=off --write_settings_files=off lab_PD2 -c lab_PD2
+
+
+
